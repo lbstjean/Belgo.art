@@ -119,32 +119,32 @@ h4 {
 
 @font-face {
 	font-family: Helvetica;
-	src: url("fonts/Helvetica.woff2") format("woff2");
+	src: url("../fonts/Helvetica.woff2") format("woff2");
 }
 
 @font-face {
 	font-family: Helvetica-Bold;
-	src: url("fonts/Helvetica-Bold.woff2") format("woff2");
+	src: url("../fonts/Helvetica-Bold.woff2") format("woff2");
 }
 
 @font-face {
 	font-family: Helvetica-Oblique;
-	src: url("fonts/Helvetica-Oblique.woff2") format("woff2");
+	src: url("../fonts/Helvetica-Oblique.woff2") format("woff2");
 }
 
 @font-face {
 	font-family: Helvetica-BoldOblique;
-	src: url("fonts/Helvetica-BoldOblique.woff2") format("woff2");
+	src: url("../fonts/Helvetica-BoldOblique.woff2") format("woff2");
 }
 
 /* @font-face {
 			font-family: Helvetica-Light;
-			src: url("fonts/Helvetica-Light.woff2") format("woff2");
+			src: url("../fonts/Helvetica-Light.woff2") format("woff2");
 		} */
 
 /* @font-face {
 			font-family: Helvetica-LightOblique;
-			src: url("fonts/Helvetica-LightOblique.woff2") format("woff2");
+			src: url("../fonts/Helvetica-LightOblique.woff2") format("woff2");
 		} */
 
 
