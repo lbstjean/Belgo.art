@@ -57,7 +57,7 @@ h4 {
 
 /* This rebuilds the gallery links as they should be */
 .OpeningDate a {
-	font-family: Helvetica-Bold;
+	/* font-family: Helvetica-Bold; */
 	padding-bottom: 0;
 	margin-bottom: 0;
 	color: #191E60;
@@ -67,7 +67,7 @@ h4 {
 
 .TitleName a,
 .ArtistName a,
-.OpeningDate a,
+/* .OpeningDate a, */
 .WebsiteAndTimeOpen a,
 .Footer a {
 	color: #191E60;
