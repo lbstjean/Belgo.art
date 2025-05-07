@@ -91,6 +91,12 @@ h4 {
 		display: none;
 	}
 
+	.TitleName a,
+	.WebsiteAndTimeOpen a {
+		text-decoration: none !important;
+		color: #121314 !important;
+	}
+
 	#FooterLine {
 		visibility: visible !important;
 		display: inherit !important;
