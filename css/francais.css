@@ -91,6 +91,11 @@ h4 {
 		display: none;
 	}
 
+	#FooterLine {
+		visibility: visible !important;
+		display: inherit !important;
+	}
+
 	.ExhibitionDate {
 		color: #121314;
 	}
@@ -2181,6 +2186,14 @@ h4 {
 #NB0 {
 	right: 55px;
 	bottom: 82px;
+	letter-spacing: 0.11px;
+}
+
+#FooterLine {
+	visibility: hidden;
+	display: none;
+	right: 55px;
+	bottom: 62px;
 	letter-spacing: 0.11px;
 }
 
