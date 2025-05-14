@@ -58,31 +58,39 @@
 	<link rel="stylesheet" href="./css/francais.css">
 
 	<!-- Begin Schema Markup -->
-	<!-- <script type="application/ld+json">
-		{ 
-		"@context": "https://schema.org",
-		// Édifice Belgo
-		"@type": "Place",
-		"name": "Édifice Belgo",
-		"description": "The largest concentration of contemporary art galleries, art centers, and artist studios in Quebec.",
-		"alternateName": "Belgo Building",
-		"containsPlace": [
-			"Espace St-Jean / Art contemporain",
-			"Skol",
-			"Galerie B-312",
-			"Patel Brown",
-			"McBride Contemporain",
-			"Chiguer Art Contemporain",
-			"Arprim",
-			"Atelier d'art photographique Jean-Claude Lussier",
-			"Galerie POPOP",
-			"CIRCA art actuel",
-			"SBC Galerie d'art contemporain",
-			"Galeries Bellemare Lambert",
-			"Galerie Hugues Charbonneau"			
+	<script type="application/ld+json">
+		[{ 
+			"@context": "https://schema.org",
+			// Édifice Belgo
+			"@type": "Place",
+			"name": "Édifice Belgo",
+			//"description": "L'édifice Belgo : la plus grande concentration de galeries d'art contemporain au Canada.",
+			"description": [
+				"L'édifice Belgo : la plus grande concentration de galeries d'art contemporain au Canada.",
+				"The largest concentration of contemporary art galleries in Canada."
+			],
+			"alternateName": "Belgo Building",
+			"containsPlace": [
+				"Skol",
+				"Galerie B-312",
+				"Patel Brown",
+				"McBride Contemporain",
+				"Atelier d'art photographique Jean-Claude Lussier",
+				"Chiguer Art Contemporain",
+				"Galerie C",
+				"Louis-Bernard St-Jean Art contemporain",
+				"Arprim",
+				"Galerie POPOP",
+				"CIRCA art actuel",
+				"Galerie INGANG",
+				"SBC Galerie d'art contemporain",
+				"Galeries Bellemare Lambert",
+				"Galerie Hugues Charbonneau",
+				"Duran Contemporain"
 			],
 			"isAccessibleForFree": true,
-			"keywords": "belgo, galerie d'art, art gallery, exhibition, exposition, artist, art, art exhibition, visual art, belgo Montreal",
+			"publicAccess": true,
+			"keywords": "belgo, belgo art, art montreal, montréal exposition, montreal exposition, galerie d'art, art gallery, exhibition, exposition, artist, art, art exhibition, visual art, belgo Montreal",
 			"address": {
 				"@type": "PostalAddress",
 				"streetAddress": "372, rue Sainte-Catherine Ouest",
@@ -99,485 +107,454 @@
 			"hasMap": "https://goo.gl/maps/wfwEz1tn2v9MZLQP7",
 			//"openingHours": "Mo 07:00-21:00 Tu 07:00-21:00 We 07:00-21:00 Th 07:00-21:00 Fr 07:00-21:00 Sa 07:00-18:00 Su 07:00-18:00",
 			"telephone": "+1 (514) 861-0305",
-			"url": "http://belgo.art/"
+			"url": "https://belgo.art/",
+			"sameAs": [
+				"https://fr.wikipedia.org/wiki/Édifice_Belgo",
+				"https://en.wikipedia.org/wiki/Belgo_Building",
+				"https://instagram.com/belgo.art",
+				"https://facebook.com/belgo.art",
+				"https://belgo.art/"
+			]
+		},
+		// LB St-Jean Art contemporain
+		{
+			"@context": "https://schema.org",
+			"@type": "ArtGallery",
+			"name": "Louis-Bernard St-Jean Art contemporain",
+			"alternateName": "St-Jean Art contemporain",
+			"url": "https://stjean.art",
+			"priceRange": "$$$",
+			"containedInPlace ": "Édifice Belgo",
+			"isAccessibleForFree": true,
+			"publicAccess": true,
+			"logo": "https://images.squarespace-cdn.com/content/50ac3fe1e4b0b1fe7ccedfda/1742587604000-5U9KTUKVV20IDI9551XE/2025-03--LBSJ-Atelier-Galerie-Logotype-1920x1036px.png",
+			// "image": "https://stjean.art/images/Espacestjean-hero-image.jpg",
+			"description": "Contemporary art gallery and artist studio located in the Belgo building, in the heart of the Quartier des spectacles in Montréal.",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "372, rue Sainte-Catherine Ouest, suite 423",
+				"addressLocality": "Montréal",
+				"addressRegion": "Québec",
+				"postalCode": "H3B 1A2",
+				"addressCountry": "Canada"
 			},
-			// Espace St-Jean
-			{
-				"location": [
-					{
-						"@context": "https://schema.org",
-						"@type": "ArtGallery",
-						"name": "Espace St-Jean / Art contemporain",
-						"url": "https://espacestjean.com",
-						"priceRange": "$$$$",
-						"containedInPlace ": "Édifice Belgo",
-						// "logo": "https://espacestjean.com/images/logotype-square.png",
-						// "image": "https://espacestjean.com/images/Espacestjean-hero-image.jpg",
-						"description": "Contemporary art gallery and artist studio located in the Belgo building, in the heart of the Quartier des spectacles in Montréal.",
-						"address": {
-							"@type": "PostalAddress",
-							"streetAddress": "372, Rue Sainte-Catherine Ouest, Suite 521",
-							"addressLocality": "Montréal",
-							"addressRegion": "Québec",
-							"postalCode": "H3B 1A2",
-							"addressCountry": "Canada"
-						},
-						"geo": {
-							"@type": "GeoCoordinates",
-							"latitude": "45.5057",
-							"longitude": "73.5671"
-						},
-						"hasMap": "https://goo.gl/maps/uMPZ3ZFtHKPEJn3j7",
-						"openingHours": "We 12:00-17:00 Th 12:00-17:00 Fr 12:00-17:00 Sa 12:00-17:00",
-						"telephone": "+1 (514) 965-1579"
-					}
-				]
+			"geo": {
+				"@type": "GeoCoordinates",
+				"latitude": "45.5057",
+				"longitude": "73.5671"
 			},
-			// SKOL
-			{
-				"location": [
-					{
-						"@context": "https://schema.org",
-						"@type": "ArtGallery",
-						"name": "Skol",
-						"url": "https://skol.ca",
-						"containedInPlace ": "Édifice Belgo",
-						"address": {
-							"@type": "PostalAddress",
-							"streetAddress": "372, rue Sainte-Catherine Ouest, suite 314",
-							"addressLocality": "Montréal",
-							"addressRegion": "Québec",
-							"postalCode": "H3B 1A2",
-							"addressCountry": "Canada"
-						},
-						"geo": {
-							"@type": "GeoCoordinates",
-							"latitude": "45.5057",
-							"longitude": "73.5671"
-						},
-						"hasMap": "https://goo.gl/maps/9brSmHpWRd8Z3nf57",
-						"openingHours": "Tu 12:00-17:30 We 12:00-17:30 Th 12:00-17:30 Fr 12:00-17:30 Sa 12:00-17:30",
-						"telephone": "+1 (514) 398-9322"
-					}
-				]
+			"hasMap": "https://goo.gl/maps/uMPZ3ZFtHKPEJn3j7",
+			"openingHours": "We 12:00-17:00 Th 12:00-17:00 Fr 12:00-17:00 Sa 12:00-17:00",
+			"telephone": "+1 (514) 965-1579",
+			"sameAs": [
+				"https://instagram.com/stjean.art",
+				"https://facebook.com/stjean.art",
+				"https://bsky.app/profile/stjean.art",
+				"https://stjean.art/"
+			]
+		},
+		// SKOL
+		{
+			"@context": "https://schema.org",
+			"@type": "ArtGallery",
+			"name": "Skol",
+			"url": "https://skol.ca",
+			"containedInPlace ": "Édifice Belgo",
+			"isAccessibleForFree": true,
+			"publicAccess": true,
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "372, rue Sainte-Catherine Ouest, suite 314",
+				"addressLocality": "Montréal",
+				"addressRegion": "Québec",
+				"postalCode": "H3B 1A2",
+				"addressCountry": "Canada"
 			},
-			// Galerie B-312
-			{
-				"location": [
-					{
-						"@context": "https://schema.org",
-						"@type": "ArtGallery",
-						"name": "Galerie B-312",
-						"url": "https://galerieb312.ca",
-						"containedInPlace ": "Édifice Belgo",
-						"address": {
-							"@type": "PostalAddress",
-							"streetAddress": "372, rue Sainte-Catherine Ouest, suite 403",
-							"addressLocality": "Montréal",
-							"addressRegion": "Québec",
-							"postalCode": "H3B 1A2",
-							"addressCountry": "Canada"
-						},
-						"geo": {
-							"@type": "GeoCoordinates",
-							"latitude": "45.5057",
-							"longitude": "73.5671"
-						},
-						"hasMap": "https://goo.gl/maps/Xtvmn26JVyPrhY8q9",
-						"openingHours": "Tu 12:00-17:00 We 12:00-17:00 Th 12:00-17:00 Fr 12:00-17:00 Sa 12:00-17:00",
-						"telephone": "+1 (514) 874-9423"
-					}
-				]
+			"geo": {
+				"@type": "GeoCoordinates",
+				"latitude": "45.5057",
+				"longitude": "73.5671"
 			},
-			// Patel Brown
-				{"location": [
-					{
-						"@context": "https://schema.org",
-						"@type": "ArtGallery",
-						"name": "Patel Brown",
-						"url": "https://patelbrown.com",
-						"priceRange": "$$$$",
-						"containedInPlace ": "Édifice Belgo",
-						"address": {
-							"@type": "PostalAddress",
-							"streetAddress": "372, rue Sainte-Catherine Ouest, suite 410",
-							"addressLocality": "Montréal",
-							"addressRegion": "Québec",
-							"postalCode": "H3B 1A2",
-							"addressCountry": "Canada"
-						},
-						"geo": {
-							"@type": "GeoCoordinates",
-							"latitude": "45.5057",
-							"longitude": "73.5671"
-						},
-						"hasMap": "https://goo.gl/maps/79Dce7EH5VpjjdeX6",
-						"openingHours": "We 12:00-17:00 Th 12:00-17:00 Fr 12:00-17:00 Sa 12:00-17:00",
-						"telephone": "+1 (514) 868-9688"
-					}
-				]
+			"hasMap": "https://goo.gl/maps/9brSmHpWRd8Z3nf57",
+			"openingHours": "Tu 12:00-17:30 We 12:00-17:30 Th 12:00-17:30 Fr 12:00-17:30 Sa 12:00-17:30",
+			"telephone": "+1 (514) 398-9322"
+		},
+		// Galerie B-312
+		{
+			"@context": "https://schema.org",
+			"@type": "ArtGallery",
+			"name": "Galerie B-312",
+			"url": "https://galerieb312.ca",
+			"containedInPlace ": "Édifice Belgo",
+			"isAccessibleForFree": true,
+			"publicAccess": true,
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "372, rue Sainte-Catherine Ouest, suite 403",
+				"addressLocality": "Montréal",
+				"addressRegion": "Québec",
+				"postalCode": "H3B 1A2",
+				"addressCountry": "Canada"
 			},
-			// McBride Contemporain
-			{
-				"@type": "Event",
-				"name": "Affinités poreuses",
-				// "alternateName": "",
-				"startDate": "2023-09-14",
-				"endDate": "2023-10-28",
-				// "image": "https://artlogic-res.cloudinary.com/w_1200,c_limit,f_auto,fl_lossy,q_auto/ws-mcbridecontemporain/usr/images/exhibitions/group_images_override/44/jim-holyoak-2022-wandering-gargantuan-mcbride-contemporain-cropped-1.01.19-pm.jpg",
-				"url": "https://mcbridecontemporain.com/exhibitions/46-michelle-bui-affinites-poreuses/",
-				"performer": [
-					{
-						"@context": "https://schema.org",
-						"@type": "Person",
-						"name": "Michelle",
-						"familyName": "Bui"
-					}
-				],
-				"location": [
-					{
-						"@context": "https://schema.org",
-						"@type": "ArtGallery",
-						"name": "McBride Contemporain",
-						"url": "http://mcbridecontemporain.com",
-						"priceRange": "$$$$",
-						"containedInPlace ": "Édifice Belgo",
-						"address": {
-							"@type": "PostalAddress",
-							"streetAddress": "372, rue Sainte-Catherine Ouest, suite 414",
-							"addressLocality": "Montréal",
-							"addressRegion": "Québec",
-							"postalCode": "H3B 1A2",
-							"addressCountry": "Canada"
-						},
-						"hasMap": "https://goo.gl/maps/EBoeTitleNameZKpDk6DNjd7",
-						"openingHours": "We 11:00-17:00 Th 11:00-17:00 Fr 11:00-17:00 Sa 11:00-17:00",
-						"telephone": "+1 (514) 878-0940",
-						"geo": {
-							"@type": "GeoCoordinates",
-							"latitude": "45.5057",
-							"longitude": "73.5671"
-						}
-					}
-				]
+			"geo": {
+				"@type": "GeoCoordinates",
+				"latitude": "45.5057",
+				"longitude": "73.5671"
 			},
-			// Chiguer Art Contemporain
-			{
-				"@type": "Event",
-				"name": "F.UTILIS",
-				// "alternateName": "",
-				"startDate": "2023-10-05",
-				"endDate": "2023-10-28",
-				"image": "https://chiguerartcontemporain.com/app/uploads/2023/09/gagnon-futilis-2023-scaled.jpg",
-				"url": "https://chiguerartcontemporain.com/expositions/f-utilis-2023/",
-				"performer": [
-					{
-						"@context": "https://schema.org",
-						"@type": "Person",
-						"name": "Claudie",
-						"familyName": "Gagnon"
-					}
-				],
-				"location": [
-					{
-						"@context": "https://schema.org",
-						"@type": "ArtGallery",
-						"name": "Chiguer Art Contemporain",
-						"url": "http://chiguerartcontemporain.com",
-						"priceRange": "$$$$",
-						"containedInPlace ": "Édifice Belgo",
-						"address": {
-							"@type": "PostalAddress",
-							"streetAddress": "372, rue Sainte-Catherine Ouest, suite 416",
-							"addressLocality": "Montréal",
-							"addressRegion": "Québec",
-							"postalCode": "H3B 1A2",
-							"addressCountry": "Canada"
-						},
-						// "hasMap": "https://goo.gl/maps/EBoeTitleNameZKpDk6DNjd7",
-						"openingHours": "We 12:00-17:00 Th 12:00-17:00 Fr 12:00-17:00 Sa 12:00-17:00",
-						// "telephone": "+1 (514) 878-0940",
-						"geo": {
-							"@type": "GeoCoordinates",
-							"latitude": "45.5057",
-							"longitude": "73.5671"
-						}
-					}
-				]
+			"hasMap": "https://goo.gl/maps/Xtvmn26JVyPrhY8q9",
+			"openingHours": "Tu 12:00-17:00 We 12:00-17:00 Th 12:00-17:00 Fr 12:00-17:00 Sa 12:00-17:00",
+			"telephone": "+1 (514) 874-9423"
+		},
+		// Patel Brown
+		{
+			"@context": "https://schema.org",
+			"@type": "ArtGallery",
+			"name": "Patel Brown",
+			"url": "https://patelbrown.com",
+			"priceRange": "$$$$",
+			"containedInPlace ": "Édifice Belgo",
+			"isAccessibleForFree": true,
+			"publicAccess": true,
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "372, rue Sainte-Catherine Ouest, suite 410",
+				"addressLocality": "Montréal",
+				"addressRegion": "Québec",
+				"postalCode": "H3B 1A2",
+				"addressCountry": "Canada"
 			},
-			// Arprim
-			{
-				"@type": "Event",
-				"name": "The Margin Maker",
-				// "alternateName": "",
-				"startDate": "2023-09-14",
-				"endDate": "2023-10-21",
-				// "image": "https://",
-				// "url": "https://",
-				"performer": [
-					{
-						"@context": "https://schema.org",
-						"@type": "Person",
-						"name": "Pascaline",
-						"familyName": "Knight"
-					},
-						{
-						"@context": "https://schema.org",
-						"@type": "Person",
-						"name": "Max",
-						"familyName": "Lupo"
-					}
-				],
-				"location": [
-					{
-						"@context": "https://schema.org",
-						"@type": "ArtGallery",
-						"name": "Arprim",
-						"url": "http://arprim.org",
-						"priceRange": "$$$$",
-						"containedInPlace ": "Édifice Belgo",
-						"address": {
-							"@type": "PostalAddress",
-							"streetAddress": "372, rue Sainte-Catherine Ouest, suite 426",
-							"addressLocality": "Montréal",
-							"addressRegion": "Québec",
-							"postalCode": "H3B 1A2",
-							"addressCountry": "Canada"
-						},
-						"hasMap": "https://goo.gl/maps/BsxxhkMdRbscHtPc7",
-						"openingHours": "We 12:00-17:00 Th 12:00-18:00 Fr 12:00-17:00 Sa 12:00-17:00",
-						"telephone": "+1 (514) 525-2621",
-						"geo": {
-							"@type": "GeoCoordinates",
-							"latitude": "45.5057",
-							"longitude": "73.5671"
-						}
-					}
-				]
+			"geo": {
+				"@type": "GeoCoordinates",
+				"latitude": "45.5057",
+				"longitude": "73.5671"
 			},
-			// Atelier d'art photographique JCL
-			{
-				"@type": "Event",
-				"name": "Flore",
-				"startDate": "2023-08-21",
-				"endDate": "2023-10-01",
-				// "image": "https://",
-				"url": "https://jeanclaudelussier.com",
-				"performer": [
-					{
-						"@context": "https://schema.org",
-						"@type": "Person",
-						"name": "Jean-Claude",
-						"familyName": "Lussier"
-					}
-				],
-				"location": [
-					{
-						"@context": "https://schema.org",
-						"@type": "ArtGallery",
-						"name": "Atelier d'art photographique",
-						"alternateName": "Jean-Claude Lussier",
-						"url": "https://jeanclaudelussier.com",
-						"priceRange": "$$$$",
-						"containedInPlace ": "Édifice Belgo",
-						"address": {
-							"@type": "PostalAddress",
-							"streetAddress": "372, rue Sainte-Catherine Ouest, suite 427",
-							"addressLocality": "Montréal",
-							"addressRegion": "Québec",
-							"postalCode": "H3B 1A2",
-							"addressCountry": "Canada"
-						},
-						"hasMap": "https://goo.gl/maps/gNMNBr6npv9iPsKW7",
-						"openingHours": "Tu 11:00-16:00 We 11:00-16:00 Th 11:00-16:00",
-						"telephone": "+1 (514) 993-9226",
-						"geo": {
-							"@type": "GeoCoordinates",
-							"latitude": "45.5057",
-							"longitude": "73.5671"
-						}
-					}
-				]
+			"hasMap": "https://goo.gl/maps/79Dce7EH5VpjjdeX6",
+			"openingHours": "We 12:00-17:00 Th 12:00-17:00 Fr 12:00-17:00 Sa 12:00-17:00",
+			"telephone": "+1 (514) 868-9688"
+		},
+		// Atelier d'art photographique JCL
+		{
+			"@context": "https://schema.org",
+			"@type": "ArtGallery",
+			"name": "Atelier d'art photographique",
+			"alternateName": "Jean-Claude Lussier",
+			"url": "https://jeanclaudelussier.com",
+			"priceRange": "$$$",
+			"containedInPlace ": "Édifice Belgo",
+			"isAccessibleForFree": true,
+			"publicAccess": true,
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "372, rue Sainte-Catherine Ouest, suite 413",
+				"addressLocality": "Montréal",
+				"addressRegion": "Québec",
+				"postalCode": "H3B 1A2",
+				"addressCountry": "Canada"
 			},
-			// CIRCA
-			{
-				"@type": "Event",
-				"name": "Exposition bénéfice annuelle",
-				// "alternateName": "",
-				"startDate": "2023-09-14",
-				"endDate": "2023-10-21",
-				// "image": "https://",
-				// "url": "https://",
-				// "performer": [
-				// 	{
-				// 		"@context": "https://schema.org",
-				// 		"@type": "Person",
-				// 		"name": "Dan",
-				// 		"familyName": "Brault"
-				// 	}
-				// ],
-				"location": [
-					{
-						"@context": "https://schema.org",
-						"@type": "ArtGallery",
-						"name": "CIRCA art actuel",
-						"url": "http://circa-art.com",
-						"priceRange": "$$$$",
-						"containedInPlace ": "Édifice Belgo",
-						"address": {
-							"@type": "PostalAddress",
-							"streetAddress": "372, rue Sainte-Catherine Ouest, suite 444",
-							"addressLocality": "Montréal",
-							"addressRegion": "Québec",
-							"postalCode": "H3B 1A2",
-							"addressCountry": "Canada"
-						},
-						"hasMap": "https://goo.gl/maps/K2PRHHULqMqN73VTA",
-						"openingHours": "We 12:00-17:30 Th 12:00-17:30 Fr 12:00-17:30 Sa 12:00-17:30",
-						"telephone": "+1 (514) 393-8248",
-						"geo": {
-							"@type": "GeoCoordinates",
-							"latitude": "45.5057",
-							"longitude": "73.5671"
-						}
-					}
-				]
+			"hasMap": "https://goo.gl/maps/gNMNBr6npv9iPsKW7",
+			"openingHours": "We 12:00-17:00 Th 12:00-17:00 Fr 12:00-17:00 Sa 12:00-17:00",
+			"telephone": "+1 (514) 993-9226",
+			"geo": {
+				"@type": "GeoCoordinates",
+				"latitude": "45.5057",
+				"longitude": "73.5671"
+			}
+		},
+		// McBride Contemporain
+		{
+			"@context": "https://schema.org",
+			"@type": "ArtGallery",
+			"name": "McBride Contemporain",
+			"url": "http://mcbridecontemporain.com",
+			"priceRange": "$$$$",
+			"containedInPlace ": "Édifice Belgo",
+			"isAccessibleForFree": true,
+			"publicAccess": true,
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "372, rue Sainte-Catherine Ouest, suite 414",
+				"addressLocality": "Montréal",
+				"addressRegion": "Québec",
+				"postalCode": "H3B 1A2",
+				"addressCountry": "Canada"
 			},
-			// Bellemare Lambert
-			{
-				"@type": "Event",
-				"name": "Flâner et faire surface",
-				"startDate": "2023-09-09",
-				"endDate": "2023-10-14",
-				"image": "http://www.bellemarelambert.com/sites/default/files/exposition/bellemarelambert-stephanelarue-expo2023.jpg",
-				"url": "http://www.bellemarelambert.com/fr/exposition/stephane-la-rue-flaner-faire-surface",
-				"performer": [
-					{
-						"@context": "https://schema.org",
-						"@type": "Person",
-						"name": "Stéphane",
-						"familyName": "La Rue"
-					}
-				],
-				"location": [
-					{
-						"@context": "https://schema.org",
-						"@type": "ArtGallery",
-						"name": "Galeries Bellemare Lambert",
-						"alternateName": "Galeries Roger Bellemare et Christian Lambert",
-						"url": "http://www.bellemarelambert.com",
-						"priceRange": "$$$$",
-						"containedInPlace ": "Édifice Belgo",
-						"address": {
-							"@type": "PostalAddress",
-							"streetAddress": "372, rue Sainte-Catherine Ouest, suite 502",
-							"addressLocality": "Montréal",
-							"addressRegion": "Québec",
-							"postalCode": "H3B 1A2",
-							"addressCountry": "Canada"
-						},
-						"hasMap": "https://goo.gl/maps/ArtistNameMg4puBghWG3qYY7",
-						"openingHours": "Tu 12:00-17:00 We 11:00-17:00 Th 11:00-17:00 Fr 11:00-17:00 Sa 11:00-17:00",
-						"telephone": "+1 (514) 871-0319",
-						"geo": {
-							"@type": "GeoCoordinates",
-							"latitude": "45.5057",
-							"longitude": "73.5671"
-						}
-					}
-				]
+			"hasMap": "https://goo.gl/maps/EBoeTitleNameZKpDk6DNjd7",
+			"openingHours": "We 11:00-17:00 Th 11:00-17:00 Fr 11:00-17:00 Sa 11:00-17:00",
+			"telephone": "+1 (514) 878-0940",
+			"geo": {
+				"@type": "GeoCoordinates",
+				"latitude": "45.5057",
+				"longitude": "73.5671"
+			}
 			},
-			// SBC Galerie d'art
-			{
-				"@type": "Event",
-				"name": "L'arbre blessé",
-				"alternateName": "The wounded tree",
-				"startDate": "2023-09-14",
-				"endDate": "2023-10-28",
-				"image": "https://static.wixstatic.com/media/2b2fa6_d556f1659a9248c4a6d7128ea8f35aca~mv2.jpg/v1/fill/w_1960,h_1102,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/2b2fa6_d556f1659a9248c4a6d7128ea8f35aca~mv2.jpg",
-				"url": "https://https://www.sbcgallery.ca/",
-				"performer": [
-					{
-						"@context": "https://schema.org",
-						"@type": "Person",
-						"name": "Livia",
-						"familyName": "Daza-Paris"
-					}
-				],
-				"location": [
-					{
-						"@context": "https://schema.org",
-						"@type": "ArtGallery",
-						"name": "SBC Galerie d'art contemporain",
-						"alternateName": "SBC Gallery of Contemporary Art",
-						"url": "https://sbcgallery.ca",
-						"priceRange": "$$$$",
-						"containedInPlace ": "Édifice Belgo",
-						"address": {
-							"@type": "PostalAddress",
-							"streetAddress": "372, rue Sainte-Catherine Ouest, suite 507",
-							"addressLocality": "Montréal",
-							"addressRegion": "Québec",
-							"postalCode": "H3B 1A2",
-							"addressCountry": "Canada"
-						},
-						"hasMap": "https://goo.gl/maps/BZSceC1oftVPLWTG8",
-						"openingHours": "Tu 12:00-17:30 We 12:00-17:30 Th 12:00-17:30 Fr 12:00-17:30 Sa 12:00-17:30",
-						"telephone": "+1 (514) 861-9992",
-						"geo": {
-							"@type": "GeoCoordinates",
-							"latitude": "45.5057",
-							"longitude": "73.5671"
-						}
-					}
-				]
+		// Chiguer Art Contemporain
+		{
+			"@context": "https://schema.org",
+			"@type": "ArtGallery",
+			"name": "Chiguer Art Contemporain",
+			"url": "http://chiguerartcontemporain.com",
+			"priceRange": "$$$$",
+			"containedInPlace ": "Édifice Belgo",
+			"isAccessibleForFree": true,
+			"publicAccess": true,
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "372, rue Sainte-Catherine Ouest, suite 416",
+				"addressLocality": "Montréal",
+				"addressRegion": "Québec",
+				"postalCode": "H3B 1A2",
+				"addressCountry": "Canada"
 			},
-			// Galerie Hugues Charbonneau
-			{
-				"@type": "Event",
-				"name": "Phylogénie",
-				"alternateName": "Phylogeny",
-				"startDate": "2023-08-31",
-				"endDate": "2023-10-14",
-				"image": "https://https://huguescharbonneau.com/wp-content/uploads/2023/08/Rajni-Perera-Philogeny-_Detail.jpg",
-				"url": "https://huguescharbonneau.com/rajni-perera-phylogenie/",
-				"performer": [
-					{
-						"@context": "https://schema.org",
-						"@type": "Person",
-						"name": "Rajni",
-						"familyName": "Perera"
-					}
-				],
-				"location": [
-					{
-						"@context": "https://schema.org",
-						"@type": "ArtGallery",
-						"name": "Galerie Hugues Charbonneau",
-						"url": "https://huguescharbonneau.com",
-						"image": "https://huguescharbonneau.com/wp-content/uploads/2022/09/HuguesCharbonneauSeptembre2022-19-of-22-950x634.jpg",
-						"priceRange": "$$$$",
-						"containedInPlace ": "Édifice Belgo",
-						"address": {
-							"@type": "PostalAddress",
-							"streetAddress": "372, rue Sainte-Catherine Ouest, suite 508",
-							"addressLocality": "Montréal",
-							"addressRegion": "Québec",
-							"postalCode": "H3B 1A2",
-							"addressCountry": "Canada"
-						},
-						"hasMap": "https://goo.gl/maps/Hc2Hw1SUFLaDhhtu7",
-						"openingHours": "We 12:00-17:00 Th 12:00-17:00 Fr 12:00-17:00 Sa 12:00-17:00",
-						"telephone": "+1 (514) 409-0068",
-						"geo": {
-							"@type": "GeoCoordinates",
-							"latitude": "45.5057",
-							"longitude": "73.5671"
-						}
-					}
-				]
-		}
-		</script> -->
+			// "hasMap": "https://goo.gl/maps/EBoeTitleNameZKpDk6DNjd7",
+			"openingHours": "We 12:00-17:00 Th 12:00-17:00 Fr 12:00-17:00 Sa 12:00-17:00",
+			// "telephone": "+1 (514) 878-0940",
+			"geo": {
+				"@type": "GeoCoordinates",
+				"latitude": "45.5057",
+				"longitude": "73.5671"
+			}
+		},
+		// Galerie C
+		{
+			"@context": "https://schema.org",
+			"@type": "ArtGallery",
+			"name": "Galerie C",
+			"alternateName": [
+				"Cache Studio",
+				"Galerie Cache"
+			],
+			"url": "https://https://www.cachestudio.org.com",
+			// "image": "https://https://www.cachestudio.org/image.jpg",
+			"priceRange": "$$$",
+			"containedInPlace ": "Édifice Belgo",
+			"isAccessibleForFree": true,
+			"publicAccess": true,
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "372, rue Sainte-Catherine Ouest, suite 418",
+				"addressLocality": "Montréal",
+				"addressRegion": "Québec",
+				"postalCode": "H3B 1A2",
+				"addressCountry": "Canada"
+			},
+			// "hasMap": "https://maps.app.goo.gl/f5WrdTPkg5WoWR9o9",
+			"openingHours": "We 12:00-17:00 Th 12:00-17:00 Fr 12:00-17:00 Sa 12:00-17:00",
+			"telephone": "+1 (514) 903-3240",
+			"geo": {
+				"@type": "GeoCoordinates",
+				"latitude": "45.5057",
+				"longitude": "73.5671"
+			}
+		},
+		// Arprim
+		{
+			"@context": "https://schema.org",
+			"@type": "ArtGallery",
+			"name": "Arprim",
+			"url": "http://arprim.org",
+			"containedInPlace ": "Édifice Belgo",
+			"isAccessibleForFree": true,
+			"publicAccess": true,
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "372, rue Sainte-Catherine Ouest, suite 426",
+				"addressLocality": "Montréal",
+				"addressRegion": "Québec",
+				"postalCode": "H3B 1A2",
+				"addressCountry": "Canada"
+			},
+			"hasMap": "https://goo.gl/maps/BsxxhkMdRbscHtPc7",
+			"openingHours": "We 12:00-17:00 Th 12:00-18:00 Fr 12:00-17:00 Sa 12:00-17:00",
+			"telephone": "+1 (514) 525-2621",
+			"geo": {
+				"@type": "GeoCoordinates",
+				"latitude": "45.5057",
+				"longitude": "73.5671"
+			}
+		},
+		// Ingang Design
+		{
+			"@context": "https://schema.org",
+			"@type": "ArtGallery",
+			"name": "Galerie INGANG",
+			"alternateName": "Galerie INGANG DESIGN",
+			"url": "https://ingangdesign.com/",
+			"priceRange": "$$$",
+			"containedInPlace ": "Édifice Belgo",
+			"isAccessibleForFree": true,
+			"publicAccess": true,
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "372, rue Sainte-Catherine Ouest, suite 427",
+				"addressLocality": "Montréal",
+				"addressRegion": "Québec",
+				"postalCode": "H3B 1A2",
+				"addressCountry": "Canada"
+			},
+			// "hasMap": "https://goo.gl/maps/gNMNBr6npv9iPsKW7",
+			"openingHours": "Fr 13:00-18:00 Sa 13:00-18:00",
+			// "telephone": "+1 (514) 555-5555",
+			"geo": {
+				"@type": "GeoCoordinates",
+				"latitude": "45.5057",
+				"longitude": "73.5671"
+			}
+		},
+		// CIRCA
+		{
+			"@context": "https://schema.org",
+			"@type": "ArtGallery",
+			"name": "CIRCA art actuel",
+			"url": "http://circa-art.com",
+			// "priceRange": "$$$$",
+			"containedInPlace ": "Édifice Belgo",
+			"isAccessibleForFree": true,
+			"publicAccess": true,
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "372, rue Sainte-Catherine Ouest, suite 444",
+				"addressLocality": "Montréal",
+				"addressRegion": "Québec",
+				"postalCode": "H3B 1A2",
+				"addressCountry": "Canada"
+			},
+			"hasMap": "https://goo.gl/maps/K2PRHHULqMqN73VTA",
+			"openingHours": "We 12:00-17:30 Th 12:00-17:30 Fr 12:00-17:30 Sa 12:00-17:30",
+			"telephone": "+1 (514) 393-8248",
+			"geo": {
+				"@type": "GeoCoordinates",
+				"latitude": "45.5057",
+				"longitude": "73.5671"
+			}
+			},
+		// Bellemare Lambert
+		{
+			"@context": "https://schema.org",
+			"@type": "ArtGallery",
+			"name": "Galeries Bellemare Lambert",
+			"alternateName": "Galeries Roger Bellemare et Christian Lambert",
+			"url": "http://www.bellemarelambert.com",
+			"priceRange": "$$$$",
+			"containedInPlace ": "Édifice Belgo",
+			"isAccessibleForFree": true,
+			"publicAccess": true,
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "372, rue Sainte-Catherine Ouest, suite 502",
+				"addressLocality": "Montréal",
+				"addressRegion": "Québec",
+				"postalCode": "H3B 1A2",
+				"addressCountry": "Canada"
+			},
+			"hasMap": "https://goo.gl/maps/ArtistNameMg4puBghWG3qYY7",
+			"openingHours": "Tu 12:00-17:00 We 11:00-17:00 Th 11:00-17:00 Fr 11:00-17:00 Sa 11:00-17:00",
+			"telephone": "+1 (514) 871-0319",
+			"geo": {
+				"@type": "GeoCoordinates",
+				"latitude": "45.5057",
+				"longitude": "73.5671"
+			}
+			},
+		// SBC Galerie d'art
+		{
+			// "@type": "Event",
+			// "name": "L'arbre blessé",
+			// "alternateName": "The wounded tree",
+			// "startDate": "2023-09-14",
+			// "endDate": "2023-10-28",
+			// "image": "https://static.wixstatic.com/media/2b2fa6_d556f1659a9248c4a6d7128ea8f35aca~mv2.jpg/v1/fill/w_1960,h_1102,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/2b2fa6_d556f1659a9248c4a6d7128ea8f35aca~mv2.jpg",
+			// "url": "https://https://www.sbcgallery.ca/",
+			// "performer": [
+			// 	{
+			// 		"@context": "https://schema.org",
+			// 		"@type": "Person",
+			// 		"name": "Livia",
+			// 		"familyName": "Daza-Paris"
+			// 	}
+			// ],
+			"@context": "https://schema.org",
+			"@type": "ArtGallery",
+			"name": "SBC Galerie d'art contemporain",
+			"alternateName": "SBC Gallery of Contemporary Art",
+			"url": "https://sbcgallery.ca",
+			// "priceRange": "$$$$",
+			"containedInPlace ": "Édifice Belgo",
+			"isAccessibleForFree": true,
+			"publicAccess": true,
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "372, rue Sainte-Catherine Ouest, suite 507",
+				"addressLocality": "Montréal",
+				"addressRegion": "Québec",
+				"postalCode": "H3B 1A2",
+				"addressCountry": "Canada"
+			},
+			"hasMap": "https://goo.gl/maps/BZSceC1oftVPLWTG8",
+			"openingHours": "Tu 12:00-17:30 We 12:00-17:30 Th 12:00-17:30 Fr 12:00-17:30 Sa 12:00-17:30",
+			"telephone": "+1 (514) 861-9992",
+			"geo": {
+				"@type": "GeoCoordinates",
+				"latitude": "45.5057",
+				"longitude": "73.5671"
+			}
+			},
+		// Galerie Hugues Charbonneau
+		{
+			"@context": "https://schema.org",
+			"@type": "ArtGallery",
+			"name": "Galerie Hugues Charbonneau",
+			"url": "https://huguescharbonneau.com",
+			// "image": "https://huguescharbonneau.com/wp-content/uploads/2022/09/HuguesCharbonneauSeptembre2022-19-of-22-950x634.jpg",
+			"priceRange": "$$$$",
+			"containedInPlace ": "Édifice Belgo",
+			"isAccessibleForFree": true,
+			"publicAccess": true,
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "372, rue Sainte-Catherine Ouest, suite 508",
+				"addressLocality": "Montréal",
+				"addressRegion": "Québec",
+				"postalCode": "H3B 1A2",
+				"addressCountry": "Canada"
+			},
+			"hasMap": "https://goo.gl/maps/Hc2Hw1SUFLaDhhtu7",
+			"openingHours": "We 12:00-17:00 Th 12:00-17:00 Fr 12:00-17:00 Sa 12:00-17:00",
+			"telephone": "+1 (514) 409-0068",
+			"geo": {
+				"@type": "GeoCoordinates",
+				"latitude": "45.5057",
+				"longitude": "73.5671"
+			}
+		},
+		// Duran Contemporain
+		{
+			"@context": "https://schema.org",
+			"@type": "ArtGallery",
+			"name": "Duran Contemporain",
+			"url": "https://durancontemporain.com",
+			// "image": "https://durancontemporain.com/image.jpg",
+			"priceRange": "$$$$",
+			"containedInPlace ": "Édifice Belgo",
+			"isAccessibleForFree": true,
+			"publicAccess": true,
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "372, rue Sainte-Catherine Ouest, suite 527",
+				"addressLocality": "Montréal",
+				"addressRegion": "Québec",
+				"postalCode": "H3B 1A2",
+				"addressCountry": "Canada"
+			},
+			"hasMap": "https://maps.app.goo.gl/f5WrdTPkg5WoWR9o9",
+			"openingHours": "We 12:00-17:00 Th 12:00-17:00 Fr 12:00-17:00 Sa 12:00-17:00",
+			"telephone": "+1 (514) 379-1185",
+			"geo": {
+				"@type": "GeoCoordinates",
+				"latitude": "45.5057",
+				"longitude": "73.5671"
+			}
+		}]
+	</script>
 	<!-- End Schema Markup -->
 
 </head>
@@ -630,6 +607,100 @@
 				</a>
 
 				<!-- Horizontal Lines -->
+				<!-- UPDATED LINES  -->
+				<!-- <g id="Separator-Lines" serif:id="Separator Lines">
+					<g transform="matrix(1.52778,0,0,1.52778,0,-1638.27)">
+						<rect x="35.76" y="1147.44" width="720.24" height="1.44" />
+					</g>
+					<g transform="matrix(7.0101,0,0,1.52778,-4144.64,-1517.27)">
+						<rect x="599.04" y="1107.84" width="156.96" height="1.44" />
+					</g>
+					<g transform="matrix(17.9788,0,0,1.52778,-588.29,-1423.4)">
+						<rect x="35.76" y="1077.12" width="61.2" height="1.44" />
+					</g>
+					<g transform="matrix(17.9788,0,0,1.52778,-588.29,-1329.53)">
+						<rect x="35.76" y="1046.4" width="61.2" height="1.44" />
+					</g>
+					<g transform="matrix(17.7698,0,0,1.52778,-567.959,-1235.67)">
+						<rect x="35.04" y="1015.68" width="61.92" height="1.44" />
+					</g>
+					<g transform="matrix(17.9788,0,0,1.52778,-588.29,-1115.4)">
+						<rect x="35.76" y="976.32" width="61.2" height="1.44" />
+					</g>
+					<g transform="matrix(17.9788,0,0,1.52778,-588.29,-987.8)">
+						<rect x="35.76" y="934.56" width="61.2" height="1.44" />
+					</g>
+					<g transform="matrix(17.9788,0,0,1.52778,-588.29,-893.933)">
+						<rect x="35.76" y="903.84" width="61.2" height="1.44" />
+					</g>
+					<g transform="matrix(17.7698,0,0,1.52778,-567.959,-800.067)">
+						<rect x="35.04" y="873.12" width="61.92" height="1.44" />
+					</g>
+					<g transform="matrix(17.9788,0,0,1.52778,-588.29,-679.8)">
+						<rect x="35.76" y="833.76" width="61.2" height="1.44" />
+					</g>
+					<g transform="matrix(17.9788,0,0,1.52778,-588.29,-552.2)">
+						<rect x="35.76" y="792" width="61.2" height="1.44" />
+					</g>
+					<g transform="matrix(17.9788,0,0,1.52778,-588.29,-458.333)">
+						<rect x="35.76" y="761.28" width="61.2" height="1.44" />
+					</g>
+					<g transform="matrix(17.9788,0,0,1.52778,-588.29,-330.733)">
+						<rect x="35.76" y="719.52" width="61.2" height="1.44" />
+					</g>
+					<g transform="matrix(17.9788,0,0,1.52778,-588.29,-203.133)">
+						<rect x="35.76" y="677.76" width="61.2" height="1.44" />
+					</g>
+					<g transform="matrix(17.9788,0,0,1.52778,-588.29,-76.2667)">
+						<rect x="35.76" y="636.24" width="61.2" height="1.44" />
+					</g>
+					<g transform="matrix(17.9788,0,0,1.52778,-588.29,51.3333)">
+						<rect x="35.76" y="594.48" width="61.2" height="1.44" />
+					</g>
+					<g transform="matrix(17.9788,0,0,1.52778,-588.29,178.933)">
+						<rect x="35.76" y="552.72" width="61.2" height="1.44" />
+					</g>
+					<g transform="matrix(17.9788,0,0,1.52778,-588.29,306.533)">
+						<rect x="35.76" y="510.96" width="61.2" height="1.44" />
+					</g>
+					<g transform="matrix(17.9788,0,0,1.52778,-588.29,433.4)">
+						<rect x="35.76" y="469.44" width="61.2" height="1.44" />
+					</g>
+					<g transform="matrix(17.9788,0,0,1.52778,-588.29,561)">
+						<rect x="35.76" y="427.68" width="61.2" height="1.44" />
+					</g>
+					<g transform="matrix(17.9788,0,0,1.52778,-588.29,688.6)">
+						<rect x="35.76" y="385.92" width="61.2" height="1.44" />
+					</g>
+					<g transform="matrix(17.7698,0,0,1.52778,-567.959,816.2)">
+						<rect x="35.04" y="344.16" width="61.92" height="1.44" />
+					</g>
+					<g transform="matrix(17.9788,0,0,1.52778,-588.29,936.467)">
+						<rect x="35.76" y="304.8" width="61.2" height="1.44" />
+					</g>
+					<g transform="matrix(17.9788,0,0,1.52778,-588.29,1064.07)">
+						<rect x="35.76" y="263.04" width="61.2" height="1.44" />
+					</g>
+					<g transform="matrix(17.9788,0,0,1.52778,-588.29,1127.2)">
+						<rect x="35.76" y="263.04" width="61.2" height="1.44" />
+					</g>
+					<g transform="matrix(17.9788,0,0,1.52778,-588.29,1317.07)">
+						<rect x="35.76" y="180.24" width="61.2" height="1.44" />
+					</g>
+					<g transform="matrix(17.9788,0,0,1.52778,-588.29,1410.93)">
+						<rect x="35.76" y="149.52" width="61.2" height="1.44" />
+					</g>
+					<g transform="matrix(17.9788,0,0,1.52778,-588.29,1538.53)">
+						<rect x="35.76" y="107.76" width="61.2" height="1.44" />
+					</g>
+					<g transform="matrix(17.9788,0,0,1.52778,-588.29,1666.13)">
+						<rect x="35.76" y="66" width="61.2" height="1.44" />
+					</g>
+					<g transform="matrix(17.7698,0,0,1.52778,-567.959,1760)">
+						<rect x="35.04" y="35.28" width="61.92" height="1.44" />
+					</g>
+				</g> -->
+
 				<path fill-rule="evenodd" d="M55 128H1155v-2.2H55V128Z" class="g0" />
 				<path fill-rule="evenodd" d="M55 188.5H1155v-2.2H55v2.2Z" class="g0" />
 				<path fill-rule="evenodd" d="M55 235.4H1155v-2.2H55v2.2Z" class="g0" />
@@ -788,7 +859,7 @@
 					<span id="t1j" class="t TitleName">Galerie B-312</span>
 					<span id="t1k" class="t WebsiteAndTimeOpen"><a target="_blank" href="https://galerieb312.ca/">galerieb312.ca</a> </span>
 					<span id="t1l" class="t WebsiteAndTimeOpen">Mercredi au samedi, 12h-17h</span>
-					<span id="t1m" class="t TitleName"><a target="_blank" href="https://galerieb312.ca/programmation/pour-lart-0">Pour l'art — Exposition bénéfice</a></span>
+					<span id="t1m" class="t TitleName"><a target="_blank" href="https://galerieb312.ca/programmation/pour-lart-0">Pour l'art – Exposition bénéfice</a></span>
 					<span id="t1n" class="t ArtistName">Exposition collective</span>
 					<!-- <span id="t1o" class="t ArtistName">spare_line</span> -->
 					<span id="t1p" class="t ExhibitionDate">3 mai au 21 juin</span>
@@ -856,7 +927,7 @@
 					<span id="t30" class="t ArtistName">Lindsay Montgomery</span>
 					<!-- <span id="t31" class="t ArtistName">spare_line</span> -->
 					<span id="t32" class="t ExhibitionDate">8 mai au 7 juin</span>
-					<span id="t33" class="t OpeningDate">Vernissage : 8 mai de 17h à 20h</a></span>
+					<!-- <span id="t33" class="t OpeningDate">Vernissage : 8 mai de 17h à 20h</a></span> -->
 					<!-- <span id="t34" class="t OpeningDate">spare_line</span> -->
 				</article>
 
@@ -884,7 +955,7 @@
 					<span id="t3k" class="t ArtistName">Louis-Bernard St-Jean</span>
 					<!-- <span id="t3l" class="t ArtistName">spare_line</span> -->
 					<span id="t3m" class="t ExhibitionDate">8 mai au 21 juin</span>
-					<span id="t3n" class="t OpeningDate">Vernissage : 8 mai dès 17h</span>
+					<!-- <span id="t3n" class="t OpeningDate">Vernissage : 8 mai dès 17h</span> -->
 					<!-- <span id="t3o" class="t OpeningDate">spare_line</span> -->
 				</article>
 
@@ -893,11 +964,11 @@
 					<span id="t3q" class="t TitleName">Arprim</span>
 					<span id="t3r" class="t WebsiteAndTimeOpen"><a target="_blank" href="https://arprim.org/">arprim.org</a></span>
 					<span id="t3s" class="t WebsiteAndTimeOpen">Merc. ven. et sam., 12h-17h; jeudi, 12h-18h</span>
-					<span id="t3t" class="t TitleName"><a target="_blank" href="https://arprim.org/programmation/2024-2025/484-morgan-melenka.html">Affuté pour obtenir une brillance impertinente</a><span class="t ArtistName"> – Morgan Melenka</span></span>
-					<span id="t3v" class="t TitleName"><a target="_blank" href="https://arprim.org/programmation/2024-2025/485-a-laffiche-2025.html">À l'affiche</a><span class="t ArtistName"> – Œuvres sélectionnées</span></span>
-					<!-- <span id="t3x" class="t ArtistName">spare_line</span> -->
-					<span id="t3y" class="t ExhibitionDate">3 avril au 10 mai</span>
-					<!-- <span id="t3z" class="t OpeningDate"><a target="_blank" href="https://www.facebook.com/events/1703500450591299/">Atelier de médiation : samedi 3 mai de 15h à 17h</a></span> -->
+					<span id="t3t" class="t TitleName"><a target="_blank" href="https://arprim.org/prixad/premiere-impression/487-premiere-impression-les-finalistes-du-prix-albert-dumouchel-pour-la-releve-2025.html">Première Impression – Prix Albert-Dumouchel pour la relève 2025</a></span>
+					<span id="t3v" class="t ArtistName">Parfeni Alexandrina, Justine Arsenault, Marie-Pierre Brassard, Stephanie Bourgault,</span>
+					<span id="t3x" class="t ArtistName">Rosanna Croteau, Maryse Latulipe, et Josianne Lizotte</span>
+					<span id="t3y" class="t ExhibitionDate">24 mai au 16 juin</span>
+					<span id="t3z" class="t OpeningDate">Vernissage : 24 mai à 15h30</span>
 					<!-- <span id="t40" class="t OpeningDate">spare_line</span> -->
 				</article>
 
@@ -907,12 +978,11 @@
 					<span id="t43" class="t WebsiteAndTimeOpen"><a target="_blank" href="https://ingangdesign.com/">ingangdesign.com</a> </span>
 					<span id="t44" class="t WebsiteAndTimeOpen">Ven. et sam., 13h-18h (jeu. et dim. sur rdv.)</span>
 					<!-- <span id="t45" class="t TitleName"><a target="_blank" href="https://www.ingangdesign.com/expo-17">EXPO 17 : Créer des ponts</a><Span class="t ArtistName"> – Stéphane Lajoie</span></span> -->
-					<span id="t45" class="t TitleName"><a target="_blank" href="https://www.ingangdesign.com/expo-17">EXPO 17 : Créer des ponts</a></span>
-					<span id="t46" class="t TitleName"><a target="_blank" href="https://www.ingangdesign.com/galerie/cop-25">COP 25 – Canadian Occidental Petroleum illimitée*</a></span>
-					<span id="t47" class="t ArtistName">Stéphane Lajoie</span>
-					<span id="t48" class="t ExhibitionDate">16 janvier au 9 mai</span>
-					<span id="t49" class="t ExhibitionDate">15 mai à août</span>
-					<span id="t4a" class="t OpeningDate">Vernissage : 15 mai dès 17h</span>
+					<span id="t45" class="t TitleName"><a target="_blank" href="https://www.ingangdesign.com/galerie/cop-25">COP 25 – Canadian Occidental Petroleum illimitée*</a></span>
+					<span id="t46" class="t ArtistName">Stéphane Lajoie</span>
+					<!-- <span id="t47" class="t ArtistName">spare_line</span> -->
+					<span id="t48" class="t ExhibitionDate">15 mai à août</span>
+					<span id="t49" class="t OpeningDate">Vernissage : 15 mai dès 17h</span>
 					<!-- <span id="t4a" class="t OpeningDate">spare_line</span> -->
 				</article>
 
@@ -921,12 +991,12 @@
 					<span id="t4c" class="t TitleName">Galerie POPOP</span>
 					<span id="t4d" class="t WebsiteAndTimeOpen"><a target="_blank" href="https://galeriepopopgallery.com/">galeriepopopgallery.com</a> </span>
 					<span id="t4e" class="t WebsiteAndTimeOpen">(Mercredi au samedi, 12h-17h)</span>
-					<!-- <span id="t4f" class="t TitleName">(Nouvelles expositions à venir)</span> -->
-					<span id="t4f" class="t TitleName"><a target="_blank" href="https://galeriepopopgallery.com/2025/04/16/hexa-collectif-etudiant-en-arts-visuels-de-luqam-du-7-au-10-mai-2025/">HEXA, collectif étudiant en arts visuels de l’UQAM</a></span>
-					<span id="t4h" class="t ArtistName">Ariel Côté-Nadeau, Morgane Estabel, Charles Lambert,</span>
-					<span id="t4i" class="t ArtistName">Isabelle Laverdière, Gisèle Savoie, et Esther Thibault</span>
-					<span id="t4j" class="t ExhibitionDate">7 au 10 mai</span>
-					<span id="t4k" class="t OpeningDate">Vernissage : 8 mai à 17h</span>
+					<span id="t4f" class="t TitleName">(Nouvelles expositions à venir)</span>
+					<!-- <span id="t4f" class="t TitleName"><a target="_blank" href="https://galeriepopopgallery.com/2025/04/16/hexa-collectif-etudiant-en-arts-visuels-de-luqam-du-7-au-10-mai-2025/">HEXA, collectif étudiant en arts visuels de l’UQAM</a></span> -->
+					<!-- <span id="t4h" class="t ArtistName">Ariel Côté-Nadeau, Morgane Estabel, Charles Lambert,</span> -->
+					<!-- <span id="t4i" class="t ArtistName">Isabelle Laverdière, Gisèle Savoie, et Esther Thibault</span> -->
+					<!-- <span id="t4j" class="t ExhibitionDate">7 au 10 mai</span> -->
+					<!-- <span id="t4k" class="t OpeningDate">Vernissage : 8 mai à 17h</span> -->
 					<!-- <span id="t4l" class="t OpeningDate">spare_line</span> -->
 				</article>
 
@@ -939,7 +1009,7 @@
 					<span id="t4s" class="t TitleName"><a target="_blank" href="https://circa-art.com/exhibitions/clairiere/">Clairière</a><span class="t ArtistName"> – Pascal Dufaux et Sarah Wendt</span></span>
 					<!-- <span id="t4u" class="t TitleName">spare_line</span> -->
 					<span id="t4v" class="t ExhibitionDate">8 mai au 21 juin</span>
-					<span id="t4w" class="t OpeningDate">Vernissage : 8 mai à 17h30</a></span>
+					<!-- <span id="t4w" class="t OpeningDate">Vernissage : 8 mai à 17h30</a></span> -->
 					<!-- <span id="t4x" class="t OpeningDate">spare_line</span> -->
 				</article>
 
@@ -1007,12 +1077,13 @@
 					<span id="t64" class="t TitleName">Duran Contemporain</span>
 					<span id="t65" class="t WebsiteAndTimeOpen"><a target="_blank" href="https://durancontemporain.com">durancontemporain.com</a> </span>
 					<span id="t66" class="t WebsiteAndTimeOpen">Mercredi au samedi, 11h-17h</span>
-					<span id="t67" class="t TitleName"><a target="_blank" href="https://durancontemporain.com/fr/exhibitions/33-shawn-huckins-moonrise-in-a-clear-heaven/overview/">Moonrise In A Clear Heaven</a></span>
-					<span id="t68" class="t ArtistName">Shawn Huckins</span>
+					<!-- <span id="t67" class="t TitleName"><a target="_blank" href="https://durancontemporain.com/fr/exhibitions/33-shawn-huckins-moonrise-in-a-clear-heaven/overview/">Moonrise In A Clear Heaven</a></span> -->
+					<span id="t67" class="t TitleName">De Temps en Temps</span>
+					<span id="t68" class="t ArtistName">Mark Lang</span>
 					<!-- <span id="t69" class="t ArtistName">spare_line</span>  -->
-					<span id="t6a" class="t ExhibitionDate">3 avril au 10 mai</span>
-					<!-- <span id="t6b" class="t OpeningDate"><a target="_blank" href="https://www.facebook.com/events/1703500450591299/">Brunch Belgo : 12 avril de 10h à 13h</a></span>
-					<span id="t6c" class="t OpeningDate">spare_line</span> -->
+					<span id="t6a" class="t ExhibitionDate">22 mai au 14 juin</span>
+					<span id="t6b" class="t OpeningDate">Vernissage : 22 mai de 17h à 20h</span>
+					<!-- <span id="t6c" class="t OpeningDate">spare_line</span> -->
 				</article>
 
 				<article>
