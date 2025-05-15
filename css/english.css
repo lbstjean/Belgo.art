@@ -1983,7 +1983,7 @@ h4 {
 
 #t6k {
 	left: 934px;
-	bottom: 13px;
+	bottom: 16px;
 	letter-spacing: -0.01px;
 }
 
@@ -1996,14 +1996,20 @@ h4 {
 
 #t6m {
 	left: 55px;
-	bottom: 13px;
+	bottom: 16px;
 	letter-spacing: -0.01px;
 	word-spacing: 0.41px;
 }
 
 #t6n {
 	left: 429px;
-	bottom: 13px;
+	bottom: 16px;
+	word-spacing: 0.3px;
+}
+
+#t6na {
+	left: 429px;
+	bottom: 30px;
 	word-spacing: 0.3px;
 }
 
