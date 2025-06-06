@@ -2203,6 +2203,7 @@ h4 {
 .MainHeader {
 	font-size: 60px;
 	font-family: Helvetica-Bold;
+	text-transform: uppercase;
 	color: #292929;
 }
 
