@@ -25,7 +25,7 @@ html {
 
 a:not(.discreetLink) {
 	color: #121314;
-	/* text-decoration: none !important; */
+	text-decoration: none !important;
 }
 
 a.discreetLink {
@@ -932,52 +932,55 @@ h4 {
 /* Main CSS Sctructure */
 
 .SpaceNumber {
-	font-size: 36px;
+	font-size: 39px;
+	line-height: 46px;
 	/* font-size: 38px; */
-	line-height: 44px;
+	/* line-height: 44px; */
 	font-family: Helvetica;
 	color: #292929;
 }
 
 .TitleName {
 	font-size: 14px;
-	line-height: 24px;
+	line-height: 25px;
 	font-family: Helvetica-Bold;
 	color: #292929;
 }
 
 .WebsiteURL,
 .OpeningHours {
-	font-size: 12.5px;
+	font-size: 12px;
 	font-family: Helvetica;
-	line-height: 24px;
+	line-height: 25px;
 	color: #292929;
 }
 
 .ArtistName {
 	font-size: 14px;
 	font-family: Helvetica;
-	line-height: 24px;
+	line-height: 25px;
 	color: #292929;
 }
 
 .ExhibitionDate {
-	font-size: 12.5px;
+	/* font-size: 12.5px; */
+	font-size: 12px;
 	font-family: Helvetica-Bold;
-	line-height: 24px;
+	line-height: 25px;
 	color: #292929;
 }
 
 .OpeningDate {
-	font-size: 12.5px;
+	font-size: 12px;
 	font-family: Helvetica-Oblique;
-	line-height: 24px;
+	line-height: 25px;
 	color: #292929;
 }
 
 .Exponent {
-	font-size: 24px;
+	font-size: 28px;
 	font-family: Helvetica;
+	line-height: 28px;
 	color: #292929;
 }
 
@@ -989,18 +992,22 @@ h4 {
 	color: #292929;
 }
 
-.supLH {
-	line-height: 36px;
-}
-
 .FloorNumberExponent {
 	font-size: 28px;
+	/* line-height: 36px; */
 	font-family: Helvetica;
 	color: #292929;
 }
 
+.supLH {
+	line-height: 36px;
+}
+
+
+
 .Footer {
-	font-size: 12.5px;
+	/* font-size: 12.5px; */
+	font-size: 12px;
 	font-family: Helvetica-Bold;
 	line-height: 3px;
 	color: #292929;
