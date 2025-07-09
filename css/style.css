@@ -89,6 +89,7 @@ h4 {
 @media print {
 
 	#infoMark,
+	#FooterMenu,
 	#banner {
 		visibility: hidden;
 		display: none;
@@ -503,16 +504,20 @@ h4 {
 	left: 148.9px
 }
 
+.tab1a {
+	left: 277.8px
+}
+
 .tab2 {
 	left: 429.2px
 }
 
-/* .tab3 {
+.tab3 {
 	left: 916.7px
-} */
+}
 
 /* .rightTab {left: 1155px} */
-.tab3,
+/* .tab3, */
 .tab4,
 .rightTab {
 	right: 55px
@@ -721,7 +726,7 @@ h4 {
 }
 
 .line051 {
-	top: 927.1x
+	top: 927.1px
 }
 
 .line052 {
@@ -917,11 +922,15 @@ h4 {
 }
 
 .line100 {
-	top: 1825.4px
+	top: 1834.6px
+		/* top: 1825.4px */
+		/* top: 1827.4px */
 }
 
 .line101 {
-	top: 1843.8px
+	top: 1848.4px
+		/* top: 1843.8px */
+		/* top: 1841.1px */
 }
 
 .line102 {
@@ -1009,8 +1018,9 @@ h4 {
 	/* font-size: 12.5px; */
 	font-size: 12px;
 	font-family: Helvetica-Bold;
-	line-height: 3px;
-	color: #292929;
+	/* line-height: 14px; */
+	/* color: #292929; */
+	color: #474849;
 }
 
 .MainHeader {
@@ -1028,6 +1038,14 @@ h4 {
 	font-family: Helvetica-Bold;
 	line-height: 6px;
 	color: #292929;
+}
+
+.MadeBy,
+.MadeBy a {
+	font-size: 12px;
+	font-family: Helvetica;
+	color: rgb(161, 158, 151, 1);
+	/* line-height: 32px; */
 }
 
 
