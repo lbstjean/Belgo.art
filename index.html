@@ -59,68 +59,519 @@
 	<link rel="stylesheet" href="./css/style.css">
 
 	<!-- Begin Schema Markup -->
-	<!-- Begin Belgo Building Schema Markup -->
 	<script type="application/ld+json">
-			[{ 
-				"@context": "https://schema.org",
-				"@type": "Place",
-				"name": "Édifice Belgo",
-				"description": [
-					"L'édifice Belgo : la plus grande concentration de galeries d'art contemporain au Canada.",
-					"The Belgo building: the largest concentration of contemporary art galleries in Canada."
-				],
-				"alternateName": "Belgo Building",
-				"containsPlace": [
-					"Louis Boudreault Peintre",
-					"Art 45",
-					"Skol",
-					"Galerie B-312",
-					"Patel Brown",
-					"McBride Contemporain",
-					"Atelier d'art photographique Jean-Claude Lussier",
-					"Chiguer Art Contemporain",
-					"Galerie C",
-					"Louis-Bernard St-Jean Art contemporain",
-					"Arprim",
-					"Galerie POPOP",
-					"CIRCA art actuel",
-					"Galerie INGANG",
-					"SBC Galerie d'art contemporain",
-					"Galeries Bellemare Lambert",
-					"Galerie Hugues Charbonneau",
-					"Galerie Éclats 521",
-					"Duran Contemporain"
-				],
-				"isAccessibleForFree": true,
-				"publicAccess": true,
-				"keywords": "belgo, belgo art, art montreal, montréal exposition, montreal exposition, galerie d'art, art gallery, exhibition, exposition, artist, art, art exhibition, visual art, belgo Montreal",
-				"address": {
-					"@type": "PostalAddress",
-					"streetAddress": "372, rue Sainte-Catherine Ouest",
-					"addressLocality": "Montréal",
-					"addressRegion": "Québec",
-					"postalCode": "H3B 1A2",
-					"addressCountry": "CA"
-				},
-				"geo": {
-					"@type": "GeoCoordinates",
-					"latitude": "45.5057",
-					"longitude": "73.5671"
-				},
-				"hasMap": "https://goo.gl/maps/wfwEz1tn2v9MZLQP7",
-				//"openingHours": "Mo 07:00-21:00 Tu 07:00-21:00 We 07:00-21:00 Th 07:00-21:00 Fr 07:00-21:00 Sa 07:00-18:00 Su 07:00-18:00",
-				"telephone": "+1 (514) 861-0305",
-				"url": "https://belgo.art/",
-				"image": "https://belgo.art/images/Belgo-1916-754x530px.jpg",
-				"sameAs": [
-					"https://fr.wikipedia.org/wiki/Édifice_Belgo",
-					"https://en.wikipedia.org/wiki/Belgo_Building",
-					"https://instagram.com/belgo.art",
-					"https://facebook.com/belgo.art",
-					"https://belgo.art/"
-				]
-			}]
-		</script>
+// Édifice Belgo
+{ 
+	"@context": "https://schema.org",
+	"@type": ["Store", "LandmarksOrHistoricalBuildings"],
+	"name": "Édifice Belgo",
+	"description": [
+		"L'édifice Belgo : la plus grande concentration de galeries d'art contemporain au Canada.",
+		"The largest concentration of contemporary art galleries in Canada."
+	],
+	"alternateName": "Belgo Building",
+	"image": ["https://upload.wikimedia.org/wikipedia/commons/e/ee/Belgo_Montreal_01.JPG",
+						"https://belgo.art/images/Belgo-1916-754x530px.jpg"],
+	"containsPlace": [
+		"Skol",
+		"Galerie B-312",
+		"Patel Brown",
+		"McBride Contemporain",
+		"Atelier d'art photographique Jean-Claude Lussier",
+		"Chiguer Art Contemporain",
+		"Galerie C",
+		"Louis-Bernard St-Jean Art contemporain",
+		"Arprim",
+		"Galerie POPOP",
+		"CIRCA art actuel",
+		"Galerie INGANG",
+		"SBC Galerie d'art contemporain",
+		"Galeries Bellemare Lambert",
+		"Galerie Hugues Charbonneau",
+		"Galerie Éclats 521",
+		"Duran Contemporain"
+	],
+	"isAccessibleForFree": true,
+	"publicAccess": true,
+	"keywords": "Belgo, galeries belgo, belgo.art, belgo art, galeries d'art belgo, galeries d'art montréal, belgo expositions, expo belgo, galeries montréal, galeries à Montréal, galerie d'art, galerie d'art contemporain, exposition, expositions, exposition montréal, expositions à montréal, expositions belgo, expositions au belgo, art, art contemporain, oeuvre d'art, vernissage, Montréal, centre-ville, Louis-Bernard St-Jean Art contemporain, Espace St-Jean, Espace 230, Skol, Centre des arts actuels Skol, Galerie B-312, Patel Brown, McBride Contemporain, Chiguer Art contemporain, Galerie C, Galerie Cache, Arprim, galerie Ingang design, Galerie POPOP, CIRCA art actuel, Galeries Bellemare Lambert, SBC Galerie d'art contemporain, Galerie Hugues Charbonneau, Duran contemporain, exhibition, artwork, contemporary art, art for sale montreal, contemporary art gallery, art event, art opening, montreal art opening, montreal vernissage",
+	"address": {
+		"@type": "PostalAddress",
+		"streetAddress": "372, rue Sainte-Catherine Ouest",
+		"addressLocality": "Montréal",
+		"addressRegion": "Québec",
+		"postalCode": "H3B 1A2",
+		"addressCountry": "Canada"
+	},
+	"geo": {
+		"@type": "GeoCoordinates",
+		"latitude": "45.5057",
+		"longitude": "73.5671"
+	},
+	"hasMap": "https://goo.gl/maps/wfwEz1tn2v9MZLQP7",
+	"openingHours": "Mo 07:00-21:00 Tu 07:00-21:00 We 07:00-21:00 Th 07:00-21:00 Fr 07:00-21:00 Sa 07:00-18:00 Su 07:00-18:00",
+	"telephone": "+1 (514) 861-0305",
+	"url": "https://belgo.art/",
+	"sameAs": [
+		"https://fr.wikipedia.org/wiki/Édifice_Belgo",
+		"https://en.wikipedia.org/wiki/Belgo_Building",
+		"https://instagram.com/belgo.art",
+		"https://facebook.com/belgo.art",
+		"https://belgo.art/"
+	],
+	"department": [
+	// SKOL
+	{
+		"@context": "https://schema.org",
+		"@type": "ArtGallery",
+		"name": "Skol",
+		"url": "https://skol.ca",
+		"containedInPlace ": "Édifice Belgo",
+		"isAccessibleForFree": true,
+		"publicAccess": true,
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "372, rue Sainte-Catherine Ouest, suite 314",
+			"addressLocality": "Montréal",
+			"addressRegion": "Québec",
+			"postalCode": "H3B 1A2",
+			"addressCountry": "Canada"
+		},
+		"geo": {
+			"@type": "GeoCoordinates",
+			"latitude": "45.5057",
+			"longitude": "73.5671"
+		},
+		"hasMap": "https://goo.gl/maps/9brSmHpWRd8Z3nf57",
+		"openingHours": "Tu 12:00-17:30 We 12:00-17:30 Th 12:00-17:30 Fr 12:00-17:30 Sa 12:00-17:30",
+		"telephone": "+1 (514) 398-9322"
+	},
+	// Galerie B-312
+	{
+		"@context": "https://schema.org",
+		"@type": "ArtGallery",
+		"name": "Galerie B-312",
+		"url": "https://galerieb312.ca",
+		"containedInPlace ": "Édifice Belgo",
+		"isAccessibleForFree": true,
+		"publicAccess": true,
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "372, rue Sainte-Catherine Ouest, suite 403",
+			"addressLocality": "Montréal",
+			"addressRegion": "Québec",
+			"postalCode": "H3B 1A2",
+			"addressCountry": "Canada"
+		},
+		"geo": {
+			"@type": "GeoCoordinates",
+			"latitude": "45.5057",
+			"longitude": "73.5671"
+		},
+		"hasMap": "https://goo.gl/maps/Xtvmn26JVyPrhY8q9",
+		"openingHours": "Tu 12:00-17:00 We 12:00-17:00 Th 12:00-17:00 Fr 12:00-17:00 Sa 12:00-17:00",
+		"telephone": "+1 (514) 874-9423"
+	},
+	// Patel Brown
+	{
+		"@context": "https://schema.org",
+		"@type": "ArtGallery",
+		"name": "Patel Brown",
+		"url": "https://patelbrown.com",
+		"priceRange": "$$$$",
+		"containedInPlace ": "Édifice Belgo",
+		"isAccessibleForFree": true,
+		"publicAccess": true,
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "372, rue Sainte-Catherine Ouest, suite 410",
+			"addressLocality": "Montréal",
+			"addressRegion": "Québec",
+			"postalCode": "H3B 1A2",
+			"addressCountry": "Canada"
+		},
+		"geo": {
+			"@type": "GeoCoordinates",
+			"latitude": "45.5057",
+			"longitude": "73.5671"
+		},
+		"hasMap": "https://goo.gl/maps/79Dce7EH5VpjjdeX6",
+		"openingHours": "We 12:00-17:00 Th 12:00-17:00 Fr 12:00-17:00 Sa 12:00-17:00",
+		"telephone": "+1 (514) 868-9688"
+	},
+	// Atelier d'art photographique JCL
+	{
+		"@context": "https://schema.org",
+		"@type": "ArtGallery",
+		"name": "Atelier d'art photographique",
+		"alternateName": "Jean-Claude Lussier",
+		"url": "https://jeanclaudelussier.com",
+		"priceRange": "$$$",
+		"containedInPlace ": "Édifice Belgo",
+		"isAccessibleForFree": true,
+		"publicAccess": true,
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "372, rue Sainte-Catherine Ouest, suite 413",
+			"addressLocality": "Montréal",
+			"addressRegion": "Québec",
+			"postalCode": "H3B 1A2",
+			"addressCountry": "Canada"
+		},
+		"hasMap": "https://goo.gl/maps/gNMNBr6npv9iPsKW7",
+		"openingHours": "We 12:00-17:00 Th 12:00-17:00 Fr 12:00-17:00 Sa 12:00-17:00",
+		"telephone": "+1 (514) 993-9226",
+		"geo": {
+			"@type": "GeoCoordinates",
+			"latitude": "45.5057",
+			"longitude": "73.5671"
+		}
+	},
+	// McBride Contemporain
+	{
+		"@context": "https://schema.org",
+		"@type": "ArtGallery",
+		"name": "McBride Contemporain",
+		"url": "https://mcbridecontemporain.com",
+		"priceRange": "$$$$",
+		"containedInPlace ": "Édifice Belgo",
+		"isAccessibleForFree": true,
+		"publicAccess": true,
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "372, rue Sainte-Catherine Ouest, suite 414",
+			"addressLocality": "Montréal",
+			"addressRegion": "Québec",
+			"postalCode": "H3B 1A2",
+			"addressCountry": "Canada"
+		},
+		"hasMap": "https://goo.gl/maps/EBoeTitleNameZKpDk6DNjd7",
+		"openingHours": "We 11:00-17:00 Th 11:00-17:00 Fr 11:00-17:00 Sa 11:00-17:00",
+		"telephone": "+1 (514) 878-0940",
+		"geo": {
+			"@type": "GeoCoordinates",
+			"latitude": "45.5057",
+			"longitude": "73.5671"
+		}
+		},
+	// Chiguer Art Contemporain
+	{
+		"@context": "https://schema.org",
+		"@type": "ArtGallery",
+		"name": "Chiguer Art Contemporain",
+		"url": "https://chiguerartcontemporain.com",
+		"priceRange": "$$$$",
+		"containedInPlace ": "Édifice Belgo",
+		"isAccessibleForFree": true,
+		"publicAccess": true,
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "372, rue Sainte-Catherine Ouest, suite 416",
+			"addressLocality": "Montréal",
+			"addressRegion": "Québec",
+			"postalCode": "H3B 1A2",
+			"addressCountry": "Canada"
+		},
+		// "hasMap": "https://goo.gl/maps/EBoeTitleNameZKpDk6DNjd7",
+		"openingHours": "We 12:00-17:00 Th 12:00-17:00 Fr 12:00-17:00 Sa 12:00-17:00",
+		// "telephone": "+1 (514) 878-0940",
+		"geo": {
+			"@type": "GeoCoordinates",
+			"latitude": "45.5057",
+			"longitude": "73.5671"
+		}
+	},
+	// Galerie C
+	{
+		"@context": "https://schema.org",
+		"@type": "ArtGallery",
+		"name": "Galerie C",
+		"alternateName": [
+			"Cache Studio",
+			"Galerie Cache"
+		],
+		"url": "https://www.cachestudio.org",
+		// "image": "https://www.cachestudio.org/image.jpg",
+		"priceRange": "$$$",
+		"containedInPlace ": "Édifice Belgo",
+		"isAccessibleForFree": true,
+		"publicAccess": true,
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "372, rue Sainte-Catherine Ouest, suite 418",
+			"addressLocality": "Montréal",
+			"addressRegion": "Québec",
+			"postalCode": "H3B 1A2",
+			"addressCountry": "Canada"
+		},
+		// "hasMap": "https://maps.app.goo.gl/f5WrdTPkg5WoWR9o9",
+		"openingHours": "We 12:00-17:00 Th 12:00-17:00 Fr 12:00-17:00 Sa 12:00-17:00",
+		"telephone": "+1 (514) 903-3240",
+		"geo": {
+			"@type": "GeoCoordinates",
+			"latitude": "45.5057",
+			"longitude": "73.5671"
+		}
+	},
+	// LB St-Jean Art contemporain
+	{
+		"@context": "https://schema.org",
+		"@type": "ArtGallery",
+		"name": "Louis-Bernard St-Jean Art contemporain",
+		"alternateName": "St-Jean Art contemporain",
+		"url": "https://stjean.art",
+		"priceRange": "$$$",
+		"containedInPlace ": "Édifice Belgo",
+		"isAccessibleForFree": true,
+		"publicAccess": true,
+		"logo": "https://images.squarespace-cdn.com/content/50ac3fe1e4b0b1fe7ccedfda/1742587604000-5U9KTUKVV20IDI9551XE/2025-03--LBSJ-Atelier-Galerie-Logotype-1920x1036px.png",
+		"description": "Contemporary art gallery and artist studio located in the Belgo building, in the heart of the Quartier des spectacles in Montréal.",
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "372, rue Sainte-Catherine Ouest, suite 423",
+			"addressLocality": "Montréal",
+			"addressRegion": "Québec",
+			"postalCode": "H3B 1A2",
+			"addressCountry": "Canada"
+		},
+		"geo": {
+			"@type": "GeoCoordinates",
+			"latitude": "45.5057",
+			"longitude": "73.5671"
+		},
+		"hasMap": "https://goo.gl/maps/uMPZ3ZFtHKPEJn3j7",
+		"openingHours": "We 12:00-17:00 Th 12:00-17:00 Fr 12:00-17:00 Sa 12:00-17:00",
+		"telephone": "+1 (514) 965-1579",
+		"sameAs": [
+			"https://instagram.com/stjean.art",
+			"https://facebook.com/stjean.art",
+			"https://bsky.app/profile/stjean.art",
+			"https://stjean.art/"
+		]
+	},
+	// Arprim
+	{
+		"@context": "https://schema.org",
+		"@type": "ArtGallery",
+		"name": "Arprim",
+		"url": "https://arprim.org",
+		"containedInPlace ": "Édifice Belgo",
+		"isAccessibleForFree": true,
+		"publicAccess": true,
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "372, rue Sainte-Catherine Ouest, suite 426",
+			"addressLocality": "Montréal",
+			"addressRegion": "Québec",
+			"postalCode": "H3B 1A2",
+			"addressCountry": "Canada"
+		},
+		"hasMap": "https://goo.gl/maps/BsxxhkMdRbscHtPc7",
+		"openingHours": "We 12:00-17:00 Th 12:00-18:00 Fr 12:00-17:00 Sa 12:00-17:00",
+		"telephone": "+1 (514) 525-2621",
+		"geo": {
+			"@type": "GeoCoordinates",
+			"latitude": "45.5057",
+			"longitude": "73.5671"
+		}
+	},
+	// Ingang Design
+	{
+		"@context": "https://schema.org",
+		"@type": "ArtGallery",
+		"name": "Galerie INGANG",
+		"alternateName": "Galerie INGANG DESIGN",
+		"url": "https://ingangdesign.com/",
+		"priceRange": "$$$",
+		"containedInPlace ": "Édifice Belgo",
+		"isAccessibleForFree": true,
+		"publicAccess": true,
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "372, rue Sainte-Catherine Ouest, suite 427",
+			"addressLocality": "Montréal",
+			"addressRegion": "Québec",
+			"postalCode": "H3B 1A2",
+			"addressCountry": "Canada"
+		},
+		// "hasMap": "https://goo.gl/maps/gNMNBr6npv9iPsKW7",
+		"openingHours": "Fr 13:00-18:00 Sa 13:00-18:00",
+		// "telephone": "+1 (514) 555-5555",
+		"geo": {
+			"@type": "GeoCoordinates",
+			"latitude": "45.5057",
+			"longitude": "73.5671"
+		}
+	},
+	// CIRCA
+	{
+		"@context": "https://schema.org",
+		"@type": "ArtGallery",
+		"name": "CIRCA art actuel",
+		"url": "https://circa-art.com",
+		// "priceRange": "$$$$",
+		"containedInPlace ": "Édifice Belgo",
+		"isAccessibleForFree": true,
+		"publicAccess": true,
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "372, rue Sainte-Catherine Ouest, suite 444",
+			"addressLocality": "Montréal",
+			"addressRegion": "Québec",
+			"postalCode": "H3B 1A2",
+			"addressCountry": "Canada"
+		},
+		"hasMap": "https://goo.gl/maps/K2PRHHULqMqN73VTA",
+		"openingHours": "We 12:00-17:30 Th 12:00-17:30 Fr 12:00-17:30 Sa 12:00-17:30",
+		"telephone": "+1 (514) 393-8248",
+		"geo": {
+			"@type": "GeoCoordinates",
+			"latitude": "45.5057",
+			"longitude": "73.5671"
+		}
+		},
+	// Bellemare Lambert
+	{
+		"@context": "https://schema.org",
+		"@type": "ArtGallery",
+		"name": "Galeries Bellemare Lambert",
+		"alternateName": "Galeries Roger Bellemare et Christian Lambert",
+		"url": "https://www.bellemarelambert.com",
+		"priceRange": "$$$$",
+		"containedInPlace ": "Édifice Belgo",
+		"isAccessibleForFree": true,
+		"publicAccess": true,
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "372, rue Sainte-Catherine Ouest, suite 502",
+			"addressLocality": "Montréal",
+			"addressRegion": "Québec",
+			"postalCode": "H3B 1A2",
+			"addressCountry": "Canada"
+		},
+		"hasMap": "https://goo.gl/maps/ArtistNameMg4puBghWG3qYY7",
+		"openingHours": "Tu 12:00-17:00 We 11:00-17:00 Th 11:00-17:00 Fr 11:00-17:00 Sa 11:00-17:00",
+		"telephone": "+1 (514) 871-0319",
+		"geo": {
+			"@type": "GeoCoordinates",
+			"latitude": "45.5057",
+			"longitude": "73.5671"
+		}
+	},
+	// SBC Galerie d'art
+	{
+		"@context": "https://schema.org",
+		"@type": "ArtGallery",
+		"name": "SBC Galerie d'art contemporain",
+		"alternateName": "SBC Gallery of Contemporary Art",
+		"url": "https://sbcgallery.ca",
+		"priceRange": "$",
+		"containedInPlace ": "Édifice Belgo",
+		"isAccessibleForFree": true,
+		"publicAccess": true,
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "372, rue Sainte-Catherine Ouest, suite 507",
+			"addressLocality": "Montréal",
+			"addressRegion": "Québec",
+			"postalCode": "H3B 1A2",
+			"addressCountry": "Canada"
+		},
+		"hasMap": "https://goo.gl/maps/BZSceC1oftVPLWTG8",
+		"openingHours": "Tu 12:00-17:30 We 12:00-17:30 Th 12:00-17:30 Fr 12:00-17:30 Sa 12:00-17:30",
+		"telephone": "+1 (514) 861-9992",
+		"geo": {
+			"@type": "GeoCoordinates",
+			"latitude": "45.5057",
+			"longitude": "73.5671"
+		}
+	},
+	// Galerie Hugues Charbonneau
+	{
+		"@context": "https://schema.org",
+		"@type": "ArtGallery",
+		"name": "Galerie Hugues Charbonneau",
+		"url": "https://huguescharbonneau.com",
+		"image": "https://huguescharbonneau.com/wp-content/uploads/2024/02/HuguesCharbonneauMars2024-6-of-14-950x634.jpg",
+		"priceRange": "$$$$",
+		"containedInPlace ": "Édifice Belgo",
+		"isAccessibleForFree": true,
+		"publicAccess": true,
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "372, rue Sainte-Catherine Ouest, local 508",
+			"addressLocality": "Montréal",
+			"addressRegion": "Québec",
+			"postalCode": "H3B 1A2",
+			"addressCountry": "CA"
+		},
+		"hasMap": "https://goo.gl/maps/Hc2Hw1SUFLaDhhtu7",
+		"openingHours": "We 12:00-17:00 Th 12:00-17:00 Fr 12:00-17:00 Sa 12:00-17:00",
+		"telephone": "+1 (514) 409-0068",
+		"geo": {
+			"@type": "GeoCoordinates",
+			"latitude": "45.5057",
+			"longitude": "73.5671"
+		}
+	},
+	// Galerie Éclats 521
+	{
+		"@context": "https://schema.org",
+		"@type": "ArtGallery",
+		"name": "Galerie Éclats 521",
+		"url": "https://www.eclats521.ca/",
+		"image": "https://static.wixstatic.com/media/3feb04_68a98c620cd248daa5f3a706c9d0c6a9~mv2.jpg",
+		"priceRange": "$$$",
+		"containedInPlace ": "Édifice Belgo",
+		"isAccessibleForFree": true,
+		"publicAccess": true,
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "372, rue Sainte-Catherine Ouest, suite 521",
+			"addressLocality": "Montréal",
+			"addressRegion": "Québec",
+			"postalCode": "H3B 1A2",
+			"addressCountry": "Canada"
+		},
+		// "hasMap": "https://maps.app.goo.gl/...",
+		"openingHours": "Mo 09:00-17:00 Tu 09:00-17:00 We 09:00-17:00 Th 09:00-17:00 Fr 09:00-17:00",
+		"telephone": "+1 (514) 649-3732",
+		"geo": {
+			"@type": "GeoCoordinates",
+			"latitude": "45.5057",
+			"longitude": "73.5671"
+		}
+	},
+	// Duran Contemporain
+	{
+		"@context": "https://schema.org",
+		"@type": "ArtGallery",
+		"name": "Duran Contemporain",
+		"url": "https://durancontemporain.com",
+		"image": "https://artlogic-res.cloudinary.com/w_1600,c_limit,f_auto,fl_lossy,q_auto/ws-artlogicwebsite1366/usr/images/pages/mainImage/items/d2/d22a95da6f1d455692efc80fb9cf7f93/duranmashaalavril23023-2-of-32-.jpg",
+		"priceRange": "$$$$",
+		"containedInPlace ": "Édifice Belgo",
+		"isAccessibleForFree": true,
+		"publicAccess": true,
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "372, rue Sainte-Catherine Ouest, suite 527",
+			"addressLocality": "Montréal",
+			"addressRegion": "Québec",
+			"postalCode": "H3B 1A2",
+			"addressCountry": "Canada"
+		},
+		"hasMap": "https://maps.app.goo.gl/f5WrdTPkg5WoWR9o9",
+		"openingHours": "We 12:00-17:00 Th 12:00-17:00 Fr 12:00-17:00 Sa 12:00-17:00",
+		"telephone": "+1 (514) 379-1185",
+		"geo": {
+			"@type": "GeoCoordinates",
+			"latitude": "45.5057",
+			"longitude": "73.5671"
+		}
+	}
+]
+}
+</script>
 	<!-- End Schema Markup -->
 
 </head>
