@@ -86,13 +86,20 @@ h4 {
 	transition: 0.4s;
 }
 
+.PrintLine {
+	visibility: hidden;
+	display: none;
+}
+
 @media print {
 
 	#infoMark,
 	#FooterMenu,
-	#banner {
-		visibility: hidden;
-		display: none;
+	#HeaderMenu,
+	#banner,
+	.HideLine {
+		visibility: hidden !important;
+		display: none !important;
 	}
 
 	.TitleName a,
@@ -102,7 +109,8 @@ h4 {
 		color: #121314 !important;
 	}
 
-	#FooterLine {
+	#FooterLine,
+	.PrintLine {
 		visibility: visible !important;
 		display: inherit !important;
 	}
@@ -502,6 +510,10 @@ h4 {
 
 .tab1 {
 	left: 148.9px
+}
+
+.tab1m {
+	left: 158.9px
 }
 
 .tab1x {
