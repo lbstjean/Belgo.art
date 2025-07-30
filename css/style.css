@@ -504,16 +504,42 @@ h4 {
 	left: 148.9px
 }
 
+.tab1x {
+	left: 203p.9x
+}
+
 .tab1a {
 	left: 277.8px
+		/* left: 297.8px */
+}
+
+
+.tab1b {
+	/* left: 277.8px */
+	left: 332.8px
 }
 
 .tab2 {
 	left: 429.2px
 }
 
+.tab2a {
+	left: 558.1px
+}
+
+.tab2b {
+	/* left: 687px */
+	left: 697px
+}
+
+.tab2c {
+	/* left: 687px */
+	left: 845.9px
+}
+
 .tab3 {
-	left: 916.7px
+	/* left: 916.7px */
+	left: 906.7px
 }
 
 /* .rightTab {left: 1155px} */
@@ -1047,6 +1073,8 @@ h4 {
 	color: rgb(161, 158, 151, 1);
 	/* line-height: 32px; */
 }
+
+
 
 
 /* EOF */
