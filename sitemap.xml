@@ -80,11 +80,11 @@
   <url>
     <loc>https://belgo.art/a-propos.html</loc>
     <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/a-propos.html" />
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/about.html" />
+    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/about.html" />
     <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/a-propos" />
     <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/about" />
     <image:image>
-      <image:loc>https://belgo.art/images/belgo-1916-754x530px.jpg</image:loc>
+      <image:loc>https://belgo.art/images/Belgo-Building-2025-1500x1071.jpg</image:loc>
     </image:image>
     <priority>1.00</priority>
     <changefreq>weekly</changefreq>
@@ -92,9 +92,81 @@
   <url>
     <loc>https://belgo.art/about.html</loc>
     <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/a-propos.html" />
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/about.html" />
+    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/about.html" />
     <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/a-propos" />
     <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/about" />
+    <image:image>
+      <image:loc>https://belgo.art/images/Belgo-Building-2025-1500x1071.jpg</image:loc>
+    </image:image>
+    <priority>1.00</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://belgo.art/a-propos</loc>
+    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/a-propos.html" />
+    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/about.html" />
+    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/a-propos" />
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/about" />
+    <image:image>
+      <image:loc>https://belgo.art/images/Belgo-Building-2025-1500x1071.jpg</image:loc>
+    </image:image>
+    <priority>1.00</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://belgo.art/about</loc>
+    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/a-propos.html" />
+    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/about.html" />
+    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/a-propos" />
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/about" />
+    <image:image>
+      <image:loc>https://belgo.art/images/Belgo-Building-2025-1500x1071.jpg</image:loc>
+    </image:image>
+    <priority>1.00</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://belgo.art/historique.html</loc>
+    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/historique.html" />
+    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/history.html" />
+    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/historique" />
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/history" />
+    <image:image>
+      <image:loc>https://belgo.art/images/belgo-1916-754x530px.jpg</image:loc>
+    </image:image>
+    <priority>1.00</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://belgo.art/history.html</loc>
+    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/historique.html" />
+    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/history.html" />
+    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/historique" />
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/history" />
+    <image:image>
+      <image:loc>https://belgo.art/images/belgo-1916-754x530px.jpg</image:loc>
+    </image:image>
+    <priority>1.00</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://belgo.art/historique</loc>
+    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/historique.html" />
+    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/history.html" />
+    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/historique" />
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/history" />
+    <image:image>
+      <image:loc>https://belgo.art/images/belgo-1916-754x530px.jpg</image:loc>
+    </image:image>
+    <priority>1.00</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://belgo.art/history</loc>
+    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/historique.html" />
+    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/history.html" />
+    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/historique" />
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/history" />
     <image:image>
       <image:loc>https://belgo.art/images/belgo-1916-754x530px.jpg</image:loc>
     </image:image>
