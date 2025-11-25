@@ -1,0 +1,157 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+PRODID:-//Apple Inc.//macOS 26.1//EN
+VERSION:2.0
+X-APPLE-CALENDAR-COLOR:#F7F6F5
+X-WR-CALDESC:Calendrier des événements artistiques du Belgo
+X-WR-CALNAME:Belgo.art
+BEGIN:VTIMEZONE
+TZID:America/Toronto
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+TZNAME:EDT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+TZNAME:EST
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED:20251125T215839Z
+DESCRIPTION:La communauté artistique du Belgo vous invite chaleureusemen
+ t à son tout premier Marché de Noël ! \n\nLes galeries d’art\, boutiques
+  et artistes de l’édifice regorgent d’idées cadeaux artistiques à prix a
+ bordables\, où nos équipes dévouées se feront un plaisir de vous accueil
+ lir sous une ambiance festive !\n\nVenez découvrir des œuvres d’art tell
+ es que céramiques\, épreuves d’artistes\, giclées\, sérigraphies\, table
+ aux miniatures aux cadres baroques\, mais aussi des accessoires pour hom
+ mes et femmes tels que bijoux\, broches et foulards\, coussins\, sans ou
+ blier des jeux de société\, Lethelium\, et plus encore !  \n\nL’événemen
+ t est gratuit et accessible à toutes et à tous — venez vous réchauffer e
+ n parcourant les étages du Belgo un verre à la main alors que des boisso
+ ns chaudes et liqueurs alcoolisées\, biscuits et chocolats seront servis
+  dans chaque espace !\n\nC’est un rendez-vous du 11 au 14 décembre au Ma
+ rché de Noël du Belgo ! \n
+DTEND;TZID=America/Toronto:20251211T190000
+DTSTAMP:20251125T220249Z
+DTSTART;TZID=America/Toronto:20251211T120000
+LAST-MODIFIED:20251125T215839Z
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Marché de Noël du Belgo
+TRANSP:TRANSPARENT
+UID:FB021D5C-6EC2-4AA2-870B-BC1CF368A8F7
+URL;VALUE=URI:https://belgo.art/2025-marche-noel.html
+X-APPLE-CREATOR-IDENTITY:com.apple.calendar
+X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
+BEGIN:VALARM
+ACTION:NONE
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20251125T215841Z
+DESCRIPTION:La communauté artistique du Belgo vous invite chaleureusemen
+ t à son tout premier Marché de Noël ! \n\nLes galeries d’art\, boutiques
+  et artistes de l’édifice regorgent d’idées cadeaux artistiques à prix a
+ bordables\, où nos équipes dévouées se feront un plaisir de vous accueil
+ lir sous une ambiance festive !\n\nVenez découvrir des œuvres d’art tell
+ es que céramiques\, épreuves d’artistes\, giclées\, sérigraphies\, table
+ aux miniatures aux cadres baroques\, mais aussi des accessoires pour hom
+ mes et femmes tels que bijoux\, broches et foulards\, coussins\, sans ou
+ blier des jeux de société\, Lethelium\, et plus encore !  \n\nL’événemen
+ t est gratuit et accessible à toutes et à tous — venez vous réchauffer e
+ n parcourant les étages du Belgo un verre à la main alors que des boisso
+ ns chaudes et liqueurs alcoolisées\, biscuits et chocolats seront servis
+  dans chaque espace !\n\nC’est un rendez-vous du 11 au 14 décembre au Ma
+ rché de Noël du Belgo ! \n
+DTEND;TZID=America/Toronto:20251214T170000
+DTSTAMP:20251125T220249Z
+DTSTART;TZID=America/Toronto:20251214T120000
+LAST-MODIFIED:20251125T215841Z
+SEQUENCE:5
+STATUS:CONFIRMED
+SUMMARY:Marché de Noël du Belgo
+TRANSP:TRANSPARENT
+UID:E362CB30-E028-4350-9BC6-DA19985DD6E4
+URL;VALUE=URI:https://belgo.art/2025-marche-noel.html
+X-APPLE-CREATOR-IDENTITY:com.apple.calendar
+X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
+BEGIN:VALARM
+ACTION:NONE
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20251125T215842Z
+DESCRIPTION:La communauté artistique du Belgo vous invite chaleureusemen
+ t à son tout premier Marché de Noël ! \n\nLes galeries d’art\, boutiques
+  et artistes de l’édifice regorgent d’idées cadeaux artistiques à prix a
+ bordables\, où nos équipes dévouées se feront un plaisir de vous accueil
+ lir sous une ambiance festive !\n\nVenez découvrir des œuvres d’art tell
+ es que céramiques\, épreuves d’artistes\, giclées\, sérigraphies\, table
+ aux miniatures aux cadres baroques\, mais aussi des accessoires pour hom
+ mes et femmes tels que bijoux\, broches et foulards\, coussins\, sans ou
+ blier des jeux de société\, Lethelium\, et plus encore !  \n\nL’événemen
+ t est gratuit et accessible à toutes et à tous — venez vous réchauffer e
+ n parcourant les étages du Belgo un verre à la main alors que des boisso
+ ns chaudes et liqueurs alcoolisées\, biscuits et chocolats seront servis
+  dans chaque espace !\n\nC’est un rendez-vous du 11 au 14 décembre au Ma
+ rché de Noël du Belgo ! \n
+DTEND;TZID=America/Toronto:20251213T170000
+DTSTAMP:20251125T220249Z
+DTSTART;TZID=America/Toronto:20251213T120000
+LAST-MODIFIED:20251125T215842Z
+SEQUENCE:4
+STATUS:CONFIRMED
+SUMMARY:Marché de Noël du Belgo
+TRANSP:TRANSPARENT
+UID:DF80E089-C07C-48E5-B3AA-42C55A14E953
+URL;VALUE=URI:https://belgo.art/2025-marche-noel.html
+X-APPLE-CREATOR-IDENTITY:com.apple.calendar
+X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
+BEGIN:VALARM
+ACTION:NONE
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20251125T215843Z
+DESCRIPTION:La communauté artistique du Belgo vous invite chaleureusemen
+ t à son tout premier Marché de Noël ! \n\nLes galeries d’art\, boutiques
+  et artistes de l’édifice regorgent d’idées cadeaux artistiques à prix a
+ bordables\, où nos équipes dévouées se feront un plaisir de vous accueil
+ lir sous une ambiance festive !\n\nVenez découvrir des œuvres d’art tell
+ es que céramiques\, épreuves d’artistes\, giclées\, sérigraphies\, table
+ aux miniatures aux cadres baroques\, mais aussi des accessoires pour hom
+ mes et femmes tels que bijoux\, broches et foulards\, coussins\, sans ou
+ blier des jeux de société\, Lethelium\, et plus encore !  \n\nL’événemen
+ t est gratuit et accessible à toutes et à tous — venez vous réchauffer e
+ n parcourant les étages du Belgo un verre à la main alors que des boisso
+ ns chaudes et liqueurs alcoolisées\, biscuits et chocolats seront servis
+  dans chaque espace !\n\nC’est un rendez-vous du 11 au 14 décembre au Ma
+ rché de Noël du Belgo ! \n
+DTEND;TZID=America/Toronto:20251212T190000
+DTSTAMP:20251125T220249Z
+DTSTART;TZID=America/Toronto:20251212T120000
+LAST-MODIFIED:20251125T215843Z
+SEQUENCE:3
+STATUS:CONFIRMED
+SUMMARY:Marché de Noël du Belgo
+TRANSP:TRANSPARENT
+UID:491D39FF-186C-4907-95E1-EEE2BC955076
+URL;VALUE=URI:https://belgo.art/2025-marche-noel.html
+X-APPLE-CREATOR-IDENTITY:com.apple.calendar
+X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
+BEGIN:VALARM
+ACTION:NONE
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+END:VALARM
+END:VEVENT
+END:VCALENDAR
