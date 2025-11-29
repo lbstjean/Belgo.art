@@ -102,6 +102,80 @@
     <priority>1.00</priority>
     <changefreq>weekly</changefreq>
   </url>
+  <!-- CHANGE PHOTO URL -->
+  <url>
+    <loc>https://belgo.art/2025-marche-noel.html</loc>
+    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/2025-marche-noel.html" />
+    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/2025-holiday-market.html" />
+    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/2025-marche-noel" />
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/2025-holiday-market" />
+    <image:image>
+      <image:loc>https://belgo.art/images/belgo_art-2025-marche-noel-banner-2420x1116px.jpg</image:loc>
+    </image:image>
+    <priority>1.00</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://belgo.art/2025-marche-noel.html</loc>
+    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/2025-marche-noel.html" />
+    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/2025-holiday-market.html" />
+    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/2025-marche-noel" />
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/2025-holiday-market" />
+    <image:image>
+      <image:loc>https://belgo.art/images/belgo_art-2025-marche-noel-banner-2420x1116px.jpg</image:loc>
+    </image:image>
+    <priority>1.00</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://belgo.art/2025-marche-noel</loc>
+    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/2025-marche-noel.html" />
+    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/2025-holiday-market.html" />
+    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/2025-marche-noel" />
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/2025-holiday-market" />
+    <image:image>
+      <image:loc>https://belgo.art/images/belgo_art-2025-marche-noel-banner-2420x1116px.jpg</image:loc>
+    </image:image>
+    <priority>1.00</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://belgo.art/2025-holiday-market.html</loc>
+    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/2025-marche-noel.html" />
+    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/2025-holiday-market.html" />
+    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/2025-marche-noel" />
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/2025-holiday-market" />
+    <image:image>
+      <image:loc>https://belgo.art/images/belgo_art-2025-marche-noel-banner-2420x1116px.jpg</image:loc>
+    </image:image>
+    <priority>1.00</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://belgo.art/2025-holiday-market</loc>
+    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/2025-marche-noel.html" />
+    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/2025-holiday-market.html" />
+    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/2025-marche-noel" />
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/2025-holiday-market" />
+    <image:image>
+      <image:loc>https://belgo.art/images/belgo_art-Rentree-2025-Banner-website-2420x1116px.jpg</image:loc>
+    </image:image>
+    <priority>1.00</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <!-- CHANGE PHOTO URL -->
+  <url>
+    <loc>https://belgo.art/2025-marche-noel.html</loc>
+    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/2025-marche-noel.html" />
+    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/2025-holiday-market.html" />
+    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/2025-marche-noel" />
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/2025-holiday-market" />
+    <image:image>
+      <image:loc>https://belgo.art/images/belgo_art-Rentree-2025-Banner-website-2420x1116px.jpg</image:loc>
+    </image:image>
+    <priority>1.00</priority>
+    <changefreq>weekly</changefreq>
+  </url>
   <url>
     <loc>https://belgo.art/rentree-belgo-2025.html</loc>
     <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/rentree-belgo-2025.html" />
