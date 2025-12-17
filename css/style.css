@@ -633,6 +633,7 @@ h4 {
 
 .line015 {
 	top: 267.1px
+		/* top: 268.1px */
 }
 
 .line016 {
@@ -1010,7 +1011,14 @@ h4 {
 .OpeningHours {
 	font-size: 12px;
 	font-family: Helvetica;
-	line-height: 25px;
+	line-height: 26px;
+	color: #292929;
+}
+
+.Category {
+	font-size: 12px;
+	font-family: Helvetica-Bold;
+	line-height: 26px;
 	color: #292929;
 }
 
