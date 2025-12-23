@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Stripo.email
+BEGIN:VEVENT
+UID:694ab2f0102c9
+DTSTAMP:20251223T151912Z
+DTSTART:20260115T220000Z
+DTEND:20260116T010000Z
+SUMMARY:Rentrée culturelle d'hiver du Belgo 2026
+DESCRIPTION:La communauté artistique du Belgo vous invite chaleureusement 
+ à une soirée de vernissages\, alors qu’une vingtaine de galeries d'art
+ \, centres d'artistes\, espaces d'exposition et organismes culturels ouvri
+ ront leurs portes de 17h à 20h afin de dévoiler et présenter leurs nouv
+ elles expositions. \nPlusieurs artistes exposants seront sur place\, et n
+ os équipes dévouées se feront un plaisir de vous accueillir avec une mu
+ ltitude d'expositions entièrement gratuites et accessibles à toutes et 
+ à tous.\nUn rendez-vous à ne pas manquer\, le jeudi 15 janvier 2026 dè
+ s 17h à l'édifice Belgo!
+CLASS:PUBLIC
+LOCATION:372 Rue Sainte-Catherine Ouest\, Montréal (Québec) H3B 1A2
+END:VEVENT
+END:VCALENDAR
