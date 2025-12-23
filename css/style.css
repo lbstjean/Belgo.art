@@ -144,7 +144,25 @@ h4 {
 /* #p1 { */
 #pg1 {
 	background-color: #F7F6F5 !important;
+	/* background-color: #DFDDDB !important; */
 
+	/* Potential Blue Highlight #457B9D (Cerulean)  		*/
+	/* Logotype Red Highlight #AF2126 (Brick Red)   		*/
+	/* Text Color #121314 (Onyx) 									  		*/
+	/* Text Color Print #231F20 (Shadow Grey)						*/
+	/* Text Color ALT #0C0F0A (Onyx) 									  */
+	/* Light Background Color #F7F6F5 (Bright Snow) 		*/
+	/* Darker Background Color #DFDDDB (Alabaster Grey) */
+	/* Link Color Hover #1b2b91 (True Cobalt) 					*/
+	/* Link Color #191E60 (Deep Navy) 									*/
+
+	/* POTENTIAL COLORS*/
+	/* 0C1618 Ink Black */
+	/* EAE8EB Platinum */
+	/* 272932 */
+	/* 837569 */
+	/* 5F7367 */
+	/* 9B1D20 */
 }
 
 
@@ -993,16 +1011,19 @@ h4 {
 
 .SpaceNumber {
 	font-size: 39px;
-	line-height: 46px;
-	/* font-size: 38px; */
-	/* line-height: 44px; */
+	line-height: 48px;
+	/* 2025-12-17 */
+	/* line-height: 46px; */
+
 	font-family: Helvetica;
 	color: #292929;
 }
 
 .TitleName {
 	font-size: 14px;
-	line-height: 25px;
+	line-height: 26px;
+	/* 2025-12-17 */
+	/* line-height: 25px; */
 	font-family: Helvetica-Bold;
 	color: #292929;
 }
@@ -1012,14 +1033,19 @@ h4 {
 	font-size: 12px;
 	font-family: Helvetica;
 	line-height: 26px;
+	/* 2025-12-17 */
+	/* line-height: 26px; */
 	color: #292929;
 }
 
 .Category {
 	font-size: 12px;
 	font-family: Helvetica-Bold;
-	line-height: 26px;
-	color: #292929;
+	line-height: 28px;
+	/* line-height: 26px; */
+	/* 2025-12-22 */
+	/* color: #292929; */
+	color: #50464C;
 }
 
 .ArtistName,
@@ -1027,7 +1053,9 @@ h5 {
 	font-size: 14px;
 	font-family: Helvetica;
 	font-weight: 400;
-	line-height: 25px;
+	line-height: 26px;
+	/* 2025-12-17 */
+	/* line-height: 25px; */
 	color: #292929;
 }
 
@@ -1035,14 +1063,14 @@ h5 {
 	/* font-size: 12.5px; */
 	font-size: 12px;
 	font-family: Helvetica-Bold;
-	line-height: 25px;
+	line-height: 26px;
 	color: #292929;
 }
 
 .OpeningDate {
 	font-size: 12px;
 	font-family: Helvetica-Oblique;
-	line-height: 25px;
+	line-height: 26px;
 	color: #292929;
 }
 
