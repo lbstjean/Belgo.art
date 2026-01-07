@@ -80,24 +80,12 @@
   <url>
     <loc>https://belgo.art/english</loc>
     <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/" />
-    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/english.html" />
+    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/english" />
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/english.html" />
     <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/index.html" />
     <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/index" />
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/english" />
     <image:image>
       <image:loc>https://belgo.art/belgo-art-english.svg</image:loc>
-    </image:image>
-    <priority>1.00</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://belgo.art/a-propos.html</loc>
-    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/a-propos.html" />
-    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/about.html" />
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/a-propos" />
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/about" />
-    <image:image>
-      <image:loc>https://belgo.art/images/Belgo-Building-2025-1500x1071.jpg</image:loc>
     </image:image>
     <priority>1.00</priority>
     <changefreq>weekly</changefreq>
@@ -152,22 +140,10 @@
   </url>
   <url>
     <loc>https://belgo.art/2025-marche-noel.html</loc>
-    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/2025-marche-noel.html" />
-    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/2025-holiday-market.html" />
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/2025-marche-noel" />
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/2025-holiday-market" />
-    <image:image>
-      <image:loc>https://belgo.art/images/belgo_art-2025-marche-noel-banner-2420x1116px.jpg</image:loc>
-    </image:image>
-    <priority>1.00</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://belgo.art/2025-marche-noel.html</loc>
-    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/2025-marche-noel.html" />
-    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/2025-holiday-market.html" />
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/2025-marche-noel" />
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/2025-holiday-market" />
+    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/2025-marche-noel" />
+    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/2025-holiday-market" />
+    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/2025-marche-noel.html" />
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/2025-holiday-market.html" />
     <image:image>
       <image:loc>https://belgo.art/images/belgo_art-2025-marche-noel-banner-2420x1116px.jpg</image:loc>
     </image:image>
@@ -176,10 +152,10 @@
   </url>
   <url>
     <loc>https://belgo.art/2025-marche-noel</loc>
-    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/2025-marche-noel.html" />
-    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/2025-holiday-market.html" />
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/2025-marche-noel" />
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/2025-holiday-market" />
+    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/2025-marche-noel" />
+    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/2025-holiday-market" />
+    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/2025-marche-noel.html" />
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/2025-holiday-market.html" />
     <image:image>
       <image:loc>https://belgo.art/images/belgo_art-2025-marche-noel-banner-2420x1116px.jpg</image:loc>
     </image:image>
@@ -188,10 +164,10 @@
   </url>
   <url>
     <loc>https://belgo.art/2025-holiday-market.html</loc>
-    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/2025-marche-noel.html" />
-    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/2025-holiday-market.html" />
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/2025-marche-noel" />
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/2025-holiday-market" />
+    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/2025-marche-noel" />
+    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/2025-holiday-market" />
+    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/2025-marche-noel.html" />
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/2025-holiday-market.html" />
     <image:image>
       <image:loc>https://belgo.art/images/belgo_art-2025-marche-noel-banner-2420x1116px.jpg</image:loc>
     </image:image>
@@ -212,23 +188,11 @@
   </url>
   <!-- CHANGE PHOTO URL -->
   <url>
-    <loc>https://belgo.art/2025-marche-noel.html</loc>
-    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/2025-marche-noel.html" />
-    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/2025-holiday-market.html" />
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/2025-marche-noel" />
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/2025-holiday-market" />
-    <image:image>
-      <image:loc>https://belgo.art/images/belgo_art-Rentree-2025-Banner-website-2420x1116px.jpg</image:loc>
-    </image:image>
-    <priority>1.00</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
     <loc>https://belgo.art/rentree-belgo-2025.html</loc>
-    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/rentree-belgo-2025.html" />
-    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/cultural-opening-event.html" />
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/rentree-belgo-2025" />
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/cultural-opening-event" />
+    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/rentree-belgo-2025" />
+    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/cultural-opening-event" />
+    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/rentree-belgo-2025.html" />
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/cultural-opening-event.html" />
     <image:image>
       <image:loc>https://belgo.art/images/belgo_art-Rentree-2025-Banner-website-2420x1116px.jpg</image:loc>
     </image:image>
@@ -237,10 +201,10 @@
   </url>
   <url>
     <loc>https://belgo.art/rentree-belgo-2025</loc>
-    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/rentree-belgo-2025.html" />
-    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/cultural-opening-event.html" />
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/rentree-belgo-2025" />
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/cultural-opening-event" />
+    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/rentree-belgo-2025" />
+    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/cultural-opening-event" />
+    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/rentree-belgo-2025.html" />
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/cultural-opening-event.html" />
     <image:image>
       <image:loc>https://belgo.art/images/belgo_art-Rentree-2025-Banner-website-2420x1116px.jpg</image:loc>
     </image:image>
@@ -249,10 +213,10 @@
   </url>
   <url>
     <loc>https://belgo.art/cultural-opening-event.html</loc>
-    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/rentree-belgo-2025.html" />
-    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/cultural-opening-event.html" />
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/rentree-belgo-2025" />
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/cultural-opening-event" />
+    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/rentree-belgo-2025" />
+    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/cultural-opening-event" />
+    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/rentree-belgo-2025.html" />
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/cultural-opening-event.html" />
     <image:image>
       <image:loc>https://belgo.art/images/belgo_art-Rentree-2025-Banner-website-2420x1116px.jpg</image:loc>
     </image:image>
@@ -261,10 +225,10 @@
   </url>
   <url>
     <loc>https://belgo.art/cultural-opening-event</loc>
-    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/rentree-belgo-2025.html" />
-    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/cultural-opening-event.html" />
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/rentree-belgo-2025" />
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/cultural-opening-event" />
+    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/rentree-belgo-2025" />
+    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/cultural-opening-event" />
+    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/rentree-belgo-2025.html" />
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/cultural-opening-event.html" />
     <image:image>
       <image:loc>https://belgo.art/images/belgo_art-Rentree-2025-Banner-website-2420x1116px.jpg</image:loc>
     </image:image>
@@ -273,10 +237,10 @@
   </url>
   <url>
     <loc>https://belgo.art/about.html</loc>
-    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/a-propos.html" />
-    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/about.html" />
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/a-propos" />
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/about" />
+    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/a-propos" />
+    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/about" />
+    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/a-propos.html" />
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/about.html" />
     <image:image>
       <image:loc>https://belgo.art/images/Belgo-Building-2025-1500x1071.jpg</image:loc>
     </image:image>
@@ -285,10 +249,22 @@
   </url>
   <url>
     <loc>https://belgo.art/a-propos</loc>
-    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/a-propos.html" />
-    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/about.html" />
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/a-propos" />
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/about" />
+    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/a-propos" />
+    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/about" />
+    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/a-propos.html" />
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/about.html" />
+    <image:image>
+      <image:loc>https://belgo.art/images/Belgo-Building-2025-1500x1071.jpg</image:loc>
+    </image:image>
+    <priority>1.00</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://belgo.art/a-propos.html</loc>
+    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/a-propos" />
+    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/about" />
+    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/a-propos.html" />
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/about.html" />
     <image:image>
       <image:loc>https://belgo.art/images/Belgo-Building-2025-1500x1071.jpg</image:loc>
     </image:image>
@@ -297,10 +273,10 @@
   </url>
   <url>
     <loc>https://belgo.art/about</loc>
-    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/a-propos.html" />
-    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/about.html" />
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/a-propos" />
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/about" />
+    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/a-propos" />
+    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/about" />
+    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/a-propos.html" />
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/about.html" />
     <image:image>
       <image:loc>https://belgo.art/images/Belgo-Building-2025-1500x1071.jpg</image:loc>
     </image:image>
@@ -309,10 +285,10 @@
   </url>
   <url>
     <loc>https://belgo.art/historique.html</loc>
-    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/historique.html" />
-    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/history.html" />
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/historique" />
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/history" />
+    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/historique" />
+    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/history" />
+    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/historique.html" />
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/history.html" />
     <image:image>
       <image:loc>https://belgo.art/images/belgo-1916-754x530px.jpg</image:loc>
     </image:image>
@@ -321,10 +297,10 @@
   </url>
   <url>
     <loc>https://belgo.art/history.html</loc>
-    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/historique.html" />
-    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/history.html" />
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/historique" />
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/history" />
+    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/historique" />
+    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/history" />
+    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/historique.html" />
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/history.html" />
     <image:image>
       <image:loc>https://belgo.art/images/belgo-1916-754x530px.jpg</image:loc>
     </image:image>
@@ -333,10 +309,10 @@
   </url>
   <url>
     <loc>https://belgo.art/historique</loc>
-    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/historique.html" />
-    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/history.html" />
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/historique" />
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/history" />
+    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/historique" />
+    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/history" />
+    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/historique.html" />
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/history.html" />
     <image:image>
       <image:loc>https://belgo.art/images/belgo-1916-754x530px.jpg</image:loc>
     </image:image>
@@ -345,10 +321,10 @@
   </url>
   <url>
     <loc>https://belgo.art/history</loc>
-    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/historique.html" />
-    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/history.html" />
-    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/historique" />
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/history" />
+    <xhtml:link rel="canonical" hreflang="fr-ca" href="https://belgo.art/historique" />
+    <xhtml:link rel="canonical" hreflang="en-ca" href="https://belgo.art/history" />
+    <xhtml:link rel="alternate" hreflang="fr-ca" href="https://belgo.art/historique.html" />
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://belgo.art/history.html" />
     <image:image>
       <image:loc>https://belgo.art/images/belgo-1916-754x530px.jpg</image:loc>
     </image:image>
