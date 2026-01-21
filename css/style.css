@@ -81,7 +81,20 @@ h4 {
 .OpeningDate a:hover,
 .WebsiteURL a:hover,
 .OpeningHours a:hover,
+.link:hover,
 .Footer a:hover {
+	color: #1b2b91 !important;
+	text-decoration: underline !important;
+	transition: 0.4s;
+}
+
+a.Link {
+	color: #191E60;
+	/* color: #0B243C; */
+	font-family: Helvetica-Bold;
+}
+
+a.Link:hover {
 	color: #1b2b91 !important;
 	text-decoration: underline !important;
 	transition: 0.4s;
