@@ -1172,7 +1172,8 @@ a.Link:hover {
 	/* line-height: 24px; */
 	/* 2025-12-22 */
 	/* color: #292929; */
-	color: #50464C;
+	/* color: #50464C; */
+	color: rgba(80, 70, 76, 0.9);
 }
 
 .ArtistName,
