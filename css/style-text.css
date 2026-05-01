@@ -116,12 +116,6 @@ a.Link:hover {
 	color: #888 !important;
 }
 
-/* .Plural {
-	color: #F1E835 !important;
-	font-family: Helvetica !important;
-} */
-
-
 @media print {
 
 	#infoMark,
@@ -554,15 +548,15 @@ a.Link:hover {
 
 /* Tabs Alignment */
 .tab0 {
-	left: 55px;
+	left: 55px
 }
 
 .tab1 {
-	left: 148.9px;
+	left: 148.9px
 }
 
 .tab1m {
-	left: 158.9px;
+	left: 158.9px
 }
 
 .tab1x {
@@ -570,567 +564,459 @@ a.Link:hover {
 }
 
 .tab1a {
-	left: 277.8px;
-	/* left: 297.8px */
+	left: 277.8px
+		/* left: 297.8px */
 }
 
 
 .tab1b {
 	/* left: 277.8px */
-	left: 332.8px;
+	left: 332.8px
 }
 
 .tab2 {
-	left: 429.2px;
+	left: 429.2px
 }
 
 .tab2a {
-	left: 558.1px;
+	left: 558.1px
 }
 
 .tab2b {
 	/* left: 687px */
-	left: 697px;
+	left: 697px
 }
 
 .tab2c {
 	/* left: 687px */
-	left: 845.9px;
+	left: 845.9px
 }
 
 .tab3 {
 	/* left: 916.7px */
-	left: 906.7px;
+	left: 906.7px
 }
 
 /* .rightTab {left: 1155px} */
 /* .tab3, */
 .tab4,
 .rightTab {
-	right: 55px;
+	right: 55px
 }
 
 
 /*  Text Lines */
 .line001 {
-	top: 10.4px;
+	top: 10.4px
 }
 
 .line002 {
-	top: 28.7px;
+	top: 28.7px
 }
 
 .line003 {
-	top: 47.0px;
+	top: 47.0px
 }
 
 .line004 {
-	top: 65.4px;
+	top: 65.4px
 }
 
 .line005 {
-	top: 83.7px;
+	top: 83.7px
 }
 
 .line006 {
-	top: 102.1px;
+	top: 102.1px
 }
 
 .line007 {
-	top: 120.4px;
+	top: 120.4px
 }
 
 .line008 {
-	top: 138.7px;
+	top: 138.7px
 }
 
 .line009 {
-	top: 157.1px;
+	top: 157.1px
 }
 
-/* 2nd Floor */
 .line010 {
-	top: 175.3px;
-	/* top: 177.3px; */
-}
-
-.line010_EngV {
-	top: 178.3px;
-	/* top: 177.3px; */
+	top: 175.3px
 }
 
 .line011 {
-	top: 193.8px;
+	top: 193.8px
 }
 
 .line012 {
-	/* top: 212.1px; */
-	top: 211.1px;
+	top: 212.1px
 }
 
-/* Section Louis Boudreault */
-
 .line013 {
-	/* top: 230.4px */
-	top: 231.4px;
+	top: 230.4px
 }
 
 .line014 {
-	top: 248.7px;
+	top: 248.7px
 }
 
 .line015 {
-	/* top: 268.1px */
-	top: 267.1px;
+	top: 267.1px
+		/* top: 268.1px */
 }
 
-/* 3rd Floor */
 .line016 {
-	top: 285.4px;
-	/* top: 287.4px; */
-}
-
-.line016_EngV {
-	top: 288.4px;
+	top: 285.4px
 }
 
 .line017 {
-	top: 303.7px;
+	top: 303.7px
 }
 
 .line018 {
-	/* top: 322.1px; */
-	top: 321.1px;
+	top: 322.1px
 }
 
-/* Section */
 .line019 {
-	/* top: 340.4px; */
-	top: 341.4px;
+	top: 340.4px
 }
 
 .line020 {
-	top: 358.7px;
+	top: 358.7px
 }
 
 .line021 {
-	/* top: 377.1px; */
-	top: 376.1px;
+	top: 377.1px
 }
 
-/* 4th Floor */
 .line022 {
-	top: 395.4px;
-	/* top: 397.4px; */
-}
-
-.line022_EngV {
-	top: 398.4px;
-	/* top: 397.4px; */
+	top: 395.4px
 }
 
 .line023 {
-	top: 413.8px;
+	top: 413.8px
 }
 
 .line024 {
-	/* top: 432.1px; */
-	top: 431.1px;
+	top: 432.1px
 }
 
-/* Section B-312 */
 .line025 {
-	/* top: 450.4px; */
-	top: 451.4px;
+	top: 450.4px
 }
 
 .line026 {
-	top: 468.8px;
+	top: 468.8px
 }
 
 .line027 {
-	/* top: 487.1px; */
-	top: 486.1px;
+	top: 487.1px
 }
 
-/* Section Wishbone */
 .line028 {
-	/* top: 505.4px; */
-	top: 506.4px;
+	top: 505.4px
 }
 
 .line029 {
-	top: 523.8px;
+	top: 523.8px
 }
 
 .line030 {
-	/* top: 542.1px; */
-	top: 541.1px;
+	top: 542.1px
 }
 
-/* Section Atelier Dana Velan */
 .line031 {
-	/* top: 560.4px; */
-	top: 561.4px;
+	top: 560.4px
 }
 
 .line032 {
-	top: 578.8px;
+	top: 578.8px
 }
 
 .line033 {
-	/* top: 597.1px; */
-	top: 596.1px;
+	top: 597.1px
 }
 
-/* Section Patel Brown */
 .line034 {
-	/* top: 615.4px; */
-	top: 616.4px;
+	top: 615.4px
 }
 
 .line035 {
-	top: 633.8px;
+	top: 633.8px
 }
 
 .line036 {
-	/* top: 652.1px; */
-	top: 651.1px;
+	top: 652.1px
 }
 
-/* Section JCL */
 .line037 {
-	/* top: 670.4px; */
-	top: 671.4px;
+	top: 670.4px
 }
 
 .line038 {
-	top: 688.8px;
+	top: 688.8px
 }
 
 .line039 {
-	/* top: 707.1px; */
-	top: 706.1px;
+	top: 707.1px
 }
 
-/* Section McBride */
 .line040 {
-	/* top: 725.4px; */
-	top: 726.4px;
+	top: 725.4px
 }
 
 .line041 {
-	top: 743.8px;
+	top: 743.8px
 }
 
 .line042 {
-	/* top: 762.1px; */
-	top: 761.1px;
+	top: 762.1px
 }
 
-/* Section Chiguer */
 .line043 {
-	/* top: 780.4px; */
-	top: 781.4px;
+	top: 780.4px
 }
 
 .line044 {
-	top: 798.8px;
+	top: 798.8px
 }
 
 .line045 {
-	/* top: 817.1px; */
-	top: 816.1px;
+	top: 817.1px
 }
 
-/* Section Espace DÈS */
 .line046 {
-	/* top: 835.4px; */
-	top: 836.4px;
+	top: 835.4px
 }
 
 .line047 {
-	top: 853.8px;
+	top: 853.8px
 }
 
 .line048 {
-	/* top: 872.1px; */
-	top: 871.1px;
+	top: 872.1px
 }
 
-/* Section LBSJ */
 .line049 {
-	/* top: 890.4px; */
-	top: 891.4px;
+	top: 890.4px
 }
 
 .line050 {
-	top: 908.8px;
+	top: 908.8px
 }
 
 .line051 {
-	/* top: 927.1px; */
-	top: 926.1px;
+	top: 927.1px
 }
 
-/* Section Ingang */
 .line052 {
-	/* top: 945.4px; */
-	top: 946.4px;
+	top: 945.4px
 }
 
 .line053 {
-	top: 963.8px;
+	top: 963.8px
 }
 
 .line054 {
-	/* top: 982.1px; */
-	top: 981.1px;
+	top: 982.1px
 }
 
-/* Section POPOP */
 .line055 {
-	/* top: 1000.4px; */
-	top: 1001.4px;
+	top: 1000.4px
 }
 
 .line056 {
-	top: 1018.8px;
+	top: 1018.8px
 }
 
 .line057 {
-	/* top: 1037.1px; */
-	top: 1036.1px;
+	top: 1037.1px
 }
 
-/* Section Arprim */
 .line058 {
-	/* top: 1055.4px; */
-	top: 1056.4px;
+	top: 1055.4px
 }
 
 .line059 {
-	top: 1073.8px;
+	top: 1073.8px
 }
 
 .line060 {
-	/* top: 1092.1px; */
-	top: 1091.1px;
+	top: 1092.1px
 }
 
-/* Section CIRCA */
 .line061 {
-	/* top: 1110.4px; */
-	top: 1111.4px;
+	top: 1110.4px
 }
 
 .line062 {
-	top: 1128.8px;
+	top: 1128.8px
 }
 
 .line063 {
-	/* top: 1147.1px; */
-	top: 1146.1px;
+	top: 1147.1px
 }
 
-/* Section SKOL */
 .line064 {
-	/* top: 1165.4px; */
-	top: 1166.4px;
+	top: 1165.4px
 }
 
 .line065 {
-	top: 1183.8px;
+	top: 1183.8px
 }
 
 .line066 {
-	/* top: 1202.1px; */
-	top: 1201.1px;
+	top: 1202.1px
 }
 
-/* Section Librairie SKOL */
 .line067 {
-	/* top: 1220.4px; */
-	top: 1221.4px;
+	top: 1220.4px
 }
 
 .line068 {
-	top: 1238.8px;
+	top: 1238.8px
 }
 
 .line069 {
-	/* top: 1257.1px; */
-	top: 1256.1px;
+	top: 1257.1px
 }
 
-/* 5th Floor */
 .line070 {
-	top: 1272.4px;
-}
-
-/* 5th Floor */
-.line070_EngV {
-	top: 1276.4px;
+	top: 1275.4px
 }
 
 .line071 {
-	top: 1293.8px;
+	top: 1293.8px
 }
 
 .line072 {
-	/* top: 1312.1px; */
-	top: 1311.1px;
+	top: 1312.1px
 }
 
-/* Section Kimberly */
 .line073 {
-	/* top: 1330.4px; */
-	top: 1331.4px;
+	top: 1330.4px
 }
 
 .line074 {
-	top: 1348.8px;
+	top: 1348.8px
 }
 
 .line075 {
-	/* top: 1367.1px; */
-	top: 1366.1px;
+	top: 1367.1px
 }
 
-/* Section SBC */
 .line076 {
-	/* top: 1385.4px; */
-	top: 1386.4px;
+	top: 1385.4px
 }
 
 .line077 {
-	top: 1403.8px;
+	top: 1403.8px
 }
 
 .line078 {
-	/* top: 1422.1px; */
-	top: 1421.1px;
+	top: 1422.1px
 }
 
-/* Section Bellemare Lambert */
 .line079 {
-	/* top: 1440.4px; */
-	top: 1441.4px;
+	top: 1440.4px
 }
 
 .line080 {
-	top: 1458.8px;
+	top: 1458.8px
 }
 
 .line081 {
-	/* top: 1477.1px; */
-	top: 1476.1px;
+	top: 1477.1px
 }
 
-/* Section Hugues Charbonneau */
 .line082 {
-	/* top: 1495.4px; */
-	top: 1496.4px;
+	top: 1495.4px
 }
 
 .line083 {
-	top: 1513.8px;
+	top: 1513.8px
 }
 
 .line084 {
-	/* top: 1532.1px; */
-	top: 1531.1px;
+	top: 1532.1px
 }
 
-/* Section Éclats */
 .line085 {
-	/* top: 1550.4px; */
-	top: 1551.4px;
+	top: 1550.4px
 }
 
 .line086 {
-	top: 1568.8px;
+	top: 1568.8px
 }
 
 .line087 {
-	/* top: 1587.1px; */
-	top: 1586.1px;
+	top: 1587.1px
 }
 
-/* Section Duran */
 .line088 {
-	/* top: 1605.4px; */
-	top: 1606.4px;
+	top: 1605.4px
 }
 
 .line089 {
-	top: 1623.8px;
+	top: 1623.8px
 }
 
 .line090 {
-	/* top: 1642.1px; */
-	top: 1641.1px;
+	top: 1642.1px
 }
 
-/* Section Atelier 531 */
 .line091 {
-	/* top: 1660.4px; */
-	top: 1661.4px;
+	top: 1660.4px
 }
 
 .line092 {
-	top: 1678.8px;
+	top: 1678.8px
 }
 
 .line093 {
-	/* top: 1697.1px; */
-	top: 1696.1px;
+	top: 1697.1px
 }
 
-/* Section  Empty */
 .line094 {
-	/* top: 1715.4px; */
-	top: 1716.4px;
+	top: 1715.4px
 }
 
 .line095 {
-	top: 1733.8px;
+	top: 1733.8px
 }
 
 .line096 {
-	/* top: 1752.1px; */
-	top: 1752.1px;
+	top: 1752.1px
 }
 
 .line097 {
-	/* top: 1770.4px; */
-	top: 1768.4px;
+	top: 1770.4px
 }
 
-/* Section Footer 1 */
 .line098 {
-	top: 1788.8px;
+	top: 1788.8px
 }
 
 .line099 {
-	top: 1807.1px;
+	top: 1807.1px
 }
 
-/* Section Footer 2 */
 .line100 {
 	top: 1834.6px;
 	/* top: 1825.4px */
-	top: 1827.4px;
+	top: 1827.4px
 }
 
 .line101 {
 	top: 1848.4px;
 	/* top: 1843.8px */
-	top: 1841.1px;
+	top: 1841.1px
 }
 
 .line102 {
-	top: 1862.1px;
+	top: 1862.1px
 }
 
 
@@ -1138,7 +1024,7 @@ a.Link:hover {
 
 .SpaceNumber {
 	font-size: 39px;
-	line-height: 46px;
+	line-height: 48px;
 	/* 2025-12-17 */
 	/* line-height: 46px; */
 
