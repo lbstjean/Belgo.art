@@ -513,6 +513,8 @@ a.Link:hover {
 	white-space: pre;
 	overflow: visible;
 	line-height: 1.5;
+	/* color: #292929; */
+	color: rgba(32, 32, 32, 0.97);
 }
 
 @supports (-webkit-touch-callout: none) {
@@ -783,7 +785,8 @@ a.Link:hover {
 	top: 596.1px;
 }
 
-/* Section Patel Brown */
+
+/* Section JCL */
 .line034 {
 	/* top: 615.4px; */
 	top: 616.4px;
@@ -798,7 +801,8 @@ a.Link:hover {
 	top: 651.1px;
 }
 
-/* Section JCL */
+
+/* Section McBride */
 .line037 {
 	/* top: 670.4px; */
 	top: 671.4px;
@@ -813,7 +817,8 @@ a.Link:hover {
 	top: 706.1px;
 }
 
-/* Section McBride */
+
+/* Section Chiguer */
 .line040 {
 	/* top: 725.4px; */
 	top: 726.4px;
@@ -828,7 +833,8 @@ a.Link:hover {
 	top: 761.1px;
 }
 
-/* Section Chiguer */
+
+/* Section Espace DÈS */
 .line043 {
 	/* top: 780.4px; */
 	top: 781.4px;
@@ -843,7 +849,8 @@ a.Link:hover {
 	top: 816.1px;
 }
 
-/* Section Espace DÈS */
+
+/* Section LBSJ */
 .line046 {
 	/* top: 835.4px; */
 	top: 836.4px;
@@ -858,7 +865,8 @@ a.Link:hover {
 	top: 871.1px;
 }
 
-/* Section LBSJ */
+
+/* Section Ingang */
 .line049 {
 	/* top: 890.4px; */
 	top: 891.4px;
@@ -873,7 +881,8 @@ a.Link:hover {
 	top: 926.1px;
 }
 
-/* Section Ingang */
+
+/* Section POPOP */
 .line052 {
 	/* top: 945.4px; */
 	top: 946.4px;
@@ -888,7 +897,8 @@ a.Link:hover {
 	top: 981.1px;
 }
 
-/* Section POPOP */
+
+/* Section Arprim */
 .line055 {
 	/* top: 1000.4px; */
 	top: 1001.4px;
@@ -903,7 +913,8 @@ a.Link:hover {
 	top: 1036.1px;
 }
 
-/* Section Arprim */
+
+/* Section CIRCA */
 .line058 {
 	/* top: 1055.4px; */
 	top: 1056.4px;
@@ -918,7 +929,8 @@ a.Link:hover {
 	top: 1091.1px;
 }
 
-/* Section CIRCA */
+
+/* Section SKOL */
 .line061 {
 	/* top: 1110.4px; */
 	top: 1111.4px;
@@ -933,7 +945,8 @@ a.Link:hover {
 	top: 1146.1px;
 }
 
-/* Section SKOL */
+
+/* Section Librairie SKOL */
 .line064 {
 	/* top: 1165.4px; */
 	top: 1166.4px;
@@ -948,10 +961,16 @@ a.Link:hover {
 	top: 1201.1px;
 }
 
-/* Section Librairie SKOL */
+
+/* 5th Floor */
 .line067 {
 	/* top: 1220.4px; */
-	top: 1221.4px;
+	top: 1219.4px;
+}
+
+/* 5th Floor */
+.line067_EngV {
+	top: 1220.4px;
 }
 
 .line068 {
@@ -963,14 +982,16 @@ a.Link:hover {
 	top: 1256.1px;
 }
 
-/* 5th Floor */
+/* Section Kimberly */
 .line070 {
-	top: 1272.4px;
+	/* top: 1272.4px; */
+	top: 1275.4px;
 }
 
 /* 5th Floor */
 .line070_EngV {
 	top: 1276.4px;
+	/* top: 1276.4px; */
 }
 
 .line071 {
@@ -1143,7 +1164,7 @@ a.Link:hover {
 	/* line-height: 46px; */
 
 	font-family: Helvetica;
-	color: #292929;
+	/* color: #292929; */
 }
 
 .TitleName {
@@ -1152,7 +1173,7 @@ a.Link:hover {
 	/* 2025-12-17 */
 	/* line-height: 25px; */
 	font-family: Helvetica-Bold;
-	color: #292929;
+	/* color: #292929; */
 }
 
 .WebsiteURL,
@@ -1162,7 +1183,7 @@ a.Link:hover {
 	line-height: 24px;
 	/* 2025-12-17 */
 	/* line-height: 24px; */
-	color: #292929;
+	/* color: #292929; */
 }
 
 .Category {
@@ -1173,7 +1194,7 @@ a.Link:hover {
 	/* 2025-12-22 */
 	/* color: #292929; */
 	/* color: #50464C; */
-	color: rgba(80, 70, 76, 0.9);
+	color: rgba(80, 70, 76, 0.95);
 }
 
 .ArtistName,
@@ -1184,7 +1205,7 @@ h5 {
 	line-height: 24px;
 	/* 2025-12-17 */
 	/* line-height: 25px; */
-	color: #292929;
+	/* color: #292929; */
 }
 
 .ExhibitionDate {
@@ -1192,21 +1213,21 @@ h5 {
 	font-size: 12px;
 	font-family: Helvetica-Bold;
 	line-height: 24px;
-	color: #292929;
+	/* color: #292929; */
 }
 
 .OpeningDate {
 	font-size: 12px;
 	font-family: Helvetica-Oblique;
 	line-height: 24px;
-	color: #292929;
+	/* color: #292929; */
 }
 
 .Exponent {
 	font-size: 28px;
 	font-family: Helvetica;
 	line-height: 28px;
-	color: #292929;
+	/* color: #292929; */
 }
 
 .FloorNumber {
@@ -1214,14 +1235,14 @@ h5 {
 	font-size: 43px;
 	line-height: 60px;
 	font-family: Helvetica;
-	color: #292929;
+	/* color: #292929; */
 }
 
 .FloorNumberExponent {
 	font-size: 28px;
 	/* line-height: 36px; */
 	font-family: Helvetica;
-	color: #292929;
+	/* color: #292929; */
 }
 
 .supLH {
@@ -1243,7 +1264,8 @@ h5 {
 	font-size: 60px;
 	font-family: Helvetica-Bold;
 	text-transform: uppercase;
-	color: #292929;
+	/* color: #292929; */
+	color: rgba(32, 32, 32, 0.97);
 	font-size: 53px;
 	letter-spacing: -2.37px;
 	left: 52px;
@@ -1253,7 +1275,8 @@ h5 {
 	font-size: 18px;
 	font-family: Helvetica-Bold;
 	line-height: 6px;
-	color: #292929;
+	/* color: #292929; */
+	color: rgba(32, 32, 32, 0.97);
 }
 
 .MadeBy,
