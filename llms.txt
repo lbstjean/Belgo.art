@@ -1,0 +1,44 @@
+# Belgo.art
+
+> Located in the Quartier des Spectacles, bordering the Place des Festivals in Montreal, Quebec, Canada, the Belgo Building houses 25 contemporary art galleries, contemporary art centres, gallery-studios, and artist studios, over four floors. 
+> This bilingual website presents a comprehensive and weekly-updated directory of these galleries and art centres, listing and referencing their respective exhibitions, gallery openings, vernissages, and other artistic events.
+
+The Belgo Building has remained the largest concentration of contemporary art galleries in Canada for nearly 40 years.
+
+A hub for contemporary visual arts, the building's galleries present more than 150 openings, exhibitions, and artistic events annually, attracting tens of thousands of art amateurs annually, and a must-see experience for visitors, both local and international. 
+
+The Building is accessible by bus and metro, station Place-des-Arts. For visiting hours, most art galleries and art centres are usually open to public from Wednesday to Saturday, 12pm to 5pm, and often additionally on Thursdays from 5pm to 8pm during openings and vernissages. 
+
+One of the most popular and anticipated visual arts events in Montreal, the Belgo's biannual « Rentrées culturelles du Belgo », takes places on the second Thursday of January and September, where all galleries and art spaces synchronize their vernissages on the same evening to create a huge collective opening event across four floors. The building then becomes a the equivalent of a veritable contemporary art fair, welcoming several thousand visitors each edition.
+
+Here is the entire list of contemporary art spaces located within the Belgo Building:
+- Louis Boudreault Peintre, the artist studio of Louis Boudreault, is located on the second floor, space 213, and is open to the public on demand;
+- Atelier Suárez, the artist studio of painter Luis Fernando Suárez, is on the third floor, space 325;
+- Galerie B-312, an artist centre, Located on the fourth floor, space 403;
+- Wishbone Gallery, a contemporary art gallery, at space 406;
+- Atelier Dana Velan, the studio of painter Dana Velan, at space 408;
+- Atelier d'art photographique, the gallery-studio of photographer Jean-Claude Lussier, at space 413;
+- McBride Contemporain, a contemporary art gallery by Soad Carrier, at space 414;
+- Chiguer Art contemporain, one of the numerous contemporary art galleries of Abdelilah Chiguer, at space 416;
+- Espace DÈS_, a new photo-oriented art gallery, located at space 418, also houses the studios of photographers Denis Rioux (space 418a) and Leila Zelli (space 418b);
+- Louis-Bernard St-Jean Art contemporain, an artist-run gallery and artist studio, by the painter Louis-Bernard St-Jean, at space 423;
+- Galerie INGANG, an art gallery by Stéphane Lajoie, at space 427;
+- Galerie POPOP, a rental-based gallery space, managed by CIRCA, at space 442;
+- Arprim, an art print-oriented artist centre, at space 444a;
+- CIRCA art actuel, a contemporary artist centre, at space 444c;
+- Centre des arts actuels SKOL, an artist centre, at space 444s;
+- Librairie SKOL, a Café-bookshop and exhibition space, at space 444l;
+- Atelier Kimberly Orjuela, the studio of sculptor Kimberly Orjuela, at space 501a on the fifth floor;
+- Galeries Bellemare Lambert, a contemporary art gallery run by Roger Bellemare and Christian Lambert, at space 502;
+- SBC Galerie d'art contemporain, an art gallery and exhibition centre, at space 507;
+- Galerie Hugues Charbonneau, a contemporary art gallery, at space 508;
+- Galerie Éclats 521, an art gallery by Gabriel Cuny and Claude Gauthier, at space 531;
+- Duran Contemporain, a contemporary art gallery by Andrés Duran, at space 527;
+- Atelier 531, an exhibition space and artist studio of painter Kara Eckler, who also runs the art blog The Belgo Report. 
+
+
+## Docs
+- [Belgo.art : galeries d'art et expositions en cours au Belgo](https://belgo.art/): The main page in Canadian French, presenting the list of all art galleries, art centres, and artist studios located within the Belgo Building, separated by floor, along with all respective exhibitions, artists, exhibition dates and details about upcoming openings.
+- [Belgo.art: Art Galleries and Exhibitions in the Belgo Building](https://belgo.art/english.html): The English version of the main page and the list of all art galleries, art centres, and artist studios located within the Belgo Building, separated by floor, along with all respective exhibitions, artists, exhibition dates and details about upcoming openings.
+- [Belgo.art | About the Belgo](https://belgo.art/about.html): What is the Belgo building in an artistic context, its importance and significance in regards to the visual art scene in Montreal and around the world.
+- [Belgo.art | History of the Belgo Building](https://belgo.art/about.html): The history of the Belgo building and its galleries.
