@@ -184,6 +184,7 @@ a.Link:hover {
 
 /* Begin embedded font definitions */
 
+/* Old Font (Changed to Neue Montreal on 2026-06-03) */
 @font-face {
 	font-family: Helvetica;
 	src: url("../fonts/Helvetica.woff2") format("woff2");
@@ -204,16 +205,36 @@ a.Link:hover {
 	src: url("../fonts/Helvetica-BoldOblique.woff2") format("woff2");
 }
 
-/* @font-face {
-			font-family: Helvetica-Light;
-			src: url("../fonts/Helvetica-Light.woff2") format("woff2");
-		} */
+/* New Font (Changed on 2026-06-03) */
+@font-face {
+	font-family: PPNeueMontreal-Regular;
+	src: url("../fonts/PPNeueMontreal-Regular.woff2") format("woff2");
+}
 
-/* @font-face {
-			font-family: Helvetica-LightOblique;
-			src: url("../fonts/Helvetica-LightOblique.woff2") format("woff2");
-		} */
+@font-face {
+	font-family: PPNeueMontreal-Italic;
+	src: url("../fonts/PPNeueMontreal-Italic.woff2") format("woff2");
+}
 
+@font-face {
+	font-family: PPNeueMontreal-Medium;
+	src: url("../fonts/PPNeueMontreal-Medium.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: PPNeueMontreal-MediumItalic;
+	src: url("../fonts/PPNeueMontreal-MediumItalic.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: PPNeueMontreal-Semibold;
+	src: url("../fonts/PPNeueMontreal-Semibold.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: PPNeueMontreal-SemiboldItalic;
+	src: url("../fonts/PPNeueMontreal-SemiboldItalic.woff2") format("woff2");
+}
 
 /* End embedded font definitions */
 
@@ -1028,7 +1049,8 @@ a.Link:hover {
 	/* 2025-12-17 */
 	/* line-height: 46px; */
 
-	font-family: Helvetica;
+	/* font-family: Helvetica; */
+	font-family: PPNeueMontreal-Regular;
 	color: #292929;
 }
 
@@ -1037,14 +1059,16 @@ a.Link:hover {
 	line-height: 24px;
 	/* 2025-12-17 */
 	/* line-height: 25px; */
-	font-family: Helvetica-Bold;
+	/* font-family: Helvetica-Bold; */
+	font-family: PPNeueMontreal-Semibold;
 	color: #292929;
 }
 
 .WebsiteURL,
 .OpeningHours {
 	font-size: 12px;
-	font-family: Helvetica;
+	/* font-family: Helvetica; */
+	font-family: PPNeueMontreal-Regular;
 	line-height: 24px;
 	/* 2025-12-17 */
 	/* line-height: 24px; */
@@ -1053,7 +1077,8 @@ a.Link:hover {
 
 .Category {
 	font-size: 12px;
-	font-family: Helvetica-Bold;
+	/* font-family: Helvetica-Bold; */
+	font-family: PPNeueMontreal-Semibold;
 	line-height: 26px;
 	/* line-height: 24px; */
 	/* 2025-12-22 */
@@ -1064,7 +1089,10 @@ a.Link:hover {
 .ArtistName,
 h5 {
 	font-size: 14px;
-	font-family: Helvetica;
+	/* font-family: Helvetica; */
+	/* font-family: PPNeueMontreal-Regular; */
+	font-family: PPNeueMontreal-Medium;
+	letter-spacing: 0.1px;
 	font-weight: 400;
 	line-height: 24px;
 	/* 2025-12-17 */
@@ -1075,21 +1103,24 @@ h5 {
 .ExhibitionDate {
 	/* font-size: 12.5px; */
 	font-size: 12px;
-	font-family: Helvetica-Bold;
+	/* font-family: Helvetica-Bold; */
+	font-family: PPNeueMontreal-Semibold;
 	line-height: 24px;
 	color: #292929;
 }
 
 .OpeningDate {
 	font-size: 12px;
-	font-family: Helvetica-Oblique;
+	/* font-family: Helvetica-Oblique; */
+	font-family: PPNeueMontreal-Italic;
 	line-height: 24px;
 	color: #292929;
 }
 
 .Exponent {
 	font-size: 28px;
-	font-family: Helvetica;
+	/* font-family: Helvetica; */
+	font-family: PPNeueMontreal-Regular;
 	line-height: 28px;
 	color: #292929;
 }
@@ -1098,14 +1129,16 @@ h5 {
 	/* font-size: 44px; */
 	font-size: 43px;
 	line-height: 60px;
-	font-family: Helvetica;
+	/* font-family: Helvetica; */
+	font-family: PPNeueMontreal-Regular;
 	color: #292929;
 }
 
 .FloorNumberExponent {
 	font-size: 28px;
 	/* line-height: 36px; */
-	font-family: Helvetica;
+	/* font-family: Helvetica; */
+	font-family: PPNeueMontreal-Regular;
 	color: #292929;
 }
 
@@ -1114,11 +1147,11 @@ h5 {
 }
 
 
-
 .Footer {
 	/* font-size: 12.5px; */
 	font-size: 12px;
-	font-family: Helvetica-Bold;
+	/* font-family: Helvetica-Bold; */
+	font-family: PPNeueMontreal-SemiBold;
 	/* line-height: 14px; */
 	/* color: #292929; */
 	color: #474849;
@@ -1126,17 +1159,20 @@ h5 {
 
 .MainHeader {
 	font-size: 60px;
-	font-family: Helvetica-Bold;
+	/* font-family: Helvetica-Bold; */
+	font-family: PPNeueMontreal-SemiBold;
 	text-transform: uppercase;
 	color: #292929;
 	font-size: 53px;
-	letter-spacing: -2.37px;
+	/* letter-spacing: -2.37px; */
+	letter-spacing: -0.4px;
 	left: 52px;
 }
 
 .SubHead {
 	font-size: 18px;
-	font-family: Helvetica-Bold;
+	/* font-family: Helvetica-Bold; */
+	font-family: PPNeueMontreal-SemiBold;
 	line-height: 6px;
 	color: #292929;
 }
@@ -1144,7 +1180,8 @@ h5 {
 .MadeBy,
 .MadeBy a {
 	font-size: 12px;
-	font-family: Helvetica;
+	/* font-family: Helvetica; */
+	font-family: PPNeueMontreal-Regular;
 	color: rgb(161, 158, 151, 1);
 	/* line-height: 32px; */
 }

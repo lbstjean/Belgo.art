@@ -1226,11 +1226,12 @@ a.Link:hover {
 .ArtistName,
 h5 {
 	font-size: 14px;
+	/* font-family: Helvetica; */
 	/* font-family: PPNeueMontreal-Regular; */
 	font-family: PPNeueMontreal-Medium;
+	letter-spacing: 0.1px;
 	font-weight: 400;
 	line-height: 24px;
-	letter-spacing: 0.1px;
 	/* 2025-12-17 */
 	/* line-height: 25px; */
 	/* color: #292929; */
@@ -1239,6 +1240,7 @@ h5 {
 .ExhibitionDate {
 	/* font-size: 12.5px; */
 	font-size: 12px;
+	/* font-family: Helvetica-Bold; */
 	font-family: PPNeueMontreal-Semibold;
 	line-height: 24px;
 	/* color: #292929; */
@@ -1246,6 +1248,7 @@ h5 {
 
 .OpeningDate {
 	font-size: 12px;
+	/* font-family: Helvetica-Oblique; */
 	font-family: PPNeueMontreal-Italic;
 	line-height: 24px;
 	/* color: #292929; */
@@ -1281,11 +1284,11 @@ h5 {
 }
 
 
-
 .Footer {
 	/* font-size: 12.5px; */
 	font-size: 12px;
-	font-family: Helvetica-Bold;
+	/* font-family: Helvetica-Bold; */
+	font-family: PPNeueMontreal-SemiBold;
 	/* line-height: 14px; */
 	/* color: #292929; */
 	color: #474849;
@@ -1318,7 +1321,7 @@ h5 {
 .MadeBy a {
 	font-size: 12px;
 	/* font-family: Helvetica; */
-	font-family: PPNeueMontrealText-Light;
+	font-family: PPNeueMontreal-Regular;
 	color: rgb(161, 158, 151, 1);
 	/* line-height: 32px; */
 }
