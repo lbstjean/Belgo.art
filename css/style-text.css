@@ -1173,7 +1173,8 @@ h5 {
 	font-size: 18px;
 	/* font-family: Helvetica-Bold; */
 	font-family: PPNeueMontreal-SemiBold;
-	line-height: 6px;
+	/* line-height: 6px; */
+	line-height: 12px;
 	color: #292929;
 }
 
