@@ -190,7 +190,8 @@ a.Link:hover {
 
 /* Begin embedded font definitions */
 
-/* @font-face {
+/* Old Font (Changed to Neue Montreal on 2026-06-03) */
+@font-face {
 	font-family: Helvetica;
 	src: url("../fonts/Helvetica.woff2") format("woff2");
 }
@@ -208,9 +209,9 @@ a.Link:hover {
 @font-face {
 	font-family: Helvetica-BoldOblique;
 	src: url("../fonts/Helvetica-BoldOblique.woff2") format("woff2");
-} */
+}
 
-
+/* New Font (Changed on 2026-06-03) */
 @font-face {
 	font-family: PPNeueMontreal-Regular;
 	src: url("../fonts/PPNeueMontreal-Regular.woff2") format("woff2");
@@ -240,47 +241,6 @@ a.Link:hover {
 	font-family: PPNeueMontreal-SemiboldItalic;
 	src: url("../fonts/PPNeueMontreal-SemiboldItalic.woff2") format("woff2");
 }
-
-/* @font-face {
-	font-family: PPNeueMontrealText-Bold;
-	src: url("../fonts/PPNeueMontrealText-Bold.woff2") format("woff2");
-}
-
-@font-face {
-	font-family: PPNeueMontrealText-BoldItalic;
-	src: url("../fonts/PPNeueMontrealText-BoldItalic.woff2") format("woff2");
-}
-
-@font-face {
-	font-family: PPNeueMontrealText-Book;
-	src: url("../fonts/PPNeueMontrealText-Book.woff2") format("woff2");
-}
-
-@font-face {
-	font-family: PPNeueMontrealText-BookItalic;
-	src: url("../fonts/PPNeueMontrealText-BookItalic.woff2") format("woff2");
-}
-
-@font-face {
-	font-family: PPNeueMontrealText-Light;
-	src: url("../fonts/PPNeueMontrealText-Light.woff2") format("woff2");
-}
-
-@font-face {
-	font-family: PPNeueMontrealText-LightItalic;
-	src: url("../fonts/PPNeueMontrealText-LightItalic.woff") format("woff2");
-} */
-
-/* ../fonts/PPNeueMontreal-Italic.woff2 
-../fonts/PPNeueMontreal-Regular.woff2 
-../fonts/PPNeueMontreal-Semibold.woff2 
-../fonts/PPNeueMontreal-SemiboldItalic.woff2 
-../fonts/PPNeueMontrealText-Bold.woff2 
-../fonts/PPNeueMontrealText-BoldItalic.woff2 
-../fonts/PPNeueMontrealText-Book.woff2 
-../fonts/PPNeueMontrealText-BookItalic.woff2 
-../fonts/PPNeueMontrealText-Light.woff2 
-../fonts/PPNeueMontrealText-LightItalic.woff2 */
 
 /* End embedded font definitions */
 
