@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /admin/submit-event.html
+Disallow: /source_files/
+Disallow: /archives/
