@@ -1227,8 +1227,9 @@ a.Link:hover {
 h5 {
 	font-size: 14px;
 	/* font-family: Helvetica; */
-	font-family: PPNeueMontreal-Regular;
-	/* font-family: PPNeueMontreal-Medium; */
+	/* font-family: PPNeueMontreal-Regular; */
+	font-family: PPNeueMontreal-Medium;
+	color: #484848;
 	letter-spacing: 0.1px;
 	font-weight: 400;
 	line-height: 24px;
