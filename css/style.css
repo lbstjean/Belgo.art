@@ -1229,7 +1229,8 @@ h5 {
 	/* font-family: Helvetica; */
 	/* font-family: PPNeueMontreal-Regular; */
 	font-family: PPNeueMontreal-Medium;
-	color: #484848;
+	/* color: #484848; */
+	color: rgba(71, 71, 71, 0.87);
 	letter-spacing: 0.1px;
 	font-weight: 400;
 	line-height: 24px;
