@@ -1245,6 +1245,7 @@ h5 {
 	/* font-family: Helvetica-Bold; */
 	font-family: PPNeueMontreal-Semibold;
 	line-height: 24px;
+	letter-spacing: 0.1px;
 	/* color: #292929; */
 }
 
@@ -1253,6 +1254,7 @@ h5 {
 	/* font-family: Helvetica-Oblique; */
 	font-family: PPNeueMontreal-Italic;
 	line-height: 24px;
+	letter-spacing: 0.05px;
 	/* color: #292929; */
 }
 
