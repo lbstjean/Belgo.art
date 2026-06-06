@@ -58,6 +58,7 @@ h4 {
 /* This rebuilds the gallery links as they should be */
 .OpeningDate a {
 	/* font-family: Helvetica-Bold; */
+	font-family: PPNeueMontreal-Semibold;
 	padding-bottom: 0;
 	margin-bottom: 0;
 	color: #191E60;
@@ -73,7 +74,8 @@ h4 {
 .Footer a {
 	color: #191E60;
 	/* color: #0B243C; */
-	font-family: Helvetica-Bold;
+	/* font-family: Helvetica-Bold; */
+	font-family: PPNeueMontreal-Semibold;
 }
 
 .TitleName a:hover,
@@ -91,7 +93,8 @@ h4 {
 a.Link {
 	color: #191E60;
 	/* color: #0B243C; */
-	font-family: Helvetica-Bold;
+	/* font-family: Helvetica-Bold; */
+	font-family: PPNeueMontreal-Semibold;
 }
 
 a.Link:hover {
@@ -1231,7 +1234,7 @@ h5 {
 	font-family: PPNeueMontreal-Medium;
 	/* color: #484848; */
 	color: rgba(71, 71, 71, 0.87);
-	letter-spacing: 0.1px;
+	/* letter-spacing: 0.1px; */
 	font-weight: 400;
 	line-height: 24px;
 	/* 2025-12-17 */
