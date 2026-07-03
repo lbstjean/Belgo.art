@@ -28,7 +28,7 @@
 	<meta property="og:image:width" content="2400" />
 	<meta property="og:image:height" content="1260" />
 	<meta property="og:image:alt" content="Art Exhibitions in the Belgo" />
-	<!-- Web App -->
+	<!-- Web App Icon -->
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="hidden">
 	<meta name="apple-mobile-web-app-capable" content="yes">
@@ -430,9 +430,11 @@
 					"@context": "https://schema.org",
 					"@type": "ArtGallery",
 					"name": "MICA – Institut d’art contemporain de Montréal",
-					"alternateName": "MICA–Montreal Institute of Contemporary Art",
-					"alternateName": "SBC Galerie d’art contemporain",
-					"alternateName": "SBC Gallery of Contemporary Art",
+					"alternateName": [
+						"MICA–Montreal Institute of Contemporary Art",
+					 	"SBC Galerie d’art contemporain",
+						"SBC Gallery of Contemporary Art"
+					],
 					"url": "https://mica-montreal.ca",
 					"image": "https://micamontreal.ca/app/uploads/2026/05/3-sbc-installation.webp",
 					"priceRange": "$",
@@ -547,6 +549,8 @@
 
 </head>
 
+<!-- Extra lines to sync with French page -->
+
 <body style="margin: 0;">
 
 	<!-- Begin Overhead Banner -->
@@ -643,9 +647,9 @@
 				<!-- <path id=hrln100 fill-rule="evenodd" d="M55 1827.45H1155v-1H55v1Z" class="g0" /> -->
 				<!-- End Horizontal Lines -->
 
+
 				<!-- Info Mark located bottom right of the page -->
-				<!-- <a href="https://belgo.art/archives/archives.html" title="À propos..." target="_blank" style="text-decoration:none;"> -->
-				<!-- <a id="infoMark" href="/admin/submit-event.html" title="Soumettre un événement" target="_blank" style="text-decoration:none;">
+				<!-- <a id="infoMark" href="https://belgo.art/admin/submit-event.html" title="Soumettre un événement" target="_blank" style="text-decoration:none;">
 					<g transform="matrix(0.124999,0,0,0.124999,1187.74,1848)">
 						<g transform="matrix(8.00003,0,0,8.00003,-9501.94,-14784.1)">
 							<circle cx="1192.78" cy="1853.15" r="7.15" style="fill:rgb(247,246,245);" />
@@ -665,7 +669,6 @@
 		<div class="text-container">
 
 			<section id="Header">
-				<!-- <h1 class="t line002 tab0 MainHeader" style="font-size: 50px; letter-spacing: -2.72px; word-spacing: -1.19px;">Art Galleries and Exhibitions in the Belgo</h1> -->
 				<h1 class="t line002 tab0 MainHeader" style="font-size: 50px; letter-spacing: -1.16px; word-spacing: -1.19px;">Art Galleries and Exhibitions in the Belgo</h1>
 				<h2 class="t line006 tab0 SubHead" style="line-height: 6px;">The Belgo Building: the largest concentration of contemporary art galleries in Canada.</h2>
 				<span class="t line006 tab4 SubHead" style="line-height: 6px;">Open to the public / Free entry!</span>
@@ -677,21 +680,18 @@
 					<span class="t line008 tab1m TitleName"><a href="https://belgo.art/history.html">History</a></span>
 					<span class="t line008 tab1a TitleName"><a href="https://belgo.art/english.html">Exhibitions</a></span>
 
+					<!-- !!BUILD_NOTE Finish making this page -->
 					<!-- <span class="t line008 tab2 TitleName"><a href="https://belgo.art/visit.html">Visit the Belgo</a></span> -->
 
 					<!-- <span class="t line008 tab3 TitleName"><a href="mailto:info@belgo.art">Contact</a></span> -->
 
+					<!-- Previeous Separate Event pages -->
 					<!-- <span class="t line008 tab2 TitleName"><a href="https://belgo.art/2026/winter-opening.html">Belgo's Cultural Winter Opening</a></span> -->
 					<!-- <span class="t line008 tab2 TitleName"><a href="https://belgo.art/2025-holiday-market.html">Belgo Holiday Market</a></span> -->
 					<!-- <span class="t line008 tab2 TitleName"><a href="https://belgo.art/cultural-opening-event.html">Belgo's Fall Cultural Opening Event</a></span> -->
-					<!-- <span class="t line008 tab0 TitleName"><a href="https://belgo.art/a-propos.html">À propos</a></span>
-						<span class="t line008 tab1 TitleName"><a href="https://belgo.art/galeries.html">Galeries d'art</a></span>
-						<span class="t line008 tab1a TitleName"><a href="https://belgo.art/a-propos.html#historique">Historique</a></span>
-						<span class="t line008 tab2 TitleName"><a href="https://belgo.art/">Expositions</a></span>
-						<span class="t line008 tab2a TitleName"><a href="mailto:info@belgo.art">Se rendre au Belgo</a></span>
-						<span class="t line008 tab3 TitleName"><a href="mailto:info@belgo.art">Contact</a></span> -->
+
 				</div>
-				<!-- <h2 class=" t line007 tab0 FloorNumber supLH">2<sup class="FloorNumberExponent">e</sup> étage</h2> -->
+
 			</section>
 
 			<section>
@@ -705,7 +705,6 @@
 					Space: <span class="t line013 tab0 SpaceNumber">213</span><br>
 					<h5 class="t line014 tab1 Category">Artist Studio</h5><br>
 					<span class="t line015 tab1 OpeningHours">(Open on request & by appointment)</span>
-					<!-- <h4 class="t line013 tab2 TitleName">Artist studio</h4> -->
 					<span class="t line013 tab2 ArtistName">Louis Boudreault</span>
 					<!-- <span class="t line013 tab4 ExhibitionDate">Thursday September 11</span> -->
 					<!-- <span class="t line014 tab4 OpeningDate"> Open studio, on request and by appointment</span> -->
@@ -715,20 +714,6 @@
 					<!-- <span class="t line015 tab4 OpeningDate">spare_line</span> -->
 				</article>
 				<hr>
-
-				<!-- <article id="AtelierDanielDiazDelgado" class="studio"> -->
-				<!-- <h3 class="t line016 tab1 TitleName"><a target="_blank" href="https://instagram.com/ddiazart/">Atelier Daniel Diaz Delgado</a></h3> -->
-				<!-- Space: <span class="t line016 tab0 SpaceNumber">213<span class="t Exponent">a</span></span><br> -->
-				<!-- <span class="t line017 tab1 Category">Artist Studio</span><br> -->
-				<!-- Opening Hours: <span class="t line018 tab1 OpeningHours">(Open by appointment)</span> -->
-				<!-- <h4 class="t line016 tab2 TitleName">Artist studio</h4> -->
-				<!-- <span class="t line016 tab2 ArtistName">Daniel Diaz Delgado</span> -->
-				<!-- <span class="t line018 tab2 ArtistName">spare_line</span>
-					<span class="t line016 tab4 ExhibitionDate">Open by appointment</span>
-					<span class="t line017 tab4 OpeningDate">spare_line</span>
-					<span class="t line018 tab4 OpeningDate">spare_line</span> -->
-				<!-- </article> -->
-				<!-- <hr> -->
 
 
 
@@ -761,11 +746,12 @@
 					<h3 class="t line025 tab1 TitleName"><a target="_blank" href="https://galerieb312.ca/">Galerie B-312</a></h3>
 					Space: <span class="t line025 tab0 SpaceNumber">403</span><br>
 					<h5 class="t line026 tab1 Category">Artist Centre</h5>
-					Opening Hours: <span class="t line027 tab1 OpeningHours">Wednesday to Saturday, 12pm-5pm</span>
-					<h4>Exposition : <span class="t line025 tab2 TitleName"><a target="_blank" href="https://galerieb312.ca/en/node/4954">Pour l'art</a><span class="t ArtistName"> </span></span></h4>
-					<span class="t  line026 tab2 ArtistName">Annual benefit exhibition and fundraising campaign</span>
+					<!-- Opening Hours: <span class="t line027 tab1 OpeningHours">Wednesday to Saturday, 12pm-5pm</span> -->
+					Opening Hours: <span class="t line027 tab1 OpeningHours">(Closed for Summer)</span>
+					<h4>Exposition : <span class="t line025 tab2 TitleName">Artist residency<span class="t ArtistName"></span></span></h4>
+					<span class="t  line026 tab2 ArtistName">Aymen Mbarki</span><br>
 					<!-- <span class="t line033 tab2 ArtistName">spare_line</span> -->
-					<span class="t line025 tab4 ExhibitionDate">May 30 to June 20</span>, 2026<br>
+					<span class="t line025 tab4 ExhibitionDate">August 3 to August 30</span>, 2026<br>
 					<!-- <span class="t line026 tab4 OpeningDate">Opening: Saturday May 30, 2pm-5pm</span><br> -->
 					<!-- <span class="t line027 tab4 OpeningDate">spare_line</span><br> -->
 				</article>
@@ -777,14 +763,11 @@
 					<h3 class="t line028 tab1 TitleName"><a target="_blank" href="https://wishboneart.com/">Galerie Wishbone</a></h3>
 					Space: <span class="t line028 tab0 SpaceNumber">406</span><br>
 					<h5 class="t line029 tab1 Category">Art Gallery</h5>
-					<!-- <span class="t line035 tab1 OpeningHours">(Details to follow)</span> -->
 					Opening Hours: <span class="t line030 tab1 OpeningHours">Wednesday to Saturday, 12pm-5pm</span>
-					<!-- <h4>Exhibition: <span class="t line028 tab2 TitleName"><a target="_blank" href="https://wishboneart.com/show/wishbone-gallery-sous-la-botte-sous-la-soie-boris-pintado">Sous la botte sous la soie</a><span class="t ArtistName"> – Boris Pintado</span></span></h4> -->
-					<!-- <span class="t line028 tab4 ExhibitionDate">April 30 to June 6</span>, 2026<br> -->
 					<span class="t line028 tab2 TitleName"><a target="_blank" href="https://wishboneart.com/show/wishbone-gallery-group-show-ravauder-linvisible">Ravauder l’invisible</a><span class="t ArtistName"></span></span></h4>
 					<span class="t line029 tab2 ArtistName">Benjamin Perron, Niina Villanueva, Erin Frost, et Janna Yotte</span><br>
 					<span class="t line028 tab4 ExhibitionDate">June 11 to July 16</span>, 2026<br>
-					<span class="t line029 tab4 OpeningDate">Opening: Thursday June 11, 5pm-8pm</span><br>
+					<!-- <span class="t line029 tab4 OpeningDate">Opening: Thursday June 11, 5pm-8pm</span><br> -->
 					<!-- <span class="t line030 tab4 OpeningDate">spare_line</span> -->
 				</article>
 				<hr>
@@ -797,20 +780,8 @@
 					<h5 class="t line032 tab1 Category">Artist Studio</h5>
 					<span class="t line033 tab1 OpeningHours">(Open by appointment)</span><br>
 					<span class="t line031 tab2 ArtistName">Dana Velan</span><br>
-					<!-- <span class="t line031 tab4 ExhibitionDate">Open by appointment</span> -->
-					<!-- <span class="t line032 tab4 OpeningDate">spare_line</span> -->
-					<!-- <span class="t line033 tab4 OpeningDate">spare_line</span> -->
 				</article>
 				<hr>
-
-
-				<!-- <article id="PatelBrown">
-					<h3 class="t line034 tab1 TitleName"><a target="_blank" href="https://patelbrown.com/">Patel Brown</a></h3>
-					Space: <span class="t line034 tab0 SpaceNumber">410</span><br>
-					<span class="t line035 tab1 Category">Art Gallery</span>
-					Opening Hours: <span class="t line036 tab1 OpeningHours">(Open by appointment)</span>
-				</article>
-				<hr> -->
 
 
 
@@ -821,7 +792,7 @@
 					Opening Hours: <span class="t line036 tab1 OpeningHours">Wednesday to Friday, 12pm-5pm (Sat. by appt.)</span>
 					<h4>Exhibition: <span class="t line034 tab2 TitleName"><a target="_blank" href="https://jeanclaudelussier.art/en/exhibitiona/2026/oeuvres-choisies">Œuvres choisies</a></span></h4>
 					<span class="t line035 tab2 ArtistName">Jean-Claude Lussier</span><br>
-					<span class="t line034 tab4 ExhibitionDate">April 23 to July 25</span>, 2026<br>
+					<span class="t line034 tab4 ExhibitionDate">April 23 to August 15</span>, 2026<br>
 					<!-- <span class="t line035 tab4 OpeningDate">Opening: Thursday April 23, 5pm-8pm</span><br> -->
 				</article>
 				<hr>
@@ -833,9 +804,7 @@
 					Space: <span class="t line037 tab0 SpaceNumber">414</span><br>
 					<h5 class="t line038 tab1 Category">Art Gallery</h5>
 					Opening Hours: <span class="t line039 tab1 OpeningHours">Wednesday to Saturday, 11am-5pm</span>
-					<!-- Opening Hours: <span class="t line045 tab1 OpeningHours">(Closed for the summer season)</span> -->
-					<!-- <h4>Exhibition: <span class="t line037 tab2 TitleName"><a target="_blank" href="https://mcbridecontemporain.com/on-shelves-in-stacks-scattered-jessica-wee/">On shelves, in stacks, scattered</a><span class="t ArtistName"> – Jessica Wee</span></span></h4> -->
-					<!-- <span class="t line037 tab4 ExhibitionDate">April 23 to May 30</span>, 2026<br> -->
+					<!-- Opening Hours: <span class="t line045 tab1 OpeningHours">(Closed for summer)</span> -->
 					<h4>Exhibition: <span class="t line037 tab2 TitleName"><a target="_blank" href="https://mcbridecontemporain.com/multisatures-en-vestiges-mathieu-lacroix-copy/?lang=fr">Multisatures en vestiges</a><span class="t ArtistName"></span></span></h4>
 					<span class="t line038 tab2 ArtistName">Mathieu Lacroix</span><br>
 					<span class="t line037 tab4 ExhibitionDate">June 4 to July 11</span>, 2026<br>
@@ -863,21 +832,17 @@
 
 
 				<article id="EspaceDES">
-					<!-- <h3 class="t line043 tab1 TitleName"><a target="_blank" href="https://cachestudio.org">Galerie DÈS</a></h3> -->
 					<h3 class="t line043 tab1 TitleName"><a target="_blank" href="https://espacedes.art">Espace DÈS_</a></h3>
 					Space: <span class="t line043 tab0 SpaceNumber">418</span><br>
 					<h5 class="t line044 tab1 Category">Art Gallery & Studios</h5>
 					Opening Hours: <span class="t line045 tab1 OpeningHours">Wednesday to Saturday, 12pm-5:30pm</span>
 					<span class="t line045 tab2 ArtistName">Artist studio: Denis Rioux  |  Artist studio: Leila Zelli</span><br>
-					<!-- <h4>Exhibition: <span class="t line043 tab2 TitleName"><a target="_blank" href="https://www.instagram.com/p/DXHeZDsEQvJ/">Naviguer dans un océan de chair</a><span class="t ArtistName"> – Maude Arsenault</span></span></h4> -->
-					<!-- <h4>Exhibition: <span class="t line043 tab2 TitleName"><a target="_blank" href="https://www.instagram.com/p/DX-QJ4tjj-j/">Topographie des effacements</a><span class="t ArtistName"> – Mathieu Gagnon</span></span></h4>
-					<span class="t line043 tab4 ExhibitionDate">May 14 to May 30</span>, 2026<br><br> -->
-					<h4>Exhibition: <span class="t line043 tab2 TitleName"><a target="_blank" href="https://www.instagram.com/p/DYxnLW1xr8O/">Polarités</a><span class="t ArtistName"> – Denis Farley</span></span></h4>
-					<span class="t line043 tab4 ExhibitionDate">June 3 to June 21</span>, 2026<br><br>
-					<h4>Exhibition: <span class="t line044 tab2 TitleName"><a target="_blank" href="https://www.instagram.com/p/DZqvJPvDuQ8/">Le bruit du sensible</a><span class="t ArtistName"> – Denis Rioux</span></span></h4>
-					<span class="t line044 tab4 ExhibitionDate">June 25 to July 18</span>, 2026<br><br>
-					<span class="t line045 tab4 OpeningDate">Opening: Thursday June 25, 5pm-8pm</span><br>
-					<!-- <span class="t line044 tab2  ArtistName">Denis Farley</span><br> -->
+					<!-- <h4>Exhibition: <span class="t line043 tab2 TitleName"><a target="_blank" href="https://www.instagram.com/p/DYxnLW1xr8O/">Polarités</a><span class="t ArtistName"> – Denis Farley</span></span></h4> -->
+					<!-- <span class="t line043 tab4 ExhibitionDate">June 3 to June 21</span>, 2026<br><br> -->
+					<h4>Exhibition: <span class="t line043 tab2 TitleName"><a target="_blank" href="https://www.instagram.com/p/DZqvJPvDuQ8/">Le bruit du sensible</a><span class="t ArtistName"></span></span></h4>
+					<span class="t line044 tab2  ArtistName">Denis Rioux</span><br>
+					<span class="t line043 tab4 ExhibitionDate">June 25 to July 18</span>, 2026<br><br>
+					<span class="t line044 tab4 OpeningDate">Opening: Thursday June 25, 5pm-8pm</span><br>
 					<!-- <span class="t line043 tab4 ExhibitionDate">April 1st to April 18</span><br> -->
 				</article>
 				<hr>
@@ -894,7 +859,6 @@
 					<!-- <span class="t line054 tab2 ArtistName">spare_line</span><br> -->
 					<span class="t line046 tab4 ExhibitionDate">May 14 to August 15</span>, 2026<br>
 					<!-- <span class="t line047 tab4 OpeningDate">Opening: Thursday September 10, 5pm-9pm</span><br> -->
-					<!-- <span class="t line047 tab4 OpeningDate Plural">Brunch Belgo Plural: Saturday April 11 at 11am</span><br> -->
 					<!-- <span class="t line054 tab4 OpeningDate">spare_line</span><br> -->
 				</article>
 				<hr>
@@ -907,7 +871,8 @@
 					<h5 class="t line050 tab1 Category">Art Gallery</h5>
 					Opening Hours: <span class="t line051 tab1 OpeningHours">Thursday to Saturday, 1pm-6pm</span>
 					<h4>Exhibition: <span class="t line049 tab2 TitleName"><a target="_blank" href="https://www.ingangdesign.com/galerie/worm">WORM—A Cuban-American Odyssey</a></span></h4>
-					<span class="t line050 tab2 ArtistName">Edel Rodriguez</span> <span class="t line051 tab2 ArtistName"><a style="font-family:Helvetica-Oblique !important" target="_blank" href="https://www.fbdm-mcaf.ca">(As part of the Montreal Comic Arts Festival)</a></span><br>
+					<span class="t line050 tab2 ArtistName">Edel Rodriguez</span>
+					<!-- <span class="t line051 tab2 ArtistName"><a style="font-family:Helvetica-Oblique !important" target="_blank" href="https://www.fbdm-mcaf.ca">(As part of the Montreal Comic Arts Festival)</a></span><br> -->
 					<span class="t line049 tab4 ExhibitionDate">May 14 to July 25</span>, 2026<br>
 					<!-- <span class="t line050 tab4 OpeningDate">Opening: Thursday May 14, 5pm-8pm</span><br> -->
 				</article>
@@ -919,11 +884,11 @@
 					<h3 class="t line052 tab1 TitleName"><a target="_blank" href="https://galeriepopopgallery.com/">Galerie POPOP</a></h3>
 					Space: <span class="t line052 tab0 SpaceNumber">442</span><br>
 					<span class="t line053 tab1 Category">Art Gallery</span>
-					Opening Hours: <span class="t line054 tab1 OpeningHours">(Wednesday to Sunday, 12pm-6pm)</span>
-					<h4 class="t line052 tab2 ArtistName">New exhibition coming soon</h4>
+					Opening Hours: <span class="t line054 tab1 OpeningHours">(Tuesday to Sunday, 12pm-6pm)</span>
+					<h4 class="t line052 tab2 TitleName">Upcoming exhibition</h4>
 					<!-- <h4>Exhibition: <span class="t line052 tab2 TitleName"><a target="_blank" href="https://galeriepopopgallery.com/2026/05/13/corps-a-corps-par-mathieu-martin-du-26-mai-au-30-mai-2026/">Corps à corps</a><span class="t ArtistName"></span></span></h4> -->
 					<!-- <span class="t line053 tab2 ArtistName">Mathieu Martin, Mia Lespérance (MILE), and Rose Caron</span> -->
-					<!-- <span class="t line052 tab4 ExhibitionDate">May 26 to May 30</span>, 2026<br> -->
+					<span class="t line052 tab4 ExhibitionDate">July 17 to July 26</span>, 2026<br>
 					<!-- <span class="t line053 tab4 OpeningDate">Opening: Tuesday May 26, 5pm-8pm</span></span><br> -->
 				</article>
 				<hr>
@@ -936,15 +901,13 @@
 					<h5 class="t line056 tab1 Category">Artist Centre</h5>
 					Opening Hours: <span class="t line057 tab1 OpeningHours">(Closed for summer)</span>
 					Opening Hours: <span class="t line058 tab0 OpeningHours"> Wednesday</span><span class="t line059 tab0 OpeningHours"> to Saturday,</span><span class="t line060 tab0 OpeningHours"> 12pm-5:30pm</span>
-					<h4>Exhibition: <span class="t line055 tab2 ArtistName">(Artist residency)</span></span></h4>
-					<span class="t line055 tab4 ExhibitionDate">Back in september</span> 2026<br>
+					<h4>Exhibition: <span class="t line055 tab2 TitleName">Artist residency</span></span></h4>
+					<span class="t line055 tab4 ExhibitionDate">Back in September</span> 2026<br>
 					<!-- <h4>Exhibition: <span class="t line056 tab2 TitleName"><a target="_blank" href="https://arprim.org/le-magasin/2025-2026/503-culture-graphique-vii.html">Culture graphique VII</a><span class="t ArtistName"> – Group exhibition</span></span></h4> -->
 					<!-- <span class="t line056 tab2 ArtistName">Emilie Bondon, Blare Coughlin, Ève Debigaré, Béatrice Hall, Florence Lachapelle, Émile Mathier,</span><br>
-					<span class="t line056 tab4 ExhibitionDate">May 23 to June 20</span>, 2026<br>
 					<span class="t line057 tab2 ArtistName">Marie-Sophie Morin, and Alison Prissinotti</span><br> -->
 					<!-- <span class="t line056 tab4 ExhibitionDate">May 23 to June 20</span>, 2026<br> -->
 					<!-- <span class="t line056 tab4 OpeningDate">Opening: Thursday April 2, 5:30pm-8pm</span></span><br> -->
-					<!-- <span class="t line057 tab2 ArtistName"><a target="_blank" href="https://editionsdurenard.com/la-colonia-valerian-mazataud">Lancement de livre</a> : « la colonia » by Valérian Mazataud</span><br> -->
 					<!-- <span class="t line057 tab4 OpeningDate">Thursday June 18, 5pm-8pm</span><br> -->
 				</article>
 				<hr>
@@ -959,8 +922,8 @@
 					<span class="t line058 tab4 ExhibitionDate">May 23 to July 4</span>, 2026<br>
 					<!-- <span class="t line059 tab4 OpeningDate">Opening: Saturday May 23, 2pm-5pm</span><br> -->
 					<!-- <span class="t line060 tab4 OpeningDate">spare_line</span><br> -->
-					<span class="t line060 tab2 OpeningDate">Artist exchange with Anne-Sophie Vallée and Lucy Gill </span><br>
-					<span class="t line060 tab4 OpeningDate">Saturday June 20, 2pm-3pm</span><br>
+					<!-- <span class="t line060 tab2 OpeningDate">Artist exchange with Anne-Sophie Vallée and Lucy Gill </span><br> -->
+					<!-- <span class="t line060 tab4 OpeningDate">Saturday June 20, 2pm-3pm</span><br> -->
 				</article>
 				<hr>
 
@@ -969,9 +932,6 @@
 				<article id="SKOL">
 					<h3 class="t line061 tab1 TitleName"><a target="_blank" href="https://skol.ca/">Centre des arts actuels SKOL</a></h3>
 					<h5 class="t line062 tab1 Category">Artist Centre</h5>
-					<!-- Heures d'ouverture : <span class="t line059 tab1 OpeningHours">(Horaire à venir)</span></span> -->
-					<!-- <h4>Exhibition: <span class="t line061 tab2 TitleName"><a target="_blank" href="https://skol.ca/programmation/les-espaces-que-lon-cree/">Spaces We Make · Les espaces que l’on crée</a><span class="t ArtistName"> – Alex P., Rose Desrosiers,</span></span><span class="t line062 tab2 ArtistName">Laurence Lainesse (La Laine), and Gabriel Dionne</span></h4> -->
-					<!-- <h4>Exhibition: <span class="t line061 tab2 TitleName"><a target="_blank" href="https://skol.ca/programmation/les-espaces-que-lon-cree/">Spaces We Make · Les espaces que l’on crée</a><span class="t ArtistName"> – Group exhibition</span></span></h4> -->
 					<h4>Exposition : <span class="t line061 tab2 TitleName">Essaimer Inside Out<span class="t ArtistName"> – Kat Barr, Guillaume Bégin Champagne, Fenyx Florentiny & Eva-Loan, </span></span></h4>
 					<span class="t line062 tab2 ArtistName">harar v.a. hall, An Laurence 安媛, Marie-Andrée Ouimet, Des Rivière, and Alexia Vinci</span><br>
 					<span class="t line061 tab4 ExhibitionDate">July 2 to August 29</span>, 2026<br>
@@ -980,10 +940,6 @@
 					<!-- <span class="t line062 tab4 OpeningDate">Workshop: Thursday June 11, 1pm-3pm</span> -->
 					<!-- <span class="t line063 tab2 OpeningDate">Closing event for the spring exhibition: discussion and performance</span><br> -->
 					<!-- <span class="t line063 tab4 OpeningDate">Closing event: Saturday June 13, 2pm-5pm</span> -->
-
-					<!-- <span class="t line062 tab4 OpeningDate">Workshop & discussion · Threads of resistance: Sat. June 6, 11am-1pm</span> -->
-					<!-- <span class="t line063 tab4 OpeningDate">Discussion · An afternoon of discussion about the Villa Sylva cross-residency: Sat. June 6, 14am-5pm</span> -->
-					<!-- <span class="t line062 tab4 OpeningDate">Opening: Thursday April 23 at 5:30pm</span><br> -->
 				</article>
 				<hr>
 
@@ -1030,11 +986,13 @@
 					<h3 class="t line073 tab1 TitleName"><a target="_blank" href="https://bellemarelambert.com/">Galeries Bellemare Lambert</a></h3>
 					Space: <span class="t line073 tab0 SpaceNumber">502</span><br>
 					<span class="t line074 tab1 Category">Art Gallery</span>
-					Opening Hours: <span class="t line075 tab1 OpeningHours">Tuesday, 12pm-5pm; Wed.-Saturday, 11am-5pm</span>
-					<!-- Opening Hours: <span class="t line075 tab1 OpeningHours">Thursday to Saturday, 11am-5pm</span> -->
-					<h4>Exhibition: <span class="t line073 tab2 TitleName"><a target="_blank" href="https://www.bellemarelambert.com/exhibition/phares-ii/">Headlights (II)</a><span class="t ArtistName"></span></span></h4>
-					<span class="t line074 tab2 ArtistName">Group exhibition</span><br>
-					<span class="t line073 tab4 ExhibitionDate">May 9 to June 20</span>, 2026<br>
+					<!-- Opening Hours: <span class="t line075 tab1 OpeningHours">Tuesday, 12pm-5pm; Wed.-Saturday, 11am-5pm</span> -->
+					<span class="t line075 tab1 OpeningHours">Summer hours*: Thursday to Saturday, 11am-5pm</span>
+					<span class="t line075 tab2 OpeningHours">(*) The gallery will be closed from July 26 to August 8</span>
+					<!-- <h4>Exhibition: <span class="t line073 tab2 TitleName"><a target="_blank" href="https://www.bellemarelambert.com/exhibition/phares-ii/">Headlights (II)</a><span class="t ArtistName"></span></span></h4> -->
+					<h4>Exhibition: <span class="t line073 tab2 TitleName">Group exhibition</span></h4>
+					<!-- <span class="t line074 tab2 ArtistName">Group exhibition</span><br> -->
+					<span class="t line073 tab4 ExhibitionDate">July 4 to August 29</span>, 2026<br>
 					<!-- <span class="t line074 tab4 OpeningDate">Opening: Saturday, May 9, 2pm-5pm</span> -->
 				</article>
 				<hr>
@@ -1048,10 +1006,8 @@
 					Opening Hours: <span class="t line078 tab1 OpeningHours">Open by appointment</span>
 					<!-- Opening Hours: <span class="t line078 tab1 OpeningHours">Wednesday to Saturday, 11:30am-5:30pm</span> -->
 					<h4>Exhibition: <span class="t line076 tab2 TitleName"><a target="_blank" href="https://micamontreal.ca/residences/pavillon/">MICA 2026 Residency: Pavillon</a><span class="t ArtistName"></span></span></h4>
-					<!-- <h4>Exhibition: <span class="t line076 tab2 TitleName">SBC 2026 Residency<span class="t ArtistName"></span></span></h4> -->
 					<span class="t line077 tab2 ArtistName">Amed Aroche</span><br>
 					<span class="t line076 tab4 ExhibitionDate">June 1st to July 4</span>, 2026<br>
-					<!-- <span class="t line078 tab4 OpeningDate">Thursday April 9, 5:30pm-7:30pm</span> -->
 					<!-- <span class="t line077 tab4 OpeningDate">Opening: Thursday April 2, 5pm-8pm</span> -->
 				</article>
 				<hr>
@@ -1063,16 +1019,13 @@
 					Space: <span class="t line079 tab0 SpaceNumber">508</span><br>
 					<span class="t line080 tab1 Category">Art Gallery</span>
 					<!-- Opening Hours: <span class="t line081 tab1 OpeningHours">Wednesday to Saturday, 12pm-5pm</span> -->
-					<!-- Opening Hours: <span class="t line081 tab1 OpeningHours">Open by appointment</span> -->
-					Heures d'ouverture : <span class="t line081 tab1 OpeningHours">Thursday, 1pm-8pm; Friday, 10am-5pm</span>
-					<h4>Exhibition: <span class="t line079 tab2 TitleName"><a target="_blank" href="https://huguescharbonneau.com/en/pop-up-jouets-lafrance/">Jouets Lafrance Pop-up</a></span></h4>
-					<span class="t line080 tab2 ArtistName">Marie-Louis Lacombe</span><br>
-					<!-- <h4>Exhibition: <span class="t line079 tab2 TitleName"><a target="_blank" href="https://huguescharbonneau.com/moridja-kitenge-banza-la-memoire-des-saisons/">La mémoire des saisons</a></span></h4>
-					<span class="t line080 tab2 ArtistName">Moridja Kitenge Banza</span><br> -->
-					<!-- <h4>Exhibition: <span class="t line079 tab2 ArtistName">New exhibition coming soon</span></h4> -->
-					<!-- <span class="t line079 tab4 ExhibitionDate">Back in July</span><br> -->
-					<span class="t line079 tab4 ExhibitionDate">June 25 to June 26</span>, 2026<br>
-					<!-- <span class="t line080 tab4 OpeningDate">Opening: Thursday April 23, 5pm-8pm</span> -->
+					<!-- Heures d'ouverture : <span class="t line081 tab1 OpeningHours">Thursday, 1pm-8pm; Friday, 10am-5pm</span> -->
+					Opening Hours: <span class="t line081 tab1 OpeningHours">Open by appointment</span>
+					<span class="t line079 tab4 ExhibitionDate">Back in July</span><br>
+					<!-- <h4>Exhibition: <span class="t line079 tab2 TitleName"><a target="_blank" href="https://huguescharbonneau.com/en/pop-up-jouets-lafrance/">Jouets Lafrance Pop-up</a></span></h4> -->
+					<!-- <span class="t line080 tab2 ArtistName">Marie-Louis Lacombe</span><br> -->
+					<!-- <span class="t line079 tab4 ExhibitionDate">June 25 to June 26</span>, 2026<br> -->
+					<!-- <span class="t line080 tab4 OpeningDate">Opening: Thursday June 25, 5pm-8pm</span> -->
 				</article>
 				<hr>
 
@@ -1083,13 +1036,12 @@
 					Local : <span class="t line082 tab0 SpaceNumber">521</span><br>
 					<h5 class="t line083 tab1 Category">Art Gallery</h5>
 					Opening Hours: <span class="t line084 tab1 OpeningHours">Mon.-Fri. 11:30am-4pm; Sat., 13pm-4pm</span>
-
 					<!-- <h4>Exhibition: <span class="t line082 tab2 TitleName"><a target="_blank" href="https://www.eclats521.ca/en/abstractions">Abstractions terrestres</a><span class="t ArtistName"> – Michel Grenier</span></span></h4>
 					<span class="t line082 tab4 ExhibitionDate">May 2 to May 30</span>, 2026<br> -->
 					<h4>Exhibition: <span class="t line082 tab2 TitleName"><a target="_blank" href="https://www.eclats521.ca/en/miae-ham">Quand l'espace devient lignes</a><span class="t ArtistName"></span></span></h4>
 					<span class="t line083 tab2 ArtistName">Miae Ham​</span><br>
 					Date: <span class="t line082 tab4 ExhibitionDate">June 2 to June 30</span>, 2026<br>
-					<span class="t line083 tab4 OpeningDate">Opening: Thursday June 11, 5pm-8pm</span>
+					<!-- <span class="t line083 tab4 OpeningDate">Opening: Thursday June 11, 5pm-8pm</span> -->
 					<!-- <span class="t line083 tab4 OpeningDate"><a href="https://www.eclats521.ca/en/event-details/visite-commentee-et-rencontre-avec-les-artistes-de-lexposition-contrepoint">Guided tour and meet-and-greet with the artists: Tuesday April 28, 1pm-2pm</a></span><br> -->
 				</article>
 				<hr>
@@ -1106,8 +1058,8 @@
 					<h4>Exhibition: <span class="t line085 tab2 TitleName"><a target="_blank" href="https://durancontemporain.com/exhibitions/44-daniel-itiose-forms-faces/">Forms & Faces</a><span class="t ArtistName"></span></span></h4>
 					<span class="t line086 tab2 ArtistName">Daniel Itiose</span><br>
 					<br>Date: <span class="t line085 tab4 ExhibitionDate">June 11 to July 4</span>, 2026<br>
-					<span class="t line086 tab4 OpeningDate">Opneing: Thursday June 11, 5pm-8pm</span><br>
-
+					<span class="t line086 tab4 OpeningDate">Artist Talk and Q&A: Saturday June 27 at 1pm</span><br>
+					<!-- <span class="t line086 tab4 OpeningDate">Opneing: Thursday June 11, 5pm-8pm</span><br> -->
 				</article>
 				<hr>
 
@@ -1135,19 +1087,54 @@
 					<!-- <span class="t line090 tab4 ArtistName">spare_line</span><br> -->
 				</article>
 				<hr>
+
+
+
+				<!-- <article id="EmptySlot">
+					<h3 class="t line091 tab1 TitleName"><a target="_blank" href="https://command.com/">Espace 555</a> </h3>
+					Local : <span class="t line091 tab0 SpaceNumber">555</span><br>
+					Site web : <span class="t line092 tab1 Category">Espace disponible</span><br>
+					Heures d'ouverture : <span class="t line093 tab1 OpeningHours">(Ouvert sur rendez-vous)</span>
+					<h4>Exposition : <span class="t line091 tab2 TitleName">XXX xxxqb Exposition XXX xxxqb</span></h4>
+					<span class="t line092 tab2 ArtistName">XXX xxxqb Artistes XXX xxxqb </span>
+					<span class="t line093 tab2 ArtistName">XXX xxxqb Artistes XXX xxxqb</span>
+					<span class="t line091 tab4 ExhibitionDate">30 février au 31 septembre XXX xxxqb</span>
+					<span class="t line092 tab4 OpeningDate">Vernissage : samedi 30 février à 17h XXX xxxqb</span><br>
+					<span class="t line093 tab4 OpeningDate">Finissage : samedi 30 février à 17h XXX xxxqb</span><br>
+				</article>
+				<hr>
+
+
+				
+				<article id="EmptySlot">
+					<h3 class="t line094 tab1 TitleName"><a target="_blank" href="https://command.com/">Espace 567</a> </h3>
+					Local : <span class="t line094 tab0 SpaceNumber">567</span><br>
+					Site web : <span class="t line095 tab1 Category">Espace disponible</span><br>
+					Heures d'ouverture : <span class="t line096 tab1 OpeningHours">(Ouvert sur rendez-vous)</span>
+					Heures d'ouverture : <span class="t line097 tab1 OpeningHours">XXXXXXXXXXXXXXXXXXXXXXXX</span>
+					<h4>Exposition : <span class="t line094 tab2 TitleName">XXX xxxqb Exposition XXX xxxqb</span></h4>
+					<span class="t line095 tab2 ArtistName">XXX xxxqb Artistes XXX xxxqb </span>
+					<span class="t line096 tab2 ArtistName">XXX xxxqb Artistes XXX xxxqb</span>
+					<span class="t line097 tab2 ArtistName">XXXXXXXXXXXXXXXXXXXXXXXXXXXXX</span>
+					<span class="t line094 tab4 ExhibitionDate">30 février au 31 septembre XXX xxxqb</span>
+					<span class="t line095 tab4 OpeningDate">Vernissage : samedi 30 février à 17h XXX xxxqb</span><br>
+					<span class="t line096 tab4 OpeningDate">Finissage : samedi 30 février à 17h XXX xxxqb</span><br>
+					<span class="t line097 tab4 ExhibitionDate">XXXXXXXXXXXXXXXXXXXXXXXXXXXXX</span><br>
+				</article>
+				<hr> -->
+
 			</section>
 
+
+
 			<section id="Footer">
-				<!-- <span class="t line100 tab0 Footer">Conception: </span> -->
+
 				<span class="t line099 tab0 Footer" style="font-family:PPNeueMontreal-Medium">By Louis-Bernard St-Jean © 2021-2026</span>
-				<!-- <span class="t line101 tab0 Footer MadeBy">© Louis-Bernard St-Jean 2021-2025</span> -->
-				<!-- <span class="t line100 tab2 Footer">Belgo Building</span> -->
 				<span class="t line099 tab1b Footer">Belgo Building—</span>
 				<span class="t line099 tab2 Footer" style="font-family:PPNeueMontreal-Medium">372, rue Sainte-Catherine Ouest, Montréal (Québec) H3B 1A2 Canada</span>
 				<span class="t line099 Footer" style="right:208px"><a class="Language" href="https://instagram.com/belgo.art" target="_blank">@Belgo.art</a></span>
 			</section>
-			<!-- <span id="NB0" class="t Footer"><a href="https://montrealenlumiere.com/fr/programmation/artistes?categorie=nuit-blanche&poles=quartier_des_spectacles&arrange=false&activityType=arts_visuels&lieux=belgo_lussierphoto_413%2Cbelgo_circaartactuel%2Cgalerieingang%2Cbelgo_sbcgalleryofcontemporaryart" target="_blank">(*) Galeries d'art participantes à la Nuit blanche à Montréal</a></span> -->
-			<!-- <span id="FooterLine" class="t OpeningDate">Visitez le site internet pour plus d’informations sur les expositions en cours :</span> -->
+
 		</div>
 
 	</div>
