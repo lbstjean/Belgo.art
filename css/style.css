@@ -45,8 +45,8 @@ a.Language:hover {
 }
 
 /* #banner img {
-			padding: 0 3.675em;
-		} */
+		padding: 0 3.675em;
+	} */
 
 h1,
 h2,
@@ -68,7 +68,6 @@ h4 {
 
 .TitleName a,
 .ArtistName a,
-/* .OpeningDate a, */
 .WebsiteURL a,
 .OpeningHours a,
 .Footer a {
@@ -108,16 +107,17 @@ a.Link:hover {
 	display: none;
 }
 
+
 /* .studio > *,
 .studio > * > * {
 	color: #445 !important;
 } */
 
 
-.closed > *,
+/* .closed > *,
 .closed > * > * {
 	color: #888 !important;
-}
+} */
 
 /* .Plural {
 	color: #F1E835 !important;
@@ -125,6 +125,7 @@ a.Link:hover {
 } */
 
 
+/* PRINT VERSION MODIFICATIONS AND ADJUSTEMENTS */
 @media print {
 
 	#infoMark,
@@ -162,11 +163,23 @@ a.Link:hover {
 }
 
 
-
-/* #p1 { */
 #pg1 {
-	background-color: #F7F6F5 !important;
+
+	/* ######################################## */
+	/* Original color */
+	/* background-color: #F7F6F5 !important; */
+
+	/* PANTONE P-179-1-U EQUIVALENT:  */
+	background-color: #f5f5f1 !important;
+
+	/* Original Alternate Color Best for Print  */
 	/* background-color: #DFDDDB !important; */
+
+	/* PANTONE P-179-2-U EQUIVALENT:  */
+	/* background-color: #E0DFDC !important; */
+
+	/* ######################################## */
+
 
 	/* Potential Blue Highlight #457B9D (Cerulean)  		*/
 	/* Logotype Red Highlight #AF2126 (Brick Red)   		*/
@@ -187,11 +200,15 @@ a.Link:hover {
 	/* 9B1D20 */
 }
 
-
 /* End global CSS styling */
 
 
+
 /* Begin embedded font definitions */
+
+/* ################################################################################# */
+/* Pangram Neue Montreal Font License Registered to Louis-Bernard St-Jean, June 2026 */
+/* ################################################################################# */
 
 /* Old Font (Changed to Neue Montreal on 2026-06-03) */
 @font-face {
@@ -248,6 +265,7 @@ a.Link:hover {
 /* End embedded font definitions */
 
 
+
 /* Begin responsive adjustments */
 
 /* FIX RATIO WITH NEW HEIGHT */
@@ -261,6 +279,7 @@ a.Link:hover {
 /* Example: (1179/1210)-0.07 = 0.967 */
 /* Use max-height to shave off excessive trailing blank space at the end of the page */
 /* Calculate max-height: multiply viewport max-width with 1.54 (1.5454 being the page size ratio of 11x17inch)  */
+
 
 /* Auto calc attempt -- Not working yet */
 /* @media screen and (orientation: portrait) {
@@ -279,6 +298,7 @@ a.Link:hover {
 			}
 		} */
 /* End Auto calc attempt -- Not working yet */
+
 
 /* @media screen and (orientation: portrait) and (max-width:1179px) { */
 /* @media screen and (orientation: portrait) and (max-width:1180px) {
@@ -524,6 +544,7 @@ a.Link:hover {
 /* End responsive adjustments */
 
 
+
 /* Begin shared CSS values */
 
 .text-container {
@@ -577,8 +598,9 @@ a.Link:hover {
 	right: 55px !important
 }
 
+/* Begin shared CSS values */
 
-/* Tabs Alignment */
+/* Tabs Columns Alignment */
 .tab0 {
 	left: 55px;
 }
@@ -603,7 +625,9 @@ a.Link:hover {
 
 .tab1b {
 	/* left: 277.8px */
-	left: 332.8px;
+	/* left: 332.8px; */
+	/* left: 337.8px; */
+	right: 781px;
 }
 
 .tab2 {
@@ -636,6 +660,15 @@ a.Link:hover {
 	right: 55px;
 }
 
+/* End Tabs Columns Alignment */
+
+
+
+/* Lines and Gallery sections Hierarchy */
+
+/* !!WARNING: GALLERY SECTION TAGS MAY BE MISLABELED OR BE SKIPPING ORDER */
+
+/* !!WARNING: LINE SPACING ARE BESPOKE ADJUSTED FOR TIGHTENING TEXT TOWARDS CENTER OF EACH SECTION OF THREE LINES */
 
 /*  Text Lines */
 .line001 {
@@ -1178,6 +1211,9 @@ a.Link:hover {
 	top: 1862.1px;
 }
 
+/* End Lines and Gallery sections Hierarchy */
+
+
 
 /* Main CSS Sctructure */
 
@@ -1223,7 +1259,7 @@ a.Link:hover {
 	/* 2025-12-22 */
 	/* color: #292929; */
 	/* color: #50464C; */
-	color: rgba(80, 70, 76, 0.95);
+	color: rgba(40, 30, 36, 0.95);
 }
 
 .ArtistName,
@@ -1233,7 +1269,7 @@ h5 {
 	/* font-family: PPNeueMontreal-Regular; */
 	font-family: PPNeueMontreal-Medium;
 	/* color: #484848; */
-	color: rgba(71, 71, 71, 0.87);
+	color: rgba(32, 33, 34, 0.97);
 	/* letter-spacing: 0.1px; */
 	font-weight: 400;
 	line-height: 24px;
@@ -1333,6 +1369,7 @@ h5 {
 	/* line-height: 32px; */
 }
 
+/* End Main CSS Sctructure */
 
 
 
