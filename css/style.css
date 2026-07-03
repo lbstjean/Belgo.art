@@ -211,7 +211,7 @@ a.Link:hover {
 /* ################################################################################# */
 
 /* Old Font (Changed to Neue Montreal on 2026-06-03) */
-@font-face {
+/* @font-face {
 	font-family: Helvetica;
 	src: url("../fonts/Helvetica.woff2") format("woff2");
 }
@@ -229,7 +229,7 @@ a.Link:hover {
 @font-face {
 	font-family: Helvetica-BoldOblique;
 	src: url("../fonts/Helvetica-BoldOblique.woff2") format("woff2");
-}
+} */
 
 /* New Font (Changed on 2026-06-03) */
 @font-face {

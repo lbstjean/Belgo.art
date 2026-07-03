@@ -592,7 +592,8 @@ a.Link:hover {
 
 .tab1b {
 	/* left: 277.8px */
-	left: 332.8px
+	/* left: 332.8px; */
+	right: 781px;
 }
 
 .tab2 {
