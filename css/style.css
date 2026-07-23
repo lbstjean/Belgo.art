@@ -167,10 +167,10 @@ a.Link:hover {
 
 	/* ######################################## */
 	/* Original color */
-	/* background-color: #F7F6F5 !important; */
+	background-color: #F7F6F5 !important;
 
 	/* PANTONE P-179-1-U EQUIVALENT:  */
-	background-color: #f5f5f1 !important;
+	/* background-color: #f5f5f1 !important; */
 
 	/* Original Alternate Color Best for Print  */
 	/* background-color: #DFDDDB !important; */
@@ -1332,7 +1332,7 @@ h5 {
 	font-size: 12px;
 	/* font-family: Helvetica-Bold; */
 	font-family: PPNeueMontreal-SemiBold;
-	/* line-height: 14px; */
+	line-height: 14px;
 	/* color: #292929; */
 	color: #474849;
 }
