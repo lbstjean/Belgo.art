@@ -73,7 +73,7 @@ h4 {
 .Footer a {
 	color: #191E60;
 	/* color: #0B243C; */
-	font-family: Helvetica-Bold;
+	font-family: PPNeueMontreal-SemiBold;
 }
 
 .TitleName a:hover,
@@ -91,7 +91,7 @@ h4 {
 a.Link {
 	color: #191E60;
 	/* color: #0B243C; */
-	font-family: Helvetica-Bold;
+	font-family: PPNeueMontreal-SemiBold;
 }
 
 a.Link:hover {
