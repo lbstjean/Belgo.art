@@ -139,7 +139,9 @@ a.Link:hover {
 
 	.TitleName a,
 	.WebsiteURL a,
-	.OpeningHours a {
+	.OpeningHours a,
+	.ArtistName a,
+	.Footer a {
 		/* text-decoration: none !important;
 		color: #121314 !important; */
 		text-decoration: none;
@@ -260,6 +262,16 @@ a.Link:hover {
 @font-face {
 	font-family: PPNeueMontreal-SemiboldItalic;
 	src: url("../fonts/PPNeueMontreal-SemiboldItalic.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: PPNeueMontreal-Extrabold;
+	src: url("../fonts/PPNeueMontreal-Extrabold.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: PPNeueMontreal-ExtraboldItalic;
+	src: url("../fonts/PPNeueMontreal-ExtraboldItalic.woff2") format("woff2");
 }
 
 /* End embedded font definitions */
@@ -775,7 +787,8 @@ a.Link:hover {
 
 /* Section Galerie Hugues Charbonneau */
 .line022 {
-	top: 395.4px;
+	/* top: 395.4px; */
+	top: 396.4px;
 	/* top: 397.4px; */
 }
 
@@ -1019,7 +1032,7 @@ a.Link:hover {
 /* Section Arprim */
 .line067 {
 	/* top: 1220.4px; */
-	top: 1219.4px;
+	top: 1221.4px;
 }
 
 .line068 {
@@ -1178,8 +1191,8 @@ a.Link:hover {
 }
 
 .line097 {
-	/* top: 1770.4px; */
-	top: 1768.4px;
+	top: 1776.4px;
+	/* top: 1768.4px; */
 }
 
 /* Section Footer 1 */
@@ -1274,6 +1287,21 @@ h5 {
 	/* letter-spacing: 0.1px; */
 	font-weight: 400;
 	line-height: 24px;
+	/* 2025-12-17 */
+	/* line-height: 25px; */
+	/* color: #292929; */
+}
+
+.Slanted {
+	/* font-size: 14px; */
+	/* font-family: Helvetica; */
+	/* font-family: PPNeueMontreal-Regular; */
+	font-family: PPNeueMontreal-MediumItalic;
+	/* color: #484848; */
+	/* color: rgba(32, 33, 34, 0.97); */
+	/* letter-spacing: 0.1px; */
+	/* font-weight: 400; */
+	/* line-height: 24px; */
 	/* 2025-12-17 */
 	/* line-height: 25px; */
 	/* color: #292929; */
