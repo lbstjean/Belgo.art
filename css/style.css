@@ -758,6 +758,7 @@ a.Link:hover {
 /* Section Galeries Bellemare Lambert */
 .line016 {
 	/* top: 287.4px; */
+	/* top: 288.4px; */
 	top: 287.4px;
 }
 
@@ -1093,13 +1094,15 @@ a.Link:hover {
 /* 3e étage */
 .line079 {
 	/* top: 1440.4px; */
-	top: 1438.4px;
-}
-
-.line079_EngV {
-	/* top: 1440.4px; */
+	/* top: 1438.4px; */
+	/* Substract two For Floor Number */
 	top: 1441.4px;
 }
+
+/* .line079_EngV { */
+/* top: 1440.4px; */
+/* top: 1441.4px;
+} */
 
 .line080 {
 	top: 1458.8px;
@@ -1110,8 +1113,14 @@ a.Link:hover {
 	top: 1476.1px;
 }
 
-/* Section Atelier Suárez */
+/* 3e étage */
+
 .line082 {
+	/* top: 1495.4px; */
+	top: 1493.4px;
+}
+
+.line082_EngV {
 	/* top: 1495.4px; */
 	top: 1496.4px;
 }
@@ -1125,16 +1134,16 @@ a.Link:hover {
 	top: 1531.1px;
 }
 
-/* 2e étage */
+/* Section Galerie Ayenai */
 .line085 {
-	/* top: 1550.4px; */
-	top: 1548.4px;
-}
-
-.line085_EngV {
 	/* top: 1550.4px; */
 	top: 1551.4px;
 }
+
+/* .line085_EngV { */
+/* top: 1550.4px; */
+/* top: 1551.4px;
+} */
 
 .line086 {
 	top: 1568.8px;
@@ -1145,7 +1154,7 @@ a.Link:hover {
 	top: 1586.1px;
 }
 
-/* Section Louis Boudreault Peintre */
+/* Section Atelier Suárez */
 .line088 {
 	/* top: 1605.4px; */
 	top: 1606.4px;
@@ -1160,8 +1169,13 @@ a.Link:hover {
 	top: 1641.1px;
 }
 
-/* Section Empty */
+/* 2e étage */
 .line091 {
+	/* top: 1660.4px; */
+	top: 1658.4px;
+}
+
+.line091_EngV {
 	/* top: 1660.4px; */
 	top: 1661.4px;
 }
@@ -1175,7 +1189,7 @@ a.Link:hover {
 	top: 1696.1px;
 }
 
-/* Section  Empty */
+/* Section Louis Boudreault Peintre */
 .line094 {
 	/* top: 1715.4px; */
 	top: 1716.4px;
@@ -1187,7 +1201,7 @@ a.Link:hover {
 
 .line096 {
 	/* top: 1752.1px; */
-	top: 1752.1px;
+	top: 1751.1px;
 }
 
 .line097 {
