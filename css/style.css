@@ -72,6 +72,7 @@ h4 {
 .OpeningHours a,
 .Footer a {
 	color: #191E60;
+	/* color: #131E65; !!POTENTIAL NEW LINK BLUE */
 	/* color: #0B243C; */
 	/* font-family: Helvetica-Bold; */
 	font-family: PPNeueMontreal-Semibold;
@@ -707,8 +708,16 @@ a.Link:hover {
 	top: 102.1px;
 }
 
+/* 5th Floor */
 .line007 {
-	top: 120.4px;
+	/* top: 120.4px; */
+	top: 118.4px;
+}
+
+.line007_EngV {
+	/* top: 120.4px; */
+	/* top: 121.4px; */
+	top: 123.4px;
 }
 
 .line008 {
@@ -719,16 +728,16 @@ a.Link:hover {
 	top: 157.1px;
 }
 
-/* 5th Floor */
+/* Section 501a Atelier Kimberly Orjuela */
 .line010 {
-	top: 175.3px;
 	/* top: 177.3px; */
+	top: 178.3px;
 }
 
-.line010_EngV {
-	top: 178.3px;
-	/* top: 177.3px; */
-}
+/* .line010_EngV {
+	top: 178.3px; */
+/* top: 177.3px; */
+/* } */
 
 .line011 {
 	top: 193.8px;
@@ -739,7 +748,7 @@ a.Link:hover {
 	top: 211.1px;
 }
 
-/* Section Atelier Kimberly Orjuela */
+/* Section 502 Galeries Bellemare Lambert */
 
 .line013 {
 	/* top: 230.4px */
@@ -755,7 +764,7 @@ a.Link:hover {
 	top: 267.1px;
 }
 
-/* Section Galeries Bellemare Lambert */
+/* Section 507 MICA–Institut d’art contemporain de Montréal */
 .line016 {
 	/* top: 287.4px; */
 	/* top: 288.4px; */
@@ -771,7 +780,7 @@ a.Link:hover {
 	top: 321.1px;
 }
 
-/* Section MICA–Institut d’art contemporain de Montréal */
+/* Section 508 Galerie Hugues Charbonneau */
 .line019 {
 	/* top: 340.4px; */
 	top: 341.4px;
@@ -786,13 +795,12 @@ a.Link:hover {
 	top: 376.1px;
 }
 
-/* Section Galerie Hugues Charbonneau */
+/* Section 521 Éclats Art contemmporain */
 .line022 {
 	/* top: 395.4px; */
 	top: 396.4px;
 	/* top: 397.4px; */
 }
-
 
 .line023 {
 	top: 413.8px;
@@ -803,7 +811,7 @@ a.Link:hover {
 	top: 431.1px;
 }
 
-/* Section Éclats Art contemmporain */
+/* Section 525-527 Duran Contemporain */
 .line025 {
 	/* top: 450.4px; */
 	top: 451.4px;
@@ -818,7 +826,7 @@ a.Link:hover {
 	top: 486.1px;
 }
 
-/* Section Duran Contemporain */
+/* Section Atelier 531 */
 .line028 {
 	/* top: 505.4px; */
 	top: 506.4px;
@@ -833,8 +841,13 @@ a.Link:hover {
 	top: 541.1px;
 }
 
-/* Section Atelier 531 */
+/* 4e étage */
 .line031 {
+	/* top: 560.4px; */
+	top: 559.4px;
+}
+
+.line031_EngV {
 	/* top: 560.4px; */
 	top: 561.4px;
 }
@@ -849,13 +862,8 @@ a.Link:hover {
 }
 
 
-/* 4e étage */
+/* Section 403 Galerie B-312 */
 .line034 {
-	/* top: 615.4px; */
-	top: 614.4px;
-}
-
-.line034_EngV {
 	/* top: 615.4px; */
 	top: 616.4px;
 }
@@ -870,7 +878,7 @@ a.Link:hover {
 }
 
 
-/* Section Galerie B-312 */
+/* Section 406 Galerie Wishbone */
 .line037 {
 	/* top: 670.4px; */
 	top: 671.4px;
@@ -886,7 +894,7 @@ a.Link:hover {
 }
 
 
-/* Section Galerie Wishbone */
+/* Section 408 Atelier Dana Velan */
 .line040 {
 	/* top: 725.4px; */
 	top: 726.4px;
@@ -902,7 +910,7 @@ a.Link:hover {
 }
 
 
-/* Section Atelier Dana Velan */
+/* Section 411 Galerie Kub'Art */
 .line043 {
 	/* top: 780.4px; */
 	top: 781.4px;
@@ -918,7 +926,7 @@ a.Link:hover {
 }
 
 
-/* Section Atelier d’art photographique */
+/* Section 413 Atelier d’art photographique */
 .line046 {
 	/* top: 835.4px; */
 	top: 836.4px;
@@ -934,7 +942,7 @@ a.Link:hover {
 }
 
 
-/* Section McBride Contemporain */
+/* Section 414 McBride Contemporain */
 .line049 {
 	/* top: 890.4px; */
 	top: 891.4px;
@@ -950,7 +958,7 @@ a.Link:hover {
 }
 
 
-/* Section Chiguer Art contemporain */
+/* Section 416 Chiguer Art contemporain */
 .line052 {
 	/* top: 945.4px; */
 	top: 946.4px;
@@ -966,7 +974,7 @@ a.Link:hover {
 }
 
 
-/* Section Espace DÈS_ */
+/* Section 418 Espace DÈS_ */
 .line055 {
 	/* top: 1000.4px; */
 	top: 1001.4px;
@@ -982,7 +990,7 @@ a.Link:hover {
 }
 
 
-/* Section Louis-Bernard St-Jean Art contemporain */
+/* Section 423 Louis-Bernard St-Jean Art contemporain */
 .line058 {
 	/* top: 1055.4px; */
 	top: 1056.4px;
@@ -998,7 +1006,7 @@ a.Link:hover {
 }
 
 
-/* Section Galerie INGANG */
+/* Section 427 Galerie INGANG */
 .line061 {
 	/* top: 1110.4px; */
 	top: 1111.4px;
@@ -1014,7 +1022,7 @@ a.Link:hover {
 }
 
 
-/* Section Galerie POPOP */
+/* Section 442 Galerie POPOP */
 .line064 {
 	/* top: 1165.4px; */
 	top: 1166.4px;
@@ -1030,7 +1038,7 @@ a.Link:hover {
 }
 
 
-/* Section Arprim */
+/* Section 444A Arprim */
 .line067 {
 	/* top: 1220.4px; */
 	top: 1221.4px;
@@ -1045,7 +1053,7 @@ a.Link:hover {
 	top: 1256.1px;
 }
 
-/* Section CIRCA art actuel */
+/* Section 444C CIRCA art actuel */
 .line070 {
 	/* top: 1272.4px; */
 	/* top: 1275.4px; */
@@ -1061,7 +1069,7 @@ a.Link:hover {
 	top: 1311.1px;
 }
 
-/* Section Centre des arts actuels SKOL */
+/* Section 444S Centre des arts actuels SKOL */
 .line073 {
 	/* top: 1330.4px; */
 	top: 1331.4px;
@@ -1076,7 +1084,7 @@ a.Link:hover {
 	top: 1366.1px;
 }
 
-/* Section Librairie SKOL */
+/* Section 444L Librairie SKOL */
 .line076 {
 	/* top: 1385.4px; */
 	top: 1386.4px;
@@ -1092,17 +1100,17 @@ a.Link:hover {
 }
 
 /* 3e étage */
+
 .line079 {
 	/* top: 1440.4px; */
-	/* top: 1438.4px; */
+	top: 1438.4px;
 	/* Substract two For Floor Number */
-	top: 1441.4px;
 }
 
-/* .line079_EngV { */
-/* top: 1440.4px; */
-/* top: 1441.4px;
-} */
+.line079_EngV {
+	/* top: 1440.4px; */
+	top: 1441.4px;
+}
 
 .line080 {
 	top: 1458.8px;
@@ -1113,17 +1121,17 @@ a.Link:hover {
 	top: 1476.1px;
 }
 
-/* 3e étage */
+/* Section 318 Galerie Ayenai */
 
 .line082 {
 	/* top: 1495.4px; */
-	top: 1493.4px;
-}
-
-.line082_EngV {
-	/* top: 1495.4px; */
 	top: 1496.4px;
 }
+
+/* .line082_EngV { */
+/* top: 1495.4px; */
+/* top: 1496.4px;
+} */
 
 .line083 {
 	top: 1513.8px;
@@ -1134,7 +1142,7 @@ a.Link:hover {
 	top: 1531.1px;
 }
 
-/* Section Galerie Ayenai */
+/* Section 325 Atelier Suárez */
 .line085 {
 	/* top: 1550.4px; */
 	top: 1551.4px;
@@ -1154,10 +1162,17 @@ a.Link:hover {
 	top: 1586.1px;
 }
 
-/* Section Atelier Suárez */
+/* 2e étage */
 .line088 {
 	/* top: 1605.4px; */
+	top: 1603.4px;
+
+}
+
+.line088_EngV {
+	/* top: 1605.4px; */
 	top: 1606.4px;
+
 }
 
 .line089 {
@@ -1169,16 +1184,12 @@ a.Link:hover {
 	top: 1641.1px;
 }
 
-/* 2e étage */
+/* Section 213 Louis Boudreault Peintre */
 .line091 {
-	/* top: 1660.4px; */
-	top: 1658.4px;
-}
-
-.line091_EngV {
 	/* top: 1660.4px; */
 	top: 1661.4px;
 }
+
 
 .line092 {
 	top: 1678.8px;
@@ -1189,7 +1200,7 @@ a.Link:hover {
 	top: 1696.1px;
 }
 
-/* Section Louis Boudreault Peintre */
+/* Section vide */
 .line094 {
 	/* top: 1715.4px; */
 	top: 1716.4px;
